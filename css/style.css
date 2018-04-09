@@ -171,7 +171,7 @@ transform: translatey(-3px) rotate(-90deg);
   background-position: center;
   background-size: cover; */
   /*background-color: white; */
-  background-image: url('./img/night-computer-hdd-hard-drive.jpg');
+  background-image: url('../img/night-computer-hdd-hard-drive.jpg');
   height: 100%;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
