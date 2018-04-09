@@ -1,0 +1,691 @@
+
+
+
+
+.section1::after {
+  background-image: url('../img/l5large_banner.jpg');
+  opacity: .2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  min-height: 35em;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+
+ /* may need to turn off parallax scrolling for mobile */
+
+}
+
+.section1-container {
+  max-width: 1200px;
+  width: 70%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+
+
+}
+
+.box1  {
+
+  grid-row: 1/2;
+  margin: 3rem 0 20rem 0;
+
+}
+
+.box2 {
+
+  grid-row: 1/2;
+  margin: 3rem 0 20rem 0;
+  text-align: right;
+
+
+  .box3 {
+    grid-column: 1/3;
+    margin: -20rem 10rem 3rem 10rem;
+    text-align: center;
+    color: #3b3a30;
+    line-height: 2;
+    font-size: 1rem;
+    /*box-shadow: var(--shadow); */
+    box-sizing: border-box;
+    padding-top: 2rem;
+  }
+
+
+  /*showcase clean*/
+
+  .box1  {
+
+    grid-row: 1/2;
+    margin: 3rem 0 20rem 0;
+
+  }
+
+  .box2 {
+
+    grid-row: 1/2;
+    margin: 3rem 0 20rem 0;
+    text-align: right;
+
+
+  }
+
+  .box3 {
+    grid-column: 1/3;
+    margin: -20rem 10rem 3rem 10rem;
+    text-align: center;
+    color: white;
+    line-height: 2;
+    font-size: 1rem;
+
+    box-sizing: border-box;
+    padding-top: 2rem;
+
+  }
+
+
+
+  /* section two */
+
+
+
+  .wrapper1 {
+    display: grid;
+    grid-gap: 20px;
+  }
+
+  .services {
+    width: 75%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    border: 2px solid green;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .section3wrapper {
+    width: 75%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+  }
+
+  .section3 {
+    background: #f4f4f4;
+    padding: 2rem 0 2rem 0;
+
+
+  }
+
+
+
+  .products1 h2, .products2
+
+   h2 {
+    padding: 1rem 0 1rem 0;
+  }
+
+
+
+
+
+  /*.products1:first-child {
+    margin-left: 0;
+  }
+  .products2:first-child {
+    margin-left: 0;
+  } */
+
+  .service1 {
+   display: flex;
+  }
+
+  .service1 p {
+    line-height: 1.5;
+  }
+
+  .products1 {
+    text-decoration: none;
+    color: #3b3a30;
+    box-shadow: var(--shadow);
+    text-align: center;
+    display: block;
+    background: #3a606e;
+    margin-left: .5rem;
+    padding: 1rem;
+    flex-basis: 25%;
+
+
+  }
+
+  .service2 {
+    display: flex;
+  }
+
+  .products2 {
+    text-decoration: none;
+    color: #3b3a30;
+    box-shadow: var(--shadow);
+    text-align: center;
+    padding: 1rem;
+    display: block;
+    background: white;
+    margin-left: .5rem;
+    margin-top: .6rem;
+    flex-basis: 25%;
+
+  }
+
+  /*.boxeswrapper1 {
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: .75rem;
+    max-width: 1200px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    font-size: .85vw;
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+    color: #3b3a30;
+  } */
+
+  .boxeswrapper {
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    font-size: .85vw;
+    text-align: center;
+    padding: .6rem 0 1px .6rem;
+    color: #3b3a30;
+  }
+
+  /*.products {
+    box-shadow: var(--shadow);
+    padding: 1rem 1rem 3rem 1rem;
+    background: white;
+    flex-basis: 21.5%;
+    text-decoration: none;
+    color: #3b3a30;
+
+  } */
+
+  .products:hover, .products1:hover, .products2:hover {
+    color: white;
+    background: #3a606e;
+    transition: ease-in-out 300ms;
+    opacity: .8;
+    cursor: hand;
+    cursor: pointer;
+  }
+
+  .boxeswrapper {
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    font-size: .85vw;
+    text-align: center;
+    padding: .6rem 0 1px .6rem;
+    color: #3b3a30;
+  }
+
+
+
+
+
+  <section class="section3">
+  <div class="section3wrapper">
+
+  <div class="service1">
+
+  <a href="a.html" class="products1">
+  <i class="fas fa-desktop fa-3x"></i>
+  <h2>Managed Services</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quam harum at omnis dicta saepe! Exercitationem expedita quam ad doloribus.</p>
+  </a>
+
+
+
+  <a href="a.html" class="products1">
+  <i class="fas fa-users fa-3x"></i>
+  <h2>Co-Managed Services</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quam harum at omnis dicta saepe! Exercitationem expedita quam ad doloribus.</p>
+  </a>
+
+
+
+  <a href="a.html" class="products1">
+  <i class="fas fa-cloud-upload-alt fa-3x fa"></i>
+  <h2>Cloud Services</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quam harum at omnis dicta saepe! Exercitationem expedita quam ad doloribus.</p>
+  </a>
+
+
+  <a href="a.html" class="products1">
+  <i class="fas fa-lock fa-3x"></i>
+  <h2>Security</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quam harum at omnis dicta saepe! Exercitationem expedita quam ad doloribus.</p>
+  </a>
+
+
+  </div>
+  </div>
+
+
+  <div class="section3wrapper">
+
+    <div class="service1">
+  <a href="a.html" class="products2">
+  <i class="fas fa-laptop fa-3x"></i>
+  <h2>Haas</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quam harum at omnis dicta saepe! Exercitationem expedita quam ad doloribus.</p>
+  </a>
+
+
+
+  <a href="a.html" class="products2">
+  <i class="fas fa-phone fa-3x"></i>
+  <h2>Voip</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quam harum at omnis dicta saepe! Exercitationem expedita quam ad doloribus.</p>
+  </a>
+
+
+
+  <a href="a.html" class="products2">
+  <i class="fas fa-database fa-3x fa"></i>
+  <h2>Backup & Recovery</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quam harum at omnis dicta saepe! Exercitationem expedita quam ad doloribus.</p>
+  </a>
+
+
+  <a href="a.html" class="products2">
+  <i class="fas fa-sticky-note fa-3x"></i>
+  <h2>Compliance</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quam harum at omnis dicta saepe! Exercitationem expedita quam ad doloribus.</p>
+  </a>
+
+  </div>
+  </div>
+
+
+
+
+  <section class="section3">
+  <div class="section3wrapper">
+
+  <div class="service1">
+
+    <a href="managedservices.html" class="products1">
+    <i class="fas fa-desktop fa-3x"></i>
+    <h2>Managed Services</h2>
+    <p>Is handling your own IT too expensive or distrating you from running your business?</p>
+    <p>Are your costs too unpredictable?</p>
+    </a>
+
+
+
+    <a href="a.html" class="products1">
+    <i class="fas fa-users fa-3x"></i>
+    <h2>Co-Managed Services</h2>
+    <p>Is your current IT staff too busy to properly monitor your network for threats?  Are you considering hiring another IT employee?</p>
+    </a>
+
+
+
+    <a href="a.html" class="products1">
+    <i class="fas fa-cloud-upload-alt fa-3x fa"></i>
+    <h2>Cloud Services</h2>
+    <p>Would you like access to your files and applications from anywhere and at anytime?</p>
+    </a>
+
+
+    <a href="a.html" class="products1">
+    <i class="fas fa-lock fa-3x"></i>
+    <h2>Security</h2>
+    <p>Ransomeware and data theft are on the rise.  Small and medium sized businesses are hit particularly hard in the event of a breach.</p>
+    </a>
+
+
+    </div>
+    </div>
+
+    <div class="section3wrapper">
+
+      <div class="service1">
+    <a href="a.html" class="products2">
+    <i class="fas fa-laptop fa-3x"></i>
+    <h2>Haas</h2>
+    <p>Hardware as a service is your "employee in a box".  Would you like to be able to scale-up or scale-down your business with predictible costs?</p>
+  </a>
+
+
+
+    <a href="a.html" class="products2">
+    <i class="fas fa-phone fa-3x"></i>
+    <h2>Voip</h2>
+    <p>Do you need a flexible phone solution that adjusts to your needs as you expand and streamline your organization?</p>
+  </a>
+
+
+
+    <a href="a.html" class="products2">
+    <i class="fas fa-database fa-3x fa"></i>
+    <h2>Backup & Recovery</h2>
+    <p>Preserving your data is vital to your organization's future.  Streamlined, offsite, co-located backup gives peace of mind.</p>
+  </a>
+
+
+    <a href="a.html" class="products2">
+    <i class="fas fa-sticky-note fa-3x"></i>
+    <h2>Compliance</h2>
+    <p>Does your organization have to comply with HIPAA, PCI-DSS, SOX or other regulations?  Do you get audited?</p>
+  </a>
+
+  </div>
+  </div>
+
+  </section>
+
+
+  /* media query */
+
+  /*@media (max-width: 1660px) {
+
+    header {
+      font-size: .9em;
+
+    }
+
+    header li {
+      margin-top: 5em;
+    }
+
+  }
+
+  .uppercase-font-36 {
+    font-size: 2.5rem;
+    color: #3b3a30;
+    padding-top: 1.1rem;
+    text-align: left;
+
+
+  }
+
+  .font-13-uppercase {
+    font-size: .85em;
+    color: #3b3a30;
+    line-height: 4;
+  }
+
+
+
+  @media (max-width: 1530px) {
+
+    header {
+      font-size: .8em;
+    }
+
+    header li {
+      margin-top: 6em;
+    }
+
+    header .current a {
+      border-bottom: solid 2px lime;
+      display: inline-block;
+      padding-bottom: 10px;
+      margin-top: -1px;
+    }
+
+    .uppercase-font-36 {
+      font-size: 2rem;
+      color: #3b3a30;
+      padding-top: 1.1rem;
+      text-align: left;
+
+
+    }
+
+    .font-13-uppercase {
+      font-size: .85em;
+      color: #3b3a30;
+      line-height: 4;
+    }
+
+  }
+
+  @media (max-width: 1400px) {
+
+    header {
+      font-size: .8em;
+
+      overflow: hidden;
+
+    }
+
+    header li {
+      margin-top: 4.5em;
+    }
+
+    .container, .container-header {
+      width: 75%;
+
+    }
+
+    .logo {
+      height: 60px;
+      width: auto;
+    }
+
+    @media (max-width: 1275px) {
+
+      header {
+        font-size: .8em;
+
+      }
+
+      header li {
+        margin-top: 4.5em;
+      }
+
+      .container, .container-header {
+        width: 80%;
+      }
+
+        .uppercase-font-36 {
+          font-size: 1rem;
+          line-height: 2.2rem;
+        }
+
+          .font-13-uppercase {
+            font-size: .8em;
+          }
+
+
+
+      }
+
+
+
+      @media (max-width: 1186px) {
+
+        header {
+          font-size: .7em;
+          min-height: 7em;
+
+        }
+
+        header li {
+          margin-top: 5.5em;
+        }
+
+        .container, .container-header {
+          width: 80%;
+
+          }
+
+          header .current a {
+            border-bottom: solid 2px lime;
+            display: inline-block;
+            padding-bottom: 10px;
+            margin-top: -2px;
+
+
+        }
+
+        @media (max-width: 1062px) {
+
+          header {
+            font-size: .6em;
+            min-height: 8em;
+
+          }
+
+          header li {
+            margin-top: 6em;
+          }
+
+          .container, .container-header {
+            width: 80%;
+
+          }
+
+          header .current a {
+            border-bottom: solid 2px lime;
+            display: inline-block;
+            padding-bottom: 10px;
+            margin-top: -3.6px;
+
+          } */
+
+
+
+          /*
+
+            @media (max-width: 1400px) {
+
+              header {
+                position: relative;
+              }
+
+
+
+              .container, .container-header {
+                width: 80%;
+                overflow: visible;
+              }
+
+                .sitenav {
+                  position: absolute;
+                  bottom: 0%;
+                  right: 0%;
+                  background: black;
+                  height: 0px;
+
+
+                }
+
+                .sitenav ul {
+                  margin: 0;
+                  padding: 0;
+                  list-style: none;
+
+                }
+
+                .sitenav li {
+                  border-bottom: 1px solid #f4f4f4;
+
+                }
+
+                .sitenav li:last-child {
+                  border-bottom: none;
+                }
+
+                .sitenav a {
+                  color: #f4f4f4;
+                  display: block;
+                  border: none;
+                  text-decoration: none;
+                  text-transform: uppercase;
+
+                }
+
+
+                .sitenav a:hover, .sitenav a:focus {
+                  background: #e4b363;
+                  color: #464655;
+                  transition: all ease-in-out 200ms;
+                }
+
+                .sitenav-open {
+                  height: 200px;
+                  width: 400px
+                }
+
+                .menu-toggle {
+
+                  padding: 1em;
+                  position: absolute;
+                  right: 3em;
+                  top: 1.5em;
+                  cursor: pointer;
+
+                }
+
+                .hamburger,
+                .hamburger::before,
+                .hamburger::after  {
+                  content: '';
+                  display: block;
+                  background: black;
+                  height: 3px;
+                  width: 1.5em;
+                  border-radius: 3px;
+                  transition: all ease-in-out 500ms;
+
+                }
+
+                .hamburger::before {
+                  transform: translateY(-6px);
+
+                }
+
+                .hamburger::after {
+                  transform: translateY(3px);
+
+                }
+
+                .open .hamburger {
+                  transform: rotate(45deg);
+
+                }
+
+                .open .hamburger::before {
+                  opacity: 0;
+                }
+
+                .open .hamburger::after {
+                  transform: translateY(-3px) rotate(-90deg);
+
+                }
+
+
+  }
+
+  */
