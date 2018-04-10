@@ -1133,8 +1133,6 @@ span .lime {
      box-shadow: 0 5px 7px -7px black;
      position: sticky;
      overflow: hidden;
-     background: blue;
-
    }
 
      header::after,
@@ -1191,87 +1189,6 @@ span .lime {
    }
 
    nav a:hover {
-     border-bottom: solid 2px lime;
-     display: inline-block;
-     padding-bottom: 10px;
-     transition: all ease-in-out 250ms;
-
-   }
-
-   header .current a {
-     border-bottom: solid 2px lime;
-     display: inline-block;
-     padding-bottom: 10px;
-   }
-
-
- }
-
- @media (min-width: 980px) {
-   /* header */
-
-
-   header {
-     background-color: #f4f4f4;
-     box-shadow: 0 5px 7px -7px black;
-     position: sticky;
-     overflow: hidden;
-   }
-
-     header::after,
-     .section1::after,
-     #section1::after {
-       content: '';
-       display: block;
-       clear: both;
-     }
-
-     .stick {
-       position: fixed;
-       top: 0;
-       width: 100%;
-       z-index: 9999;
-     }
-
-   .container-header {
-     max-width: 1200px;
-     width: 75%;
-     margin: 0 auto;
-
-
-   }
-
-   .logo {
-     float: left;
-     padding: .4rem 0;
-     height: 4.5 rem;
-     width: auto;
-   }
-
-   .sitenav {
-     float: right;
-   }
-
-   header li {
-     display: inline-block;
-     font-size: .7rem;
-     text-decoration: none;
-     padding-left: 2em;
-     padding-top: 3.5rem;
-     float: left;
-
-
-   }
-
-   header a {
-     text-decoration: none;
-     color: black;
-     text-decoration: bold;
-     font-size: 1.2em;
-
-   }
-
-   header a:hover {
      border-bottom: solid 2px lime;
      display: inline-block;
      padding-bottom: 10px;
