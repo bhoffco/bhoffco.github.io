@@ -67,6 +67,8 @@ header::after {
 
 .sitenav-open {
   height: auto;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling:touch;
 }
 
 .container-header {
