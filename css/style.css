@@ -1657,6 +1657,46 @@ span .lime {
     font-size: 16px;
   }
 
+  .processgrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-around;
+    grid-auto-rows: minmax(200px, auto);
+  }
+
+  .ourprocess {
+    height: 100%;
+    background: #f4f4f4;
+
+  }
+
+  .ourprocesswrapper {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: rgba(50,76,100,.92);
+  }
+
+  .testimonials-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #f4f4f4;
+    display: grid;
+  }
+
+
+  .ourprocesswrapper {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: rgba(50,76,100,.92);
+  }
+
+  .parallax {
+    display: none;
+  }
+
 }
 
 @media (max-width:560px) {
