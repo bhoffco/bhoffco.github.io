@@ -881,10 +881,9 @@ span .lime {
   max-width: 1200px;
   margin: 0 auto;
   line-height: 1.5;
-
   color: #3b3a30;
   text-align: center;
-  padding-top: 8rem;
+  padding-top: 7.5rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -1574,6 +1573,8 @@ span .lime {
 @media screen and (max-width:900px) {
 
 
+
+
   .complete-container {
     max-width: 1400px;
     width: 80%;
@@ -1770,6 +1771,9 @@ span .lime {
 }
 
 @media (max-width:560px) {
+
+
+
   .logo {
     float: left;
     padding: .4em 0 .4em 0;
@@ -1878,10 +1882,16 @@ span .lime {
 
   color: #3b3a30;
   text-align: center;
-  padding-top: 8rem;
+  padding-top: 5rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+}
+
+.complete-container {
+
+  margin-bottom: 0;
+
 }
 
 .complete {
