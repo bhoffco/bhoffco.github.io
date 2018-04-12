@@ -35,7 +35,7 @@
 
 </head>
 
-  <body>
+
     <header class="stick">
       <div class="container-header">
 
@@ -61,26 +61,30 @@
 
 
 
-      <script type="text/javascript">
+        <script type="text/javascript">
 
-      $('.menu-toggle').click(function() {
+        $('.menu-toggle').click(function() {
 
-        $('.sitenav').toggleClass('sitenav-open', 500);
-        $(this).toggleClass('open');
+          $('.sitenav').toggleClass('sitenav-open', 500);
+          $('.main').toggleClass('main-open');
+          $(this).toggleClass('open');
 
-      })
+        })
 
-    </script>
+      </script>
 
 
     </header>
 
+    <div class="main" class="main-open">
+      <p>test</p>
 
     <section class="managedservices">
       <div class="completeittop">
         <h2><span class="complete">Complete</span><span class="it">IT</span></h2>
         <p>Your IT Fully Managed By Us</p>
       </div>
+
 
       <div class="enteremailforcontact">
         <form class="email_input" action="requestcall.php" method="post">
@@ -93,6 +97,7 @@
           </div>
         </form>
       </div>
+
       <div class="managedflex">
         <div class="completebase">
         </div>
@@ -103,6 +108,8 @@
       </div>
 
     </section>
+
+
 
   <!-- service offering complete IT -->
 
@@ -174,6 +181,8 @@
       <div class="cservices">
         <p>Annual Internal Security Assessment</p>
       </div>
+
+
         </div>
 
       </div>

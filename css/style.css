@@ -132,7 +132,7 @@ right: 1em;
 top: 1em;
 cursor: pointer;
 float: right;
-z-index: 999999;  
+z-index: 999999;
 }
 
 .hamburger,
@@ -863,6 +863,14 @@ span .lime {
 
 
 /* managed services */
+
+.comp {
+
+  height: 500px;
+}
+.comp p {
+  padding-top: 200px;
+}
 
 .managedservices {
   background: #f4f4f4;
