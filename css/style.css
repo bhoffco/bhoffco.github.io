@@ -741,7 +741,7 @@ span .lime {
 /* testimonials section */
 
 .testimonials-section {
-  background: rgba(50,76,100,.92);
+  background: rgba(50,76,100);
 
 
 }
@@ -891,7 +891,7 @@ span .lime {
   /*box-shadow: var(--shadow); */
   box-shadow: 0px 0px 4px rgba(0,0,0,.4);
   padding: 1rem;
-  background: rgba(50,76,100,.92);
+  background: rgba(50,76,100);
   color: #3b3a30;
 
 }
@@ -923,18 +923,18 @@ span .lime {
 }
 
 .waynest3 {
-  background: rgba(50,76,100,.92);
+  background: rgba(50,76,100);
   flex: 1;
 }
 
 .waysnest4 {
-  background: rgba(50,76,100,.92);
+  background: rgba(50,76,100);
   flex: 1;
 
 }
 
 .mspnest1 {
-  background: rgba(50,76,100,.92);
+  background: rgba(50,76,100);
   flex: 1;
 
 
@@ -942,7 +942,7 @@ span .lime {
 .mspnest2 {
   flex: 3;
   padding: 1em 1em 0 1.5em;
-  background: rgba(50,76,100,.92);
+  background: rgba(50,76,100);
   display: grid;
   color: #f4f4f4;
 
@@ -981,7 +981,7 @@ span .lime {
 .footer {
 
   min-height: 20rem;
-  background: rgba(50,76,100,.92);
+  background: rgba(50,76,100);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1237,7 +1237,7 @@ span .lime {
 }
 
  .msptext {
-   background: rgba(50,76,100,.92);
+   background: rgba(50,76,100);
    padding-top: 0rem;
 
  }
@@ -1444,7 +1444,7 @@ span .lime {
   .mspnest2 {
     flex: 3;
     padding: 1.5em 1em 0 1.5em;
-    background: rgba(50,76,100,.92);
+    background: rgba(50,76,100);
     display: grid;
     color: #f4f4f4;
   }
@@ -1902,7 +1902,7 @@ span .lime {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-    color: rgba(50,76,100,.92);
+    color: rgba(50,76,100);
   }
 
   .parallax {
@@ -1984,7 +1984,7 @@ span .lime {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
-  color: rgba(50,76,100,.92);
+  color: rgba(50,76,100);
 }
 
 .testimonials-container {
@@ -2000,7 +2000,7 @@ span .lime {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
-  color: rgba(50,76,100,.92);
+  color: rgba(50,76,100);
 }
 
 .section3wrappertest {
