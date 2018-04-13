@@ -22,6 +22,8 @@ html {
 }
 
 body {
+  overflow-x: hidden;
+
 
 
 }
@@ -37,10 +39,16 @@ body {
 
 
 header {
-  position: fixed;
+  position: static;
   background: #f4f4f4;
-  z-index: 9999;
+  z-index: 10;
   width: 100%;
+}
+
+
+.scroll-no {
+  overflow-y: hidden;
+
 }
 
 
@@ -56,17 +64,61 @@ header::after {
   padding: .4em 0 .4em 0;
 }
 
-.sitenav {
+/*.sitenav {
   position: absolute;
   background: #464655;
   top:  100%;
-  right: 0;
+  left: 0;
   height: 0;
   overflow: hidden;
 }
 
 .sitenav-open {
   height: auto;
+
+} */
+
+nav {
+  position: absolute;
+  top: 0%;
+  bottom: 0;
+  left: 0;
+  right: 20%;
+  z-index: -1000;
+
+
+
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+  background: lightgrey;
+
+
+
+}
+
+nav li {
+  display: hidden;
+  padding: 0;
+  margin: 0;
+
+
+
+}
+
+nav a {
+  text-decoration: none;
+
+
+
 
 }
 
@@ -77,6 +129,7 @@ header::after {
 
 .main {
   transition: ease-in 700ms;
+  z-index: 20;
 }
 
 
@@ -87,19 +140,19 @@ header::after {
   margin: 0 auto;
 }
 
-.sitenav ul {
+/*.sitenav ul {
 margin: 0;
 padding: 0;
 list-style: none;
-}
+} */
 
-section0 {
+/*section0 {
 position: relative;
-}
+} */
 
 
 
-.sitenav li {
+/*.sitenav li {
 border-bottom: 1px solid #575766;
 margin: 0;
 padding: 0;
@@ -122,7 +175,7 @@ text-align: center;
 .sitenav a:focus {
 background: #e4b363;
 color: #464655;
-}
+} */
 
 .menu-toggle {
 
