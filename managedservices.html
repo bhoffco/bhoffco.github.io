@@ -37,63 +37,62 @@
 
 <body class="scroll">
 
-  <div class="hide">
-  <nav class="sitenav" class="sitehide">
-    <ul>
-      <li class="current"><a href="index.html">HOME</a></li>
-        <li><a href="managedservices.html">IT SERVICES</a></li>
-        <li><a href="industries.html">INDUSTRIES</a></li>
-        <li><a href="aboutus.html">ABOUT US</a></li>
-        <li><a href="resources.html">RESOURCES</a></li>
-        <li><a href="contactus.html">CONTACT US</a></li>
-        <li><a href="applicationhosting.html">APPLICATION HOSTING</a></li>
-    </ul>
-  </nav>
+  <div class="leftmenu hide">
+
+      <a class="menulinks" href="index.html">HOME</a>
+      <a class="menulinks" href="managedservices.html">IT SERVICES</a>
+      <a class="menulinks" href="industries.html">INDUSTRIES</a>
+      <a class="menulinks" href="aboutus.html">ABOUT US</a>
+      <a class="menulinks" href="resources.html">RESOURCES</a>
+      <a class="menulinks" href="contactus.html">CONTACT US</a>
+      <a class="menulinks" href="applicationhosting.html">APPLICATION HOSTING</a>
+
   </div>
 
-<header id="stick" class="stick" class="static">
-  <div class="container-header">
 
-    <a href="index.html"><img src="./img/logo_level5_website -2.png" class="logo"></a>
+  <header id="stick" class="stick" class="static">
+    <div class="container-header">
 
-    <nav class="sitenav navhide">
-      <ul>
-        <li class="current"><a href="index.html">HOME</a></li>
-          <li><a href="managedservices.html">IT SERVICES</a></li>
-          <li><a href="industries.html">INDUSTRIES</a></li>
-          <li><a href="aboutus.html">ABOUT US</a></li>
-          <li><a href="resources.html">RESOURCES</a></li>
-          <li><a href="contactus.html">CONTACT US</a></li>
-          <li><a href="applicationhosting.html">APPLICATION HOSTING</a></li>
-      </ul>
-    </nav>
+      <a href="index.html"><img src="./img/logo_level5_website -2.png" class="logo"></a>
+
+      <nav class="sitenav navhide">
+        <ul>
+          <li class="current"><a href="index.html">HOME</a></li>
+            <li><a href="managedservices.html">IT SERVICES</a></li>
+            <li><a href="industries.html">INDUSTRIES</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+            <li><a href="resources.html">RESOURCES</a></li>
+            <li><a href="contactus.html">CONTACT US</a></li>
+            <li><a href="applicationhosting.html">APPLICATION HOSTING</a></li>
+        </ul>
+      </nav>
 
 
 
 
-    <div class="menu-toggle">
-      <div class="hamburger"></div>
+      <div class="menu-toggle">
+        <div class="hamburger"></div>
+      </div>
+
     </div>
 
-  </div>
 
 
 
 
+    <script type="text/javascript">
 
-  <script type="text/javascript">
+    $('.menu-toggle').click(function() {
+      $('.sitenav').toggleClass('sitenav-open');
+      $('.main').toggleClass('main-open');
+      $('.scroll').toggleClass('scroll-no');
+      $(this).toggleClass('open');
+    })
 
-  $('.menu-toggle').click(function() {
-    $('.sitenav').toggleClass('sitenav-open');
-    $('.main').toggleClass('main-open');
-    $('.scroll').toggleClass('scroll-no');
-    $(this).toggleClass('open');
-  })
-
-  </script>
+    </script>
 
 
-</header>
+  </header>
 
     <div class="main" class="main-open">
     <section class="managedservices">
