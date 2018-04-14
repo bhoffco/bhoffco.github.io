@@ -133,6 +133,7 @@ nav {
 
 
 
+
  }
 
 
@@ -207,13 +208,14 @@ nav a:focus {
 
 .main-open {
   transform: translatex(80%);
-  transition: ease-out 700ms;
+  -webkit-transform: translatex(80%);
+
 }
 
 .main {
-  transition: ease-in 700ms;
   z-index: 1;
   position: relative;
+  transition: ease-in 700ms;
 }
 
 
@@ -279,7 +281,7 @@ background: black;
 height: 3px;
 width: 1.75em;
 border-radius: 3px;
-transition: ease-in 250ms;
+transition: ease-in 700ms;
 
 }
 
