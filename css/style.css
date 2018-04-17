@@ -43,6 +43,7 @@ body {
 @media (max-width: 980px) {
 
   body {
+    overscroll-behavior: none;
 
   }
 
