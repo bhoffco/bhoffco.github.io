@@ -47,13 +47,10 @@ body {
 
 @media (max-width: 980px) {
 
-  
+
 
   body {
-    position: fixed;
-    width:100%;
-    height:100%;
-    overflow: auto;
+    
 
   }
 
