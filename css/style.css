@@ -47,6 +47,15 @@ body {
 
 
 
+
+.overscroll-hide {
+  display: none;
+}
+
+.hide {
+  display: block;
+}
+
   body {
 
 
@@ -59,9 +68,6 @@ body {
     width: auto;
   }
 
-  .hide {
-    display: block;
-  }
 
 
 header {
