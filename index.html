@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html  lang="en">
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
 
-    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
     <script
     src="https://code.jquery.com/jquery-3.3.1.js"
     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
@@ -17,7 +16,7 @@
     src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
     integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
     crossorigin="anonymous"></script>
-
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
 
 
     <meta name="format-detection" content="telephone=no">
@@ -36,7 +35,7 @@
 
   </head>
 
-  <body class="scroll fix">
+  <body class="scroll">
 
     <div class="leftmenu hide">
 
@@ -71,7 +70,7 @@
 
 
 
-        <div id="menuOpen" class="menu-toggle">
+        <div class="menu-toggle">
           <div class="hamburger"></div>
         </div>
 
@@ -82,22 +81,20 @@
 
 
       <script type="text/javascript">
-      $('.menu-toggle').click(function() {
-        $('.scroll').toggleClass('scroll-no');
-        $('.main').toggleClass('main-open');
-        $('.fix').toggleClass('fixed');
-        $(this).toggleClass('open');
 
+      $('.menu-toggle').click(function() {
+        $('.sitenav').toggleClass('sitenav-open');
+        $('.main').toggleClass('main-open');
+        $('.scroll').toggleClass('scroll-no');
+        $(this).toggleClass('open');
       })
 
       </script>
 
 
-<!---->
-
     </header>
 
-    <div id="openPain" class="main">
+    <div class="main" class="main-open">
     <section class="section0">
     <div class="curtainmain">
         <div class="section0-container">
@@ -347,9 +344,7 @@
 
 
 
-  <script src="./js/main.js" type="text/javascript">
 
-  </script>
 
 
   </body>
