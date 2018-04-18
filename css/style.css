@@ -88,7 +88,7 @@ header {
   overflow: hidden;
   position: relative;
   height: 100%;
-  position: fixed;
+
 }
 
 .main {
@@ -96,8 +96,9 @@ header {
   position: relative;
   transition: ease-in 700ms;
 
-
 }
+
+
 
 .leftmenu {
   position: fixed;
@@ -112,6 +113,8 @@ header {
   display: inline-block;
   overflow: hidden;
  }
+
+
 
 
 
