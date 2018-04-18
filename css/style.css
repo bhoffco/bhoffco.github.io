@@ -44,9 +44,11 @@ body {
 
 @media (max-width: 980px) {
 
+  html,
   body {
-    display: inline-block;
+    position: relative;
     overflow: hidden;
+    height: 100%;
 
 
   }
