@@ -92,30 +92,15 @@ header::after {
   padding: .4em 0 .4em 0;
 }
 
-.sitenav-open {
-background: rgba(127, 215, 244)
-}
-
 .sitenav {
-  background: rgba(127, 215, 244)
-}
-
-nav {
-  position: fixed;
-  top: 0%;
-  bottom: 0;
-  left: 0;
-  right: 20%;
-  z-index: 0;
+  display: none;
 
 }
+
 
 .main-open {
   transform: translatex(80%);
   -webkit-transform: translatex(80%);
-
-
-
 }
 
 .main {
@@ -135,7 +120,8 @@ nav {
   z-index: 0;
   background: green;
   box-shadow: inset 0 4px 5px rgba(0,0,0,.5);
-  width: 100vw;
+  display: inline-block;
+  overflow: hidden;
  }
 
 
@@ -161,9 +147,7 @@ nav {
 
 }
 
-.navhide {
-  display: none;
-}
+
 
 .main-open {
   transform: translatex(80%);
