@@ -35,53 +35,71 @@
 
 </head>
 
-  <body>
-    <header class="stick">
-      <div class="container-header">
+<body class="scroll">
 
-        <a href="index.html"><img src="../webSiteBuildMar25/img/logo_level5_website -2.png" class="logo"></a>
+  <div class="leftmenu hide">
 
+      <a class="menulinks" href="index.html">HOME</a>
+      <a class="menulinks" href="managedservices.html">IT SERVICES</a>
+      <a class="menulinks" href="industries.html">INDUSTRIES</a>
+      <a class="menulinks" href="aboutus.html">ABOUT US</a>
+      <a class="menulinks" href="resources.html">RESOURCES</a>
+      <a class="menulinks" href="contactus.html">CONTACT US</a>
+      <a class="menulinks" href="applicationhosting.html">APPLICATION HOSTING</a>
 
-          <nav class="sitenav">
-            <ul>
-              <li><a href="index.html">HOME</a></li>
-              <li class="current"><a href="managedservices.html">IT SERVICES</a></li>
-              <li><a href="industries.html">INDUSTRIES</a></li>
-              <li><a href="aboutus.html">ABOUT US</a></li>
-              <li><a href="resources.html">RESOURCES</a></li>
-              <li><a href="contactus.html">CONTACT US</a></li>
-              <li><a href="applicationhosting.html">APPLICATION HOSTING</a></li>
-            </ul>
-          </nav>
-        </div>
-
-        <div class="menu-toggle">
-          <div class="hamburger"></div>
-        </div>
+  </div>
 
 
+  <header id="stick" class="stick" class="static">
+    <div class="container-header">
 
-      <script type="text/javascript">
+      <a href="index.html"><img src="./img/logo_level5_website -2.png" class="logo"></a>
 
-      $('.menu-toggle').click(function() {
+      <nav class="sitenav navhide">
+        <ul>
+          <li class="current"><a href="index.html">HOME</a></li>
+            <li><a href="managedservices.html">IT SERVICES</a></li>
+            <li><a href="industries.html">INDUSTRIES</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+            <li><a href="resources.html">RESOURCES</a></li>
+            <li><a href="contactus.html">CONTACT US</a></li>
+            <li><a href="applicationhosting.html">APPLICATION HOSTING</a></li>
+        </ul>
+      </nav>
 
-        $('.sitenav').toggleClass('sitenav-open', 500);
-        $(this).toggleClass('open');
 
-      })
+
+
+      <div class="menu-toggle">
+        <div class="hamburger"></div>
+      </div>
+
+    </div>
+
+
+
+
+
+    <script type="text/javascript">
+
+    $('.menu-toggle').click(function() {
+      $('.sitenav').toggleClass('sitenav-open');
+      $('.main').toggleClass('main-open');
+      $('.scroll').toggleClass('scroll-no');
+      $(this).toggleClass('open');
+    })
 
     </script>
 
 
-    </header>
+  </header>
 
-
+    <div class="main" class="main-open">
     <section class="managedservices">
       <div class="completeittop">
         <h2><span class="complete">Complete</span><span class="it">IT</span></h2>
         <p>Your IT Fully Managed By Us</p>
       </div>
-
       <div class="enteremailforcontact">
         <form class="email_input" action="requestcall.php" method="post">
           <input class="nameinput" type="text" name="Enter Name" value="" placeholder="First Name...">
@@ -93,6 +111,7 @@
           </div>
         </form>
       </div>
+
       <div class="managedflex">
         <div class="completebase">
         </div>
@@ -103,6 +122,8 @@
       </div>
 
     </section>
+
+
 
   <!-- service offering complete IT -->
 
@@ -174,6 +195,8 @@
       <div class="cservices">
         <p>Annual Internal Security Assessment</p>
       </div>
+
+
         </div>
 
       </div>
@@ -228,30 +251,26 @@
   <section class="msptext">
     <div class="msptextdiv">
       <div class="mspt1">
-        <p>We use an advanced set of IT tools and skilled IT professionals. This provides reliable, scalable and cost-effective solutions that drive measurable improvements in efficiency and performance.  Whether you need an integrated solution to support existing infrastructure components or you’re ready to completely outsource your IT, we’ll help you take your business to the next level.</p></br>
+        <p> We use an advanced set of IT tools and skilled IT professionals. This provides reliable, scalable and cost-effective solutions that drive measurable improvements in efficiency and performance.  Whether you need an integrated solution to support existing infrastructure components or you’re ready to completely outsource your IT, we’ll help you take your business to the next level.</p></br>
         <p>You want to efficiently and productively grow your business, so you need to take a responsive and progressive approach to managing your IT infrastructure. Level5 Mgmt blends speed, agility and simplicity to minimize the many challenges in scaling and managing your IT infrastructure while effectively reducing costs.</p>
       </div>
 
     </div>
 
-
-
-
   </section>
-
 
 </section>
 
 <section class="section4">
   <div class="section4-container">
     <div class="notready">
-      <p>Not ready to call us?</p>
-      <p>Download our free e-books:</p>
+      <h3>Not ready to call us?</h3>
+      <h3>Maybe these can help...</h3>
     </div>
     <div class="ebooks">
       <div class="ways">
         <div class="waysnest1">
-        <img src="../webSiteBuildMar25/img/Level5-Mgmt-5Ways.png" class="ebookimg">
+        <img src="./img/Level5-Mgmt-5Ways.png" class="ebookimg">
         </div>
         <div class="waysnest2">
           <div class="waysnest3">
@@ -266,7 +285,7 @@
       </div>
       <div class="msp">
         <div class="mspnest1">
-        <img src="../webSiteBuildMar25/img/Level-5-Management-20-Signs.png" class="ebookimg2">
+        <img src="./img/Level-5-Management-20-Signs.png" class="ebookimg2">
         </div>
         <div class="mspnest2">
           <div class="waysnest3">

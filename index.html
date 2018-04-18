@@ -19,7 +19,7 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
 
 
-
+    <meta name="format-detection" content="telephone=no">
   <!-- open graph meta tags -->
 
     <meta name="description" content="Level5 Mgmt specializes in IT Outsourcing, IT Consulting and Managed IT Services in Boca Raton, Pompano Beach, Fort Lauderdale, Coral Springs, Deerfield Beach and Hollywood"/>
@@ -35,25 +35,39 @@
 
   </head>
 
-  <body>
+  <body class="scroll">
 
-    <header class="stick">
+    <div class="leftmenu hide">
+
+        <a class="menulinks" href="index.html">HOME</a>
+        <a class="menulinks" href="managedservices.html">IT SERVICES</a>
+        <a class="menulinks" href="industries.html">INDUSTRIES</a>
+        <a class="menulinks" href="aboutus.html">ABOUT US</a>
+        <a class="menulinks" href="resources.html">RESOURCES</a>
+        <a class="menulinks" href="contactus.html">CONTACT US</a>
+        <a class="menulinks" href="applicationhosting.html">APPLICATION HOSTING</a>
+
+    </div>
+
+
+    <header id="stick" class="stick" class="static">
       <div class="container-header">
 
-        <a href="index.html"><img src=".img/logo_level5_website -2.png" class="logo"></a>
+        <a href="index.html"><img src="./img/logo_level5_website -2.png" class="logo"></a>
+
+        <nav class="sitenav navhide">
+          <ul>
+            <li class="current"><a href="index.html">HOME</a></li>
+              <li><a href="managedservices.html">IT SERVICES</a></li>
+              <li><a href="industries.html">INDUSTRIES</a></li>
+              <li><a href="aboutus.html">ABOUT US</a></li>
+              <li><a href="resources.html">RESOURCES</a></li>
+              <li><a href="contactus.html">CONTACT US</a></li>
+              <li><a href="applicationhosting.html">APPLICATION HOSTING</a></li>
+          </ul>
+        </nav>
 
 
-          <nav class="sitenav">
-            <ul>
-              <li class="current"><a href="index.html">HOME</a></li>
-                <li><a href="managedservices.html">IT SERVICES</a></li>
-                <li><a href="industries.html">INDUSTRIES</a></li>
-                <li><a href="aboutus.html">ABOUT US</a></li>
-                <li><a href="resources.html">RESOURCES</a></li>
-                <li><a href="contactus.html">CONTACT US</a></li>
-                <li><a href="applicationhosting.html">APPLICATION HOSTING</a></li>
-            </ul>
-          </nav>
 
 
         <div class="menu-toggle">
@@ -64,20 +78,23 @@
 
 
 
+
+
       <script type="text/javascript">
 
       $('.menu-toggle').click(function() {
-
-        $('.sitenav').toggleClass('sitenav-open', 500);
+        $('.sitenav').toggleClass('sitenav-open');
+        $('.main').toggleClass('main-open');
+        $('.scroll').toggleClass('scroll-no');
         $(this).toggleClass('open');
-
       })
 
-    </script>
+      </script>
 
 
     </header>
 
+    <div class="main" class="main-open">
     <section class="section0">
     <div class="curtainmain">
         <div class="section0-container">
@@ -85,9 +102,9 @@
             <h1 class="bustechfont">BUSINESS TECHNOLOGY<br/> MANAGED AT A NEW LEVEL</h1>
             <!-- <p class="headerparagraph">Is your organizations's<span style="color:lime"> IT</span> taking too much time or getting too expensive?</p> -->
             <h2 class="showcase showcase1">Your <span style="color:lime">IT</span> Needs Managed At A Fixed Monthly Fee</h2>
-            <h2 class="showcase showcase2">24/7 Helpdesk, Support and Monitoring</h2>
+            <h2 class="showcase showcase2"> 24/7 Helpdesk, Support and Monitoring</h2>
             <h2 class="showcase showcase3">Easy To Grow or Downsize With Predictable Costs</h2>
-            <h2 class="showcase showcase4">Secure Your Client's Data, Prevent Ransomeware</h2>
+            <h2 class="showcase showcase4">Secure Your Critical Data, Prevent Ransomeware</h2>
           </div>
         <div class="needhelp">
           <form class="email_input" action="subscribe.php" method="post">
@@ -111,7 +128,7 @@
         <input class="emailinput" type="email" name="" value="" placeholder="Enter Email...">
         <div class="req">
           <button class="reqcall" name="button"  type="submit">REQUEST CALL</button>
-        </div>
+
       </form>
     </div>
 
@@ -139,50 +156,50 @@
 
 
         <a href="managedservices.html" class="products1test">
-        <i class="fas fa-desktop fa-2x icon"></i>
+        <i class="fas fa-desktop fa-3x icon"></i>
         <h2>Managed IT Support</h2>
         <p>Eliminate the hassle and unpredictable cost of handling your own business technology.</p>
 
         </a>
 
         <a href="a.html" class="products1test">
-        <i class="fas fa-users fa-2x icon"></i>
+        <i class="fas fa-users fa-3x icon"></i>
         <h2>Co-Managed Support</h2>
         <p>We work with your In-House IT staff to give you a solution that is right for your business.</p>
         </a>
 
         <a href="a.html" class="products1test">
-        <i class="fas fa-cloud-upload-alt fa-2x fa icon"></i>
+        <i class="fas fa-cloud-upload-alt fa-3x fa icon"></i>
         <h2>Cloud Services</h2>
         <p>Would you like access to your files and applications from anywhere and at anytime?</p>
         </a>
 
         <a href="a.html" class="products1test">
-        <i class="fas fa-lock fa-2x icon"></i>
+        <i class="fas fa-lock fa-3x icon"></i>
         <h2>Security</h2>
         <p>Secure your business critical data and protect your network from outside threats.</p>
         </a>
 
         <a href="a.html" class="products2test">
-        <i class="fas fa-laptop fa-2x icon"></i>
+        <i class="fas fa-laptop fa-3x icon"></i>
         <h2>Haas</h2>
         <p>Get the latest in technology hardware without having to purchase or maintain it.</p>
       </a>
 
         <a href="a.html" class="products2test">
-        <i class="fas fa-phone fa-2x icon"></i>
+        <i class="fas fa-phone fa-3x icon"></i>
         <h2>Voip</h2>
         <p>A flexible and affordable phone solution that adjusts to the changing needs of your organization.</p>
       </a>
 
         <a href="a.html" class="products2test">
-        <i class="fas fa-database fa-2x fa icon"></i>
+        <i class="fas fa-database fa-3x fa icon"></i>
         <h2>Backup & Recovery</h2>
         <p>Ensure your business gets back up and running fast after a disaster.  Co-locate your data.</p>
       </a>
 
         <a href="a.html" class="products2test">
-        <i class="fas fa-sticky-note fa-2x icon"></i>
+        <i class="fas fa-sticky-note fa-3x icon"></i>
         <h2>Compliance</h2>
         <p>Allow us to proactively manage your industry Compliance regulations.  PCI, HIPAA, SOX and more.</p>
       </a>
@@ -237,7 +254,7 @@
 
       </div>
 
-    </div>
+
 
   </section>
 
@@ -302,7 +319,7 @@
           </div>
           <div class="mspnest2">
             <div class="waysnest3">
-            <p class="ebookmainfont">20 Signs That Your Business Is Ready For Managed Services                                 </p>
+            <p class="ebookmainfont">20 Signs That Your Business Is Ready For Managed Services</p>
             </div>
             <div class="waynest4">
             <form class="email_input" action="subscribe.php" method="post">
@@ -323,6 +340,8 @@
       <P>THIS IS THE FOOTER</p>
     </div>
   </section>
+
+
 
 
 
