@@ -27,9 +27,7 @@ html {
 
 }
 
-body {
-  overflow-x: hidden;
-}
+
 
 .logodec {
   border-bottom: none;
@@ -47,19 +45,17 @@ body {
   html,
   body {
     position: relative;
-    overflow: hidden;
+
     height: 100%;
-    overscroll-behavior-y: none; 
-
 
   }
 
-  .logo {
-    float: left;
-    padding: .4em 0 .4em 0;
-    height: 50px;
-    width: auto;
+  .scroll-no {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    overflow: hidden;
   }
+
 
   .hide {
     display: block;
@@ -75,17 +71,6 @@ header {
 }
 
 
-.scroll-no {
-  overflow-y: hidden;
-  overflow-x: hidden;
-  overflow: hidden;
-}
-
-
-.logo {
-  float: left;
-  padding: .4em 0 .4em 0;
-}
 
 .sitenav {
   display: none;
