@@ -53,7 +53,7 @@ html {
 
   .fixed {
     overflow: hidden;
-    position: relative;
+    position: fixed;
     height: 100%;
   }
 
