@@ -85,14 +85,15 @@ header {
 .main-open {
   transform: translatex(80%);
   -webkit-transform: translatex(80%);
+  overflow-y: scroll;
 
 
 }
 
 .main {
-  
-  transition: ease-in 700ms;
 
+  transition: ease-in 700ms;
+  overflow-y: scroll;
 
 
 }
@@ -100,7 +101,7 @@ header {
 
 
 .leftmenu {
-  position: absolute;
+  position: fixed;
   padding-top: 10rem;
   top: 0;
   bottom: 0;
