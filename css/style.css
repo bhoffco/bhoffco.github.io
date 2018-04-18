@@ -45,7 +45,8 @@ body {
 @media (max-width: 980px) {
 
   body {
-    overflow-x: hidden;
+    display: inline-block;
+    overflow: hidden;
 
 
   }
@@ -95,7 +96,7 @@ header {
 }
 
 .main {
-  
+
   position: relative;
   transition: ease-in 700ms;
 
