@@ -44,8 +44,9 @@ html {
 
   html,
   body {
-    position: relative;
+    
     overflow-x: hidden;
+    vertical-align: baseline;
   }
 
 
