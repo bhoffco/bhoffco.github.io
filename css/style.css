@@ -85,7 +85,7 @@ header {
 .main-open {
   transform: translatex(80%);
   -webkit-transform: translatex(80%);
-  overflow-y: scroll;
+
 
 
 }
@@ -93,7 +93,7 @@ header {
 .main {
 
   transition: ease-in 700ms;
-  overflow-y: scroll;
+
 
 
 }
