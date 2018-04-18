@@ -54,6 +54,8 @@ html {
     overflow-y: hidden;
     overflow-x: hidden;
     overflow: hidden;
+    position: relative;
+    height: 100%;
   }
 
 
