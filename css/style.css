@@ -101,7 +101,7 @@ header {
 
 
 .leftmenu {
-  position: fixed;
+  position: absolute;
   padding-top: 10rem;
   top: 0;
   bottom: 0;
