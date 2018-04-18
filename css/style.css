@@ -45,18 +45,33 @@ html {
   html,
   body {
     position: relative;
+  }
 
-
+  .fix {
 
   }
 
-  .scroll-no {
+  .fixed {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+  }
+
+  .open html,
+  .open body {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+
+  }
+
+  /*.scroll-no {
     overflow-y: hidden;
     overflow-x: hidden;
     overflow: hidden;
     position: relative;
     height: 100%;
-  }
+  } */
 
 
   .hide {
@@ -92,7 +107,6 @@ header {
 }
 
 .main {
-
   position: relative;
   transition: ease-in 700ms;
 
@@ -201,6 +215,10 @@ opacity: 0;
 
 .open .hamburger:after {
 transform: translatey(-3px) rotate(-90deg);
+}
+
+.open .logo {
+  display: none;
 }
 
 }
