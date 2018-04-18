@@ -45,6 +45,7 @@ html {
   html,
   body {
     position: relative;
+    overflow-x: hidden;
   }
 
   .fix {
@@ -100,7 +101,6 @@ header {
 .main-open {
   transform: translatex(80%);
   -webkit-transform: translatex(80%);
-  vertical-align: baseline;
 
 
 }
@@ -108,7 +108,7 @@ header {
 .main {
   position: relative;
   transition: ease-in 700ms;
-  vertical-align: baseline;
+
 
 
 }
