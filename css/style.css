@@ -44,9 +44,9 @@ html {
 
   html,
   body {
-    
+    display: block;
     overflow-x: hidden;
-    vertical-align: baseline;
+
   }
 
 
@@ -90,7 +90,7 @@ header {
 }
 
 .main {
-  position: relative;
+  
   transition: ease-in 700ms;
 
 
