@@ -3,12 +3,10 @@
 
 
 
-var fixer = document.getElementById('menuOpen');
-var cat = document.getElementById('stick')
+var fixer = document.getElementById('openPain');
 
 fixer.addEventListener('click', fixSlide);
 
-
-/*function fixSlide(){
-  cat.style.height = "700px";
-} */
+function fixSlide(){
+  console.log(123);
+}
