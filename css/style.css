@@ -240,14 +240,15 @@ transform: translatey(-3px) rotate(-90deg);
 }
 
 .section0 {
-  background: #3a606e;
+  background: rgba(45,70,100,.9);
+  background: #f4f4f4;
   /*height: 20rem;
   background-image: url('../img/l5large_banner.jpg');
   background-attachment: fixed;
   background-position: center;
   background-size: cover; */
   /*background-color: white; */
-  background-image: url('../img/night-computer-hdd-hard-drive.jpg');
+  /*background-image: url('../img/night-computer-hdd-hard-drive.jpg');*/
   height: 100%;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -263,12 +264,12 @@ transform: translatey(-3px) rotate(-90deg);
 
 
 
-.curtainmain {
+/*.curtainmain {
   height: 35rem;
   background: rgba(50,76,100,.87);
   background: rgba(45,70,100,.80);
 
-}
+} */
 
 /*.mast {
   background: #3a606e;
