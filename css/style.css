@@ -44,11 +44,26 @@ html {
 
   html,
   body {
-    display: block;
-    overflow-x: hidden;
+    position: relative;
+  }
+
+  .fix {
 
   }
 
+  .fixed {
+    overflow: hidden;
+    position: relative;
+    touch-action: none;
+
+
+  }
+
+  .open html,
+  .open body {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
 
   }
 
@@ -85,16 +100,18 @@ header {
 .main-open {
   transform: translatex(80%);
   -webkit-transform: translatex(80%);
-
-
+  overflow-y: hidden;
+  overflow-x: hidden;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
 
 }
 
 .main {
-
+  position: relative;
   transition: ease-in 700ms;
-
-
+  z-index: 5;
 
 }
 
@@ -110,9 +127,8 @@ header {
   z-index: 0;
   background: green;
   box-shadow: inset 0 4px 5px rgba(0,0,0,.5);
-  overflow-x: hidden;
-  overflow-y: auto;
-  vertical-align: baseline;
+  display: inline-block;
+  overflow: hidden;
  }
 
 
