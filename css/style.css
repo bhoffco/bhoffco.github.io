@@ -59,13 +59,7 @@ html {
 
   }
 
-  .open html,
-  .open body {
-    overflow: hidden;
-    position: relative;
-    height: 100%;
-
-  }
+  
 
   /*.scroll-no {
     overflow-y: hidden;
