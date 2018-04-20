@@ -102,7 +102,7 @@ header {
 }
 
 .main {
-  position: relative;
+  position: fixed;
   transition: ease-in 700ms;
   z-index: 0;
 
