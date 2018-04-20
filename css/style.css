@@ -100,7 +100,11 @@ header {
 .main-open {
   transform: translatex(80%);
   -webkit-transform: translatex(80%);
-
+  overflow-y: hidden;
+  overflow-x: hidden;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
 
 }
 
