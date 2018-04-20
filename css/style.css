@@ -94,6 +94,7 @@ header {
 .main-open {
   /*transform: translatex(80%);
   -webkit-transform: translatex(80%);*/
+  display: none;
 
 
 
