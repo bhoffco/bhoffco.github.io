@@ -27,6 +27,14 @@ html {
 
 }
 
+.no-scrollhtml {
+  overflow: hidden;
+}
+
+.scroll-html {
+  overflow: scroll;
+}
+
 
 
 .logodec {
@@ -42,10 +50,7 @@ html {
 
 @media (max-width: 980px) {
 
-  html,
-  body {
-    position: relative;
-  }
+
 
   .fix {
 
@@ -94,7 +99,8 @@ header {
 .main-open {
   /*transform: translatex(80%);
   -webkit-transform: translatex(80%);*/
-  display: none;
+
+
 
 
 
@@ -102,9 +108,10 @@ header {
 }
 
 .main {
-  position: fixed;
+
   transition: ease-in 700ms;
   z-index: 0;
+
 
 
 }
