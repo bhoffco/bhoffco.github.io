@@ -94,7 +94,7 @@ header {
 .main-open {
   /*transform: translatex(80%);
   -webkit-transform: translatex(80%);*/
-  display: none;
+
 
 
 
@@ -103,32 +103,125 @@ header {
 .main {
   position: relative;
   transition: ease-in 700ms;
-  
+  z-index: 0;
+
 
 }
 
 
 
 .leftmenu {
-  position: fixed;
+  position: absolute;
   padding-top: 10rem;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-
+  z-index: 1;
   background: #000;
   box-shadow: inset 0 4px 5px rgba(0,0,0,.5);
-  opacity: 0;
-  transition: ease 750ms;
+
   display: none;
+
+  animation-fill-mode: both;
+  animation-name: mobile-menu;
+    animation-duration: 500ms;
+    animation-timing-function: ease;
+    animation-delay: initial;
+    animation-iteration-count: initial;
+    animation-direction: initial;
+    animation-fill-mode: both;
+    animation-play-state: initial;
+
+ }
+
+ @keyframes mobile-menu {
+   from {
+     opacity: 0;
+   }
+   to {
+     opacity: 1;
+   }
+
+ }
+
+ @keyframes mobile-links{
+   from {
+     opacity: 0;
+     transform: translatey(20px)
+   }
+   to {
+     opacity: 1;
+     transform: translatey(0px)
+   }
+ }
+
+ .mobile-link1 {
+   opacity: 0;
+   position: relative;
+   animation: mobile-links;
+   animation-delay: 400ms;
+   animation-duration: 1000ms;
+   animation-fill-mode: forwards;
+ }
+
+ .mobile-link2 {
+   opacity: 0;
+   position: relative;
+   animation: mobile-links;
+   animation-delay: 500ms;
+   animation-duration: 1000ms;
+   animation-fill-mode: forwards;
+ }
+
+ .mobile-link3 {
+   opacity: 0;
+   position: relative;
+   animation: mobile-links;
+   animation-delay: 600ms;
+   animation-duration: 1000ms;
+   animation-fill-mode: forwards;
+ }
+
+ .mobile-link4 {
+   opacity: 0;
+   position: relative;
+   animation: mobile-links;
+   animation-delay: 700ms;
+   animation-duration: 1000ms;
+   animation-fill-mode: forwards;
+ }
+
+ .mobile-link5 {
+   opacity: 0;
+   position: relative;
+   animation: mobile-links;
+   animation-delay: 800ms;
+   animation-duration: 1000ms;
+   animation-fill-mode: forwards;
+ }
+
+ .mobile-link6 {
+   opacity: 0;
+   position: relative;
+   animation: mobile-links;
+   animation-delay: 900ms;
+   animation-duration: 1000ms;
+   animation-fill-mode: forwards;
+ }
+
+ .mobile-link7 {
+   opacity: 0;
+   position: relative;
+   animation: mobile-links;
+   animation-delay: 1000ms;
+   animation-duration: 1000ms;
+   animation-fill-mode: forwards;
  }
 
  .leftmenu-open {
-   opacity: 1;
-   display: block;
+  display: block;
  }
-
 
 .menulinks {
   background: #000;
@@ -138,15 +231,11 @@ header {
   font-size: 20px;
   color: #f4f4f4;
   text-align: center;
-  display: none;
+
   /*border-top: 1px solid #3a606e;
   box-shadow: inset -1px 0px 3px  rgba(0,0,0,.3); */
-
 }
-
 .menulinks-open {
-  display: block;
-
 }
 
 /*.menulinks:last-child {
@@ -157,7 +246,6 @@ header {
 .menulinks:focus {
   background:#23232d;
   font-size: 21px;
-  display: none;
 }
 
 
