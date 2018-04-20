@@ -108,11 +108,9 @@ header {
 
 }
 
-
-
 .leftmenu {
   position: absolute;
-  padding-top: 10rem;
+  padding-top: 7rem;
   top: 0;
   bottom: 0;
   left: 0;
@@ -120,10 +118,8 @@ header {
   z-index: 1;
   background: #000;
   box-shadow: inset 0 4px 5px rgba(0,0,0,.5);
-
   display: none;
-
-  animation-fill-mode: both;
+  overflow: hidden;
   animation-name: mobile-menu;
     animation-duration: 500ms;
     animation-timing-function: ease;
@@ -145,7 +141,7 @@ header {
 
  }
 
- @keyframes mobile-links{
+ @keyframes mobile-links {
    from {
      opacity: 0;
      transform: translatey(20px)
