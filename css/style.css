@@ -47,7 +47,17 @@ html {
 
   }
 
+  .fix {
 
+  }
+
+  .fixed {
+    overflow: hidden;
+    position: relative;
+    touch-action: none;
+
+
+  }
 
 
   /*.scroll-no {
@@ -83,7 +93,6 @@ header {
 .main-open {
   transform: translatex(80%);
   -webkit-transform: translatex(80%);
-  
 
 
 }
@@ -92,7 +101,6 @@ header {
   position: relative;
   transition: ease-in 700ms;
   z-index: 5;
-
 
 }
 
