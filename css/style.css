@@ -115,6 +115,9 @@ header {
 
 }
 
+.no-scrollhtml {
+  overflow-x: hidden;
+}
 
 
 .leftmenu {
