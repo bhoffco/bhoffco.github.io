@@ -222,8 +222,11 @@ header {
 .menulinks {
   background: #000;
   text-decoration: none;
-  display: block;
-  padding: 1em 0 1em 0em;
+  display: flex;
+  height: 1vh;
+  align-items: center;
+  justify-content: center;
+  padding: 2em 0 1em 0em;
   font-size: 20px;
   color: #f4f4f4;
   text-align: center;
@@ -296,6 +299,31 @@ transform: translatey(-3px) rotate(-90deg);
 
 .open .logo {
   display: none;
+}
+
+}
+
+@media only screen
+  and (max-width: 980px)
+  and (orientation: landscape) {
+    .menulinks {
+      background: #000;
+      text-decoration: none;
+      display: flex;
+      height: 1vh;
+      align-items: center;
+      justify-content: center;
+      padding: 1em 0 1em 0;
+      font-size: 20px;
+      color: #f4f4f4;
+      text-align: center;
+
+      /*border-top: 1px solid #3a606e;
+      box-shadow: inset -1px 0px 3px  rgba(0,0,0,.3); */
+    }
+
+    .leftmenu {
+      padding-top: 5rem;
 }
 
 }
