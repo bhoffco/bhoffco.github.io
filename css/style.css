@@ -44,28 +44,11 @@ html {
 
   html,
   body {
-    position: relative;
-  }
-
-  .fix {
 
   }
 
-  .fixed {
-    overflow: hidden;
-    position: relative;
-    touch-action: none;
+  
 
-
-  }
-
-  .open html,
-  .open body {
-    overflow: hidden;
-    position: relative;
-    height: 100%;
-
-  }
 
   /*.scroll-no {
     overflow-y: hidden;
