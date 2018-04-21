@@ -33,9 +33,7 @@ body {
 }
 
 .scrollhtml-no {
-  height: 100%;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
+
 }
 
 
@@ -103,16 +101,11 @@ header {
   /*transform: translatex(80%);
   -webkit-transform: translatex(80%);*/
   z-index: -10;
-
 }
 
 .main {
 
   transition: ease-in 700ms;
-  z-index: 0;
-
-
-
 }
 
 .leftmenu {
@@ -345,7 +338,7 @@ transform: translatey(-3px) rotate(-90deg);
   max-width: 1200px;
   width: 75%;
   margin: 0 auto;
-  padding-top: 5.5rem;
+  padding-top: 7rem;
   height: 60vh;
 
 }
@@ -752,10 +745,11 @@ span .lime {
 /* our process */
 
 .ourprocess {
-  height: 100%;
+
   background: #f4f4f4;
   /*box-shadow: inset 0px 4px 12px rgba(0,0,0,.5),
   inset 0px -4px 12px rgba(0,0,0,.5); */
+
 }
 
 .ourprocesswrapper {
@@ -763,6 +757,7 @@ span .lime {
   max-width: 1200px;
   margin: 0 auto;
   color: #2D4664;
+
 }
 
 .processgrid {
@@ -793,7 +788,7 @@ span .lime {
 
 .processbutton {
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 2rem;
   padding-bottom: 2rem;
 
 }
@@ -1326,7 +1321,7 @@ span .lime {
 
  .processbutton {
    text-align: center;
-   padding-top: 0rem;
+   padding-top: 2.5rem;
    padding-bottom: 2.5rem;
  }
 
@@ -1621,6 +1616,12 @@ span .lime {
   .container-header,
   .container {
     width: 90%;
+  }
+
+  .processbutton {
+    text-align: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
 
 
@@ -1950,6 +1951,7 @@ span .lime {
   .ourprocess {
     height: 100%;
     background: #f4f4f4;
+
   }
 
   .processbutton {
@@ -1963,6 +1965,7 @@ span .lime {
     max-width: 1200px;
     margin: 0 auto;
     color: #2D4664;
+
   }
 
   .testimonials-container {
@@ -2016,7 +2019,14 @@ span .lime {
     z-index: 100;
     width: 100%;
     box-shadow: 0 0px 5px rgba(0,0,0,.4);
+  }
 
+  .splash-wrapper {
+    max-width: 1200px;
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 5.5rem;
+    height: 60vh;
 
   }
 
