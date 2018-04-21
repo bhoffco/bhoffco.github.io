@@ -24,20 +24,18 @@ header::after {
 html {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
+
 
 }
 
 body {
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
+
 
 
 }
 
 .scroll-no {
-
+  height: 100%;
 
 }
 
