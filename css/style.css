@@ -33,7 +33,7 @@ body {
 }
 
 .scrollhtml-no {
-
+  overflow: hidden;
 }
 
 
