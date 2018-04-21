@@ -24,16 +24,21 @@ header::after {
 html {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 
 }
 
 body {
-  display: none;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+
 
 }
 
-.scrollhtml-no {
-  display: none;
+.scroll-no {
+
+
 }
 
 
@@ -61,8 +66,6 @@ body {
     overflow: hidden;
     position: relative;
     touch-action: none;
-
-
   }
 
 
