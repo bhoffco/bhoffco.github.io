@@ -35,7 +35,7 @@ body {
 }
 
 .scroll-no {
-  
+
 
 }
 
@@ -95,6 +95,10 @@ header {
 .sitenav {
   display: none;
 
+}
+
+html {
+  -webkit-overflow-scrolling: touch;  
 }
 
 
