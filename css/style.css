@@ -143,11 +143,11 @@ html {
 
  }
 
- .leftmenu::before,
+ 
  .leftmenu::after {
    content: '';
    display: block;
-   height: 20px;
+   height: 100px;
  }
 
  .leftmenu-open {
