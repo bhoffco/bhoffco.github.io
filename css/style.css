@@ -98,7 +98,11 @@ header {
 }
 
 html {
-  -webkit-overflow-scrolling: touch;  
+
+}
+
+.scroll-no {
+  position: fixed;
 }
 
 
