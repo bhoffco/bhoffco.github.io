@@ -102,7 +102,7 @@ html {
 }
 
 .scroll-no {
-
+  display: none; 
 
 
 }
@@ -143,12 +143,7 @@ html {
 
  }
 
- 
- .leftmenu::after {
-   content: '';
-   display: block;
-   height: 100px;
- }
+
 
  .leftmenu-open {
   display: block;
