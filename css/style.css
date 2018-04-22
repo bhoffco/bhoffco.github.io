@@ -102,9 +102,7 @@ html {
 }
 
 .scroll-no {
-  height: 100%;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
+
 
 
 }
@@ -132,10 +130,7 @@ html {
   background: #2D4664;
   box-shadow: inset 0 4px 5px rgba(0,0,0,.5);
   display: none;
-  overflow: scroll;
-  overflow-x: hidden;
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
+
 
   animation-name: mobile-menu;
     animation-duration: 500ms;
@@ -145,8 +140,14 @@ html {
     animation-direction: initial;
     animation-fill-mode: both;
     animation-play-state: initial;
-  overflow-y: auto;
 
+ }
+
+ .leftmenu > .leftmenu::before,
+ .leftmenu > .leftmenu::after {
+   content: '';
+   display: block;
+   height: 20px;
  }
 
  .leftmenu-open {
