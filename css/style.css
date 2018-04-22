@@ -135,6 +135,7 @@ html {
   overflow: scroll;
   overflow-x: hidden;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 
   animation-name: mobile-menu;
     animation-duration: 500ms;
