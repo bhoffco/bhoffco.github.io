@@ -102,7 +102,7 @@ html {
 }
 
 .scroll-no {
-  position: fixed;
+
 }
 
 
@@ -137,6 +137,7 @@ html {
     animation-direction: initial;
     animation-fill-mode: both;
     animation-play-state: initial;
+  overflow-y: auto;
 
  }
 
