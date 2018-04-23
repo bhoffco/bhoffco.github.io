@@ -102,7 +102,7 @@ html {
 }
 
 .scroll-no {
-  
+
 
 
 }
@@ -140,6 +140,7 @@ html {
     animation-direction: initial;
     animation-fill-mode: both;
     animation-play-state: initial;
+    transform: translate3d(0,0,0);
 
  }
 
