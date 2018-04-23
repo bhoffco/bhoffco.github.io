@@ -111,7 +111,7 @@ html {
 .main-open {
   /*transform: translatex(80%);
   -webkit-transform: translatex(80%);*/
-  height: 100%;
+  height: 400px;
   width: 100%;
 
 }
