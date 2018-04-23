@@ -134,7 +134,7 @@ html {
 } */
 
 .leftmenu {
-  position: absolute;
+  position: fixed;
   padding-top: 5.5rem;
   top: 0;
   bottom: 0;
