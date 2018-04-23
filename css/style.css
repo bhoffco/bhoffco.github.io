@@ -111,12 +111,25 @@ html {
 .main-open {
   /*transform: translatex(80%);
   -webkit-transform: translatex(80%);*/
-  z-index: -10;
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
 }
 
 .main {
 
   transition: ease-in 700ms;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
 }
 
 .leftmenu {
@@ -130,7 +143,7 @@ html {
   background: #2D4664;
   box-shadow: inset 0 4px 5px rgba(0,0,0,.5);
   display: none;
-
+  transform: translate3d(0,0,0);
 
   animation-name: mobile-menu;
     animation-duration: 500ms;
@@ -140,7 +153,7 @@ html {
     animation-direction: initial;
     animation-fill-mode: both;
     animation-play-state: initial;
-    transform: translate3d(0,0,0);
+
 
  }
 
@@ -148,6 +161,7 @@ html {
 
  .leftmenu-open {
   display: block;
+  transform: translate3d(0,0,0);
  }
 
 .menulinks {
@@ -161,6 +175,7 @@ html {
   font-size: 20px;
   color: #f4f4f4;
   text-align: center;
+  transform: translate3d(0,0,0);
 
 
   /*border-top: 1px solid #3a606e;
