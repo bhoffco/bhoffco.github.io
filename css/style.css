@@ -111,25 +111,13 @@ html {
 .main-open {
   /*transform: translatex(80%);
   -webkit-transform: translatex(80%);*/
-  display: none;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 2;
+
 }
 
 .main {
 
   transition: ease-in 700ms;
-  display: block;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 2;
+
 }
 
 .leftmenu {
@@ -157,11 +145,16 @@ html {
 
  }
 
-
-
  .leftmenu-open {
   display: block;
   transform: translate3d(0,0,0);
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index:2;
  }
 
 .menulinks {
