@@ -113,9 +113,6 @@ html {
   -webkit-transform: translatex(80%);*/
 
 
-  overflow: hidden !important;
-  overflow-y: scroll;
-
 }
 
 .main {
