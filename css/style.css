@@ -2030,7 +2030,7 @@ span .lime {
   .complete1 {
     color: #3b3a30;
     padding: 0 1rem 4rem 1rem;
-    text-align: justify;
+    text-align: left;
     line-height: 1.5;
     font-size: 16px;
   }
