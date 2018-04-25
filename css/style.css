@@ -969,7 +969,7 @@ span .lime {
 
 .section4 {
   background: #f4f4f4;
-  box-shadow: 0 -4px 12px rgba(0,0,0,.1);
+  box-shadow: 5px 6px 15px rgba(0,0,0,.3);
 }
 
 .section4-container {
@@ -998,7 +998,7 @@ span .lime {
   /*box-shadow: var(--shadow); */
   box-shadow: 0px 0px 4px rgba(0,0,0,.4);
   padding: 1rem;
-  background: #2D4664;
+  background: white;
   color: #3b3a30;
 
 }
@@ -1011,7 +1011,7 @@ span .lime {
 }
 
 .msp {
-  background: lightblue;
+  background: white;
   flex: 1;
   display: flex;
   font-size: 1.4vw;
@@ -1025,23 +1025,23 @@ span .lime {
   flex: 3;
   padding: 1em 1em 0 1.5em;
   display: grid;
-  color: #f4f4f4;
+  color: #3b3a30;
 
 }
 
 .waynest3 {
-  background: #2D4664;
+  background: white;
   flex: 1;
 }
 
 .waysnest4 {
-  background: #2D4664;
+  background: white;
   flex: 1;
 
 }
 
 .mspnest1 {
-  background: #2D4664;
+  background: white;
   flex: 1;
 
 
@@ -1049,9 +1049,9 @@ span .lime {
 .mspnest2 {
   flex: 3;
   padding: 1em 1em 0 1.5em;
-  background: #2D4664;
+  background: white;
   display: grid;
-  color: #f4f4f4;
+  color: #3b3a30;
 
 }
 
@@ -1154,6 +1154,7 @@ span .lime {
 
 .emailcontactmain {
   background: #f4f4f4;
+
 }
 
 .enteremailforcontact .nameinput {
@@ -1206,7 +1207,8 @@ span .lime {
   width: 250px;
   color: #3b3a30;
   cursor: pointer;
-  background: #7fd7f4;
+  /*background: #7fd7f4; */
+  background: #c9fbff;
   font-size: 20px;
   font-weight: 600;
   margin-top: 1rem;
@@ -1255,22 +1257,22 @@ span .lime {
 }
 
 .completeservices1-2 {
-  color: #3b3a30
+  color: #3b3a30;
 }
 
 .completeservices1-2
  > div:nth-child(even) {
-  background-color: lightblue;
+  background-color: #c9fbff;
   color: #3b3a30;
 }
 .completeservices2-2
  > div:nth-child(even) {
-  background-color: lightblue;
+  background-color: #c9fbff;
 }
 
 .completeservices3-2
  > div:nth-child(even) {
-  background-color: lightblue;
+  background-color: #c9fbff;
 }
 
 .cservices {
@@ -1332,13 +1334,14 @@ span .lime {
 
 .complete-container span {
     font-size: 1em;
-    color: lime;
+    color: #23c423;
 }
 
 .completetext {
 
   background: #f4f4f4;
   box-shadow: inset 0 2px 3px rgba(0,0,0,.1);
+  box-shadow: 5px 6px 15px rgba(0,0,0,.3);
 }
 
 .completediv {
@@ -1363,7 +1366,7 @@ span .lime {
 }
 .completesm {
   font-weight: 600;
-  color: #2D4664;;
+  color: #2D4664;
 }
 
 .itit {
@@ -1375,15 +1378,15 @@ span .lime {
   width: 75%;
   margin: 0 auto;
   max-width: 1200px;
-  color: #f4f4f4;
+  color: #3b3a30;
   display: flex;
   flex-direction: row;
 }
 
  .msptext {
-   background: #2D4664;
+   background: #c9fbff;
    padding-top: 0rem;
-   box-shadow: inset 0 2px 3px rgba(0,0,0,.1);
+   /*box-shadow: inset 0px 1px 1px rgba(0,0,0,.1);*/
 
  }
 
