@@ -407,7 +407,7 @@ transform: translatey(-3px) rotate(-90deg);
 }
 
 .box3 {
-  background: #23c423;
+  background: #27d127;
   grid-column: 1/5;
   grid-row: 3/4;
 }
@@ -633,7 +633,7 @@ transform: translatey(-3px) rotate(-90deg);
 .button_1:hover {
   cursor: pointer;
 
-  background: lime;
+  background: #27d127;
   color: #f4f4f4;
 }
 
@@ -702,7 +702,7 @@ transform: translatey(-3px) rotate(-90deg);
 
   .icon {
     margin-top: .5rem;
-    color: #23c423;
+    color: #27d127;
   }
 }
 
@@ -778,7 +778,7 @@ transform: translatey(-3px) rotate(-90deg);
 }
 
 span .lime {
-  color: lime;
+  color: #27d127;
 }
 
 /* our process */
@@ -835,7 +835,7 @@ span .lime {
 .button3 {
   padding: 1.3rem 3rem 1.3rem 3rem;
   font-size: 1.4em;
-  background: lime;
+  background: #27d127;
   color: white;
 }
 
@@ -870,7 +870,7 @@ span .lime {
 
 .comma {
   font-size: 1rem;
-  color: lime;
+  color: #27d127;
 }
 
 .testtext1,
@@ -1130,7 +1130,7 @@ span .lime {
 
 .it {
   font-size: 5vw;
-  color: lime;
+  color: #27d127;
   padding-left: .3rem;
 }
 
@@ -1208,7 +1208,7 @@ span .lime {
   color: #3b3a30;
   cursor: pointer;
   /*background: #7fd7f4; */
-  background: #c9fbff;
+  background: #b2f4ff;
   font-size: 20px;
   font-weight: 600;
   margin-top: 1rem;
@@ -1262,17 +1262,17 @@ span .lime {
 
 .completeservices1-2
  > div:nth-child(even) {
-  background-color: #c9fbff;
+  background-color: #b2f4ff;
   color: #3b3a30;
 }
 .completeservices2-2
  > div:nth-child(even) {
-  background-color: #c9fbff;
+  background-color: #b2f4ff;
 }
 
 .completeservices3-2
  > div:nth-child(even) {
-  background-color: #c9fbff;
+  background-color: #b2f4ff;
 }
 
 .cservices {
@@ -1334,7 +1334,7 @@ span .lime {
 
 .complete-container span {
     font-size: 1em;
-    color: #23c423;
+    color: #27d127;
 }
 
 .completetext {
@@ -1370,7 +1370,7 @@ span .lime {
 }
 
 .itit {
-  color: #23c423;
+  color: #27d127;
   font-weight: 600;
 }
 
@@ -1384,7 +1384,7 @@ span .lime {
 }
 
  .msptext {
-   background: #c9fbff;
+   background: #b2f4ff;
    padding-top: 0rem;
    /*box-shadow: inset 0px 1px 1px rgba(0,0,0,.1);*/
 
@@ -1471,7 +1471,7 @@ span .lime {
    }
 
    nav a:hover {
-     border-bottom: solid 2px lime;
+     border-bottom: solid 2px #27d127;
      display: inline-block;
      padding-bottom: 10px;
      transition: all ease-in-out 250ms;
@@ -1479,7 +1479,7 @@ span .lime {
    }
 
    header .current a {
-     border-bottom: solid 2px lime;
+     border-bottom: solid 2px #27d127;
      display: inline-block;
      padding-bottom: 10px;
    }
@@ -1927,7 +1927,7 @@ span .lime {
 
   .it {
     font-size: 54px;
-    color: lime;
+    color: #27d127;
     padding-left: .3rem;
   }
 
@@ -2243,7 +2243,7 @@ span .lime {
 
 .it {
   font-size: 54px;
-  color: lime;
+  color: #27d127;
   padding-left: .3rem;
 }
 
