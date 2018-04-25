@@ -413,7 +413,7 @@ transform: translatey(-3px) rotate(-90deg);
 }
 
 .box4 {
-  border-top: 20px solid #fda50f;
+  border-top: 20px solid #ffd300;
   border-bottom: 20px solid #3b3a30;
   grid-column: 1/12;
   grid-row: 4/12;
