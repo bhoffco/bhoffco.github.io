@@ -996,7 +996,7 @@ span .lime {
 .ebooks {
   display: flex;
   /*box-shadow: var(--shadow); */
-  box-shadow: 0px 0px 4px rgba(0,0,0,.4);
+  box-shadow: 0px 1px 4px rgba(0,0,0,.15);
   padding: 1rem;
   background: white;
   color: #3b3a30;
@@ -1069,7 +1069,7 @@ span .lime {
   padding: 1.2em 4em 1.2em 4em;
 
   margin: .4em 0 0 0;
-  border: 1px solid #3b3a30;
+  box-shadow: 0px 2px 4px rgba(0,0,0,.2);
   background: lightgrey;
   color: #3b3a30;
   font-size: 1vw;
@@ -1081,7 +1081,6 @@ span .lime {
   background: #14263a;
   color: #f4f4f4;
   cursor: pointer;
-  border: 1px solid #3b3a30;
   transition: ease 250ms;
 }
 
