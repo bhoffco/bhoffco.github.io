@@ -6,6 +6,7 @@ border: 0;
 
 header {
   box-shadow: 0 2px 3px rgba(0,0,0,.1);
+
 }
 
 header::after {
@@ -421,6 +422,33 @@ transform: translatey(-3px) rotate(-90deg);
 
 /* showcase top (section 1) */
 
+.splash-main {
+  height: 35rem;
+  background: #f4f4f4;
+}
+
+.splash-main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 75%;
+  padding-top: 8rem;
+  color: #2D4664;
+}
+
+.splash-text-1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.splash-image-1 {
+
+}
+
+.splash-1 {
+  height: 300px;
+  width: auto;
+}
+
 .section0-container {
   max-width: 1200px;
   width: 75%;
@@ -432,22 +460,18 @@ transform: translatey(-3px) rotate(-90deg);
 }
 
 .section0 {
-  background: rgba(45,70,100,.9);
-  background: #f4f4f4;
-  /*height: 20rem;
-  background-image: url('../img/l5large_banner.jpg');
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover; */
-  /*background-color: white; */
-  /*background-image: url('../img/night-computer-hdd-hard-drive.jpg');*/
-  height: 100%;
+
+
+
+  /*background-image: url('../img/keyboard.jpg');*/
+
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 35rem;
+  height:35rem;
+  background: #f4f4f4;
 
   /*following just for demo purposes to add height and top padding*/
 
@@ -456,19 +480,12 @@ transform: translatey(-3px) rotate(-90deg);
 
 
 
-/*.curtainmain {
+  /*.curtainmain {
   height: 35rem;
   background: rgba(50,76,100,.87);
-  background: rgba(45,70,100,.80);
+  background: rgba(45,70,100,.9); */
 
-} */
-
-/*.mast {
-  background: #3a606e;
-  height: 20rem;
-  box-sizing: border-box;
-} */
-
+}
 
 
 
