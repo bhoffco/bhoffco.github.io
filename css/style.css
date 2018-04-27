@@ -447,7 +447,7 @@ transform: translatey(-3px) rotate(-90deg);
   animation: splash;
   position: relative;
   animation-delay: 200ms;
-  animation-duration: 500ms;
+  animation-duration: 700ms;
   animation-fill-mode: forwards;
   opacity: 0;
 }
@@ -458,8 +458,8 @@ transform: translatey(-3px) rotate(-90deg);
   padding-bottom: 4rem;
   animation: splash;
   position: relative;
-  animation-delay: 200ms;
-  animation-duration: 500ms;
+  animation-delay: 250ms;
+  animation-duration: 700ms;
   animation-fill-mode: forwards;
   opacity: 0;
 
@@ -473,7 +473,7 @@ transform: translatey(-3px) rotate(-90deg);
    animation: splash;
    position: relative;
    animation-delay: 300ms;
-   animation-duration: 500ms;
+   animation-duration: 700ms;
    animation-fill-mode: forwards;
    opacity: 0;
 }
@@ -536,7 +536,7 @@ transform: translatey(-3px) rotate(-90deg);
   animation: splash;
   position: relative;
   animation-delay: 400ms;
-  animation-duration: 500ms;
+  animation-duration: 700ms;
   animation-fill-mode: forwards;
   opacity: 0;
 
@@ -546,7 +546,7 @@ transform: translatey(-3px) rotate(-90deg);
   animation: splash;
   position: relative;
   animation-delay: 500ms;
-  animation-duration: 500ms;
+  animation-duration: 700ms;
   animation-fill-mode: forwards;
   opacity: 0;
 
@@ -556,7 +556,7 @@ transform: translatey(-3px) rotate(-90deg);
   animation: splash;
   position: relative;
   animation-delay: 600ms;
-  animation-duration: 500ms;
+  animation-duration: 700ms;
   animation-fill-mode: forwards;
   opacity: 0;
 }
@@ -565,7 +565,7 @@ transform: translatey(-3px) rotate(-90deg);
   animation: splash;
   position: relative;
   animation-delay: 700ms;
-  animation-duration: 500ms;
+  animation-duration: 700ms;
   animation-fill-mode: forwards;
   opacity: 0;
 }
@@ -574,7 +574,7 @@ transform: translatey(-3px) rotate(-90deg);
   animation: splash;
   position: relative;
   animation-delay: 800ms;
-  animation-duration: 500ms;
+  animation-duration: 700ms;
   animation-fill-mode: forwards;
   opacity: 0;
 }
@@ -587,7 +587,7 @@ transform: translatey(-3px) rotate(-90deg);
   animation: splash;
   position: relative;
   animation-delay: 500ms;
-  animation-duration: 500ms;
+  animation-duration: 700ms;
   animation-fill-mode: forwards;
   opacity: 0;
 }
@@ -2085,7 +2085,7 @@ span .lime {
     animation: splash;
     position: relative;
     animation-delay: 200ms;
-    animation-duration: 500ms;
+    animation-duration: 700ms;
     animation-fill-mode: forwards;
     opacity: 0;
 
@@ -2109,7 +2109,7 @@ span .lime {
    animation: splash;
    position: relative;
    animation-delay: 300ms;
-   animation-duration: 500ms;
+   animation-duration: 700ms;
    animation-fill-mode: forwards;
    opacity: 0;
 }
@@ -2165,7 +2165,7 @@ span .lime {
   animation: splash;
   position: relative;
   animation-delay: 400ms;
-  animation-duration: 500ms;
+  animation-duration: 700ms;
   animation-fill-mode: forwards;
   opacity: 0;
 
@@ -2179,7 +2179,7 @@ span .lime {
   animation: splash;
   position: relative;
   animation-delay: 900ms;
-  animation-duration: 500ms;
+  animation-duration: 700ms;
   animation-fill-mode: forwards;
   opacity: 0;
 }
