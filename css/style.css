@@ -27,6 +27,8 @@ html {
   font-family: Arial, Helvetica, sans-serif;
 
 
+
+
 }
 
 body {
@@ -423,31 +425,87 @@ transform: translatey(-3px) rotate(-90deg);
 /* showcase top (section 1) */
 
 .splash-main {
-  height: 35rem;
+  height: 100%;
   background: #f4f4f4;
 }
 
 .splash-main-container {
   max-width: 1200px;
   margin: 0 auto;
-  width: 75%;
+  width: 80%;
   padding-top: 8rem;
   color: #2D4664;
+  display: flex;
+  flex-direction: column;
+  /*grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr); */
+
 }
 
 .splash-text-1 {
   text-align: center;
-  font-size: 24px;
+  font-size: 26px;
+  padding-bottom: 4rem;
+  /*grid-column: 1/13;
+  grid-row: 1/2;
+  align-self: center; */
+
+}
+
+.splash-text-2 {
+   font-size: 18px;
+   text-align: center;
+   padding-bottom: 2rem;
+   /*grid-column: 1/13;
+   grid-row: 2/3; */
 }
 
 .splash-image-1 {
+  /*grid-column: 8/13;
+  grid-row: 3/11; */
 
+}
+
+.splash-text-3-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 60%;
+  background: yellow;
+  color: #2D4664;
+  height: 30rem;
 }
 
 .splash-1 {
   height: 300px;
   width: auto;
+
+
+
 }
+
+.text-3 {
+  color: grey;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: left;
+  font-size: 20px;
+  padding-left: 2rem;
+}
+
+.splash-text-3 {
+  float: left;
+  padding-top: 2rem;
+  background: orange;
+}
+
+.splash-image {
+  float: right;
+  text-align: center;
+  background: green;
+}
+
+
+
 
 .section0-container {
   max-width: 1200px;
@@ -483,9 +541,9 @@ transform: translatey(-3px) rotate(-90deg);
   /*.curtainmain {
   height: 35rem;
   background: rgba(50,76,100,.87);
-  background: rgba(45,70,100,.9); */
+  background: rgba(45,70,100,.9);
 
-}
+} */
 
 
 
@@ -1450,7 +1508,7 @@ span .lime {
 
    .container-header {
      max-width: 1200px;
-     width: 75%;
+     width: 80%;
      margin: 0 auto;
 
 
