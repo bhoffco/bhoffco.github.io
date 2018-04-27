@@ -2153,7 +2153,7 @@ span .lime {
 }
 
 .splash-text-3 ul {
-  padding: 1rem 1rem 1rem;
+  padding: 0;
 }
 
 .splash-text-3 li {
@@ -2162,7 +2162,6 @@ span .lime {
 
 .splash-text-3 {
   /*background: lightblue;*/
-  padding-right: .5em;
   animation: splash;
   position: relative;
   animation-delay: 400ms;
@@ -2175,7 +2174,7 @@ span .lime {
 .splash-image {
   text-align: center;
   /*background: orange;*/
-  padding-left: .5em;
+
   padding-top: 0rem;
   animation: splash;
   position: relative;
@@ -2230,6 +2229,7 @@ span .lime {
     justify-content: flex-start;
     flex-wrap: wrap;
 
+
   }
 
   .nameinput, .emailinput {
@@ -2262,6 +2262,10 @@ span .lime {
     flex-direction: column;
     justify-content: flex-start;
     flex-wrap: wrap;
+  }
+
+  .enteremailforcontactmain {
+    margin-top: 0;
   }
 
   .complete-container {
