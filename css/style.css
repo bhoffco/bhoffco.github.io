@@ -433,13 +433,23 @@ transform: translatey(-3px) rotate(-90deg);
   max-width: 1200px;
   margin: 0 auto;
   width: 80%;
-  padding-top: 8rem;
-  color: #2D4664;
+  padding-top: 9rem;
+  color: #f4f4f4;
   display: flex;
   flex-direction: column;
   /*grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 1fr); */
 
+}
+
+.splash-top {
+  background: #2D4664;
+  animation: splash;
+  position: relative;
+  animation-delay: 200ms;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+  opacity: 0;
 }
 
 .splash-text-1 {
@@ -459,7 +469,7 @@ transform: translatey(-3px) rotate(-90deg);
    font-size: 18px;
    text-align: center;
     color: grey;
-   padding: 1rem 0 2rem 0;
+   padding: 2rem 0 2rem 0;
    animation: splash;
    position: relative;
    animation-delay: 300ms;
@@ -517,6 +527,12 @@ transform: translatey(-3px) rotate(-90deg);
 .splash-text-3 {
   /*background: lightblue;*/
   padding-right: .5em;
+
+
+}
+
+.li1 {
+
   animation: splash;
   position: relative;
   animation-delay: 400ms;
@@ -526,6 +542,43 @@ transform: translatey(-3px) rotate(-90deg);
 
 }
 
+.li2 {
+  animation: splash;
+  position: relative;
+  animation-delay: 500ms;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+  opacity: 0;
+
+}
+
+.li3 {
+  animation: splash;
+  position: relative;
+  animation-delay: 600ms;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.li4 {
+  animation: splash;
+  position: relative;
+  animation-delay: 700ms;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.li5 {
+  animation: splash;
+  position: relative;
+  animation-delay: 800ms;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
 .splash-image {
   text-align: center;
   /*background: orange;*/
@@ -533,7 +586,7 @@ transform: translatey(-3px) rotate(-90deg);
   padding-top: .5rem;
   animation: splash;
   position: relative;
-  animation-delay: 400ms;
+  animation-delay: 500ms;
   animation-duration: 500ms;
   animation-fill-mode: forwards;
   opacity: 0;
@@ -1971,44 +2024,88 @@ span .lime {
  grid-row-gap: .5em
 }
 
-/* showcase top (section 1) */
+
+
+}
+
+@media screen and (max-width:1070px) {
+  .complete-container {
+    max-width: 1400px;
+    width: 80%;
+    margin: 0 auto;
+    color: #3b3a30;
+    min-height: 30rem;
+    padding-top: 5rem;
+    margin-bottom: 3.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 3rem;
+
+  }
+
+
+
+  .section0 {
+    background: #3a606e;
+    /*height: 20rem;
+    background-image: url('../img/l5large_banner.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; */
+    /*background-color: white; */
+    background-image: url('../img/night-computer-hdd-hard-drive.jpg');
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 33rem;
+
+    /*following just for demo purposes to add height and top padding*/
+
+    /*box-shadow: inset 0px -1px 6px 2px rgba(0,0,0,.99); */
+  }
+
+  .curtainmain {
+    height: 33rem;
+    background: rgba(50,76,100,.87);
+    background: rgba(45,70,100,.80);
+
+  }
+}
+
+@media screen and (max-width:900px) {
+
+  .splash-text-1 {
+    text-align: center;
+    font-size: 14px;
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+    animation: splash;
+    position: relative;
+    animation-delay: 200ms;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+
+  }
+
+  /* showcase top (section 1) */
 
 .splash-main {
   height: 100%;
   background: #f4f4f4;
 }
 
-.splash-main-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  width: 90%;
-  padding-top: 6rem;
-  color: #2D4664;
-  display: flex;
-  flex-direction: column;
-  /*grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(12, 1fr); */
 
-}
 
-.splash-text-1 {
-  text-align: center;
-  font-size: 18px;
-  padding-bottom: 0rem;
-  animation: splash;
-  position: relative;
-  animation-delay: 200ms;
-  animation-duration: 500ms;
-  animation-fill-mode: forwards;
-  opacity: 0;
-
-}
 
 .splash-text-2 {
    font-size: 14px;
    text-align: center;
     color: grey;
-   padding: 1rem 0 2rem 0;
+   padding: 2rem 0 2rem 0;
    animation: splash;
    position: relative;
    animation-delay: 300ms;
@@ -2082,64 +2179,22 @@ span .lime {
   padding-top: 0rem;
   animation: splash;
   position: relative;
-  animation-delay: 400ms;
+  animation-delay: 900ms;
   animation-duration: 500ms;
   animation-fill-mode: forwards;
   opacity: 0;
 }
 
 
-}
 
-@media screen and (max-width:1070px) {
-  .complete-container {
-    max-width: 1400px;
-    width: 80%;
+  .splash-main-container {
+    max-width: 1200px;
     margin: 0 auto;
-    color: #3b3a30;
-    min-height: 30rem;
+    width: 90%;
     padding-top: 5rem;
-    margin-bottom: 3.5rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 3rem;
-
-  }
-
-  .section0 {
-    background: #3a606e;
-    /*height: 20rem;
-    background-image: url('../img/l5large_banner.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover; */
-    /*background-color: white; */
-    background-image: url('../img/night-computer-hdd-hard-drive.jpg');
-    height: 100%;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 33rem;
-
-    /*following just for demo purposes to add height and top padding*/
-
-    /*box-shadow: inset 0px -1px 6px 2px rgba(0,0,0,.99); */
-  }
-
-  .curtainmain {
-    height: 33rem;
-    background: rgba(50,76,100,.87);
-    background: rgba(45,70,100,.80);
-
-  }
+    color: #f4f4f4;
+    display: flex;
 }
-
-@media screen and (max-width:900px) {
-
-
-
 
   .logo {
     float: left;
