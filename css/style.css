@@ -455,9 +455,14 @@ transform: translatey(-3px) rotate(-90deg);
 .splash-text-2 {
    font-size: 18px;
    text-align: center;
-   padding-bottom: 2rem;
+    color: grey;
+   padding: 1rem 0 2.5rem 0;
    /*grid-column: 1/13;
    grid-row: 2/3; */
+}
+
+.splash-main-font {
+
 }
 
 .splash-image-1 {
@@ -469,39 +474,50 @@ transform: translatey(-3px) rotate(-90deg);
 .splash-text-3-container {
   max-width: 1200px;
   margin: 0 auto;
-  width: 60%;
-  background: yellow;
+  width: 70%;
+  /*background: yellow; */
   color: #2D4664;
-  height: 30rem;
+  display: grid;
+  justify-content: center;
+}
+
+.splash-text-3-container-wrap {
+  display: grid;
+  grid-template-columns: 2.5fr 1.5fr;
 }
 
 .splash-1 {
-  height: 300px;
+  height: 250px;
   width: auto;
-
-
-
 }
 
 .text-3 {
   color: grey;
-  font-weight: 500;
-  line-height: 1.5;
+  font-weight: 400;
   text-align: left;
-  font-size: 20px;
-  padding-left: 2rem;
+  font-size: 18px;
+}
+
+.splash-text-3 ul {
+  padding: 1.5rem 1rem 1.5rem;
+}
+
+.splash-text-3 li {
+  padding-bottom: 1rem;
 }
 
 .splash-text-3 {
-  float: left;
-  padding-top: 2rem;
-  background: orange;
+  /*background: lightblue;*/
+  padding-right: .5em;
+
 }
 
 .splash-image {
-  float: right;
   text-align: center;
-  background: green;
+  /*background: orange;*/
+  padding-left: .5em;
+  padding-top: .5rem;
+
 }
 
 
