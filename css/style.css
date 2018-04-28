@@ -446,10 +446,7 @@ transform: translatey(-3px) rotate(-90deg);
   background: #2D4664;
   animation: splash;
   position: relative;
-  animation-delay: 200ms;
-  animation-duration: 700ms;
-  animation-fill-mode: forwards;
-  opacity: 0;
+
 }
 
 .splash-text-1 {
@@ -586,7 +583,7 @@ transform: translatey(-3px) rotate(-90deg);
   padding-top: .5rem;
   animation: splash;
   position: relative;
-  animation-delay: 500ms;
+  animation-delay: 700ms;
   animation-duration: 700ms;
   animation-fill-mode: forwards;
   opacity: 0;
@@ -855,7 +852,7 @@ transform: translatey(-3px) rotate(-90deg);
   background: #2D4664;
   animation: splash;
   position: relative;
-  animation-delay: 700ms;
+  animation-delay: 1100ms;
   animation-duration: 500ms;
   animation-fill-mode: forwards;
   opacity: 0;
@@ -871,7 +868,7 @@ transform: translatey(-3px) rotate(-90deg);
   background: #2D4664;
   animation: splash;
   position: relative;
-  animation-delay: 600ms;
+  animation-delay: 1000ms;
   animation-duration: 500ms;
   animation-fill-mode: forwards;
   opacity: 0;
@@ -1345,7 +1342,7 @@ span .lime {
   background: #f4f4f4;
   animation: splash;
   position: relative;
-  animation-delay: 500ms;
+  animation-delay: 900ms;
   animation-duration: 500ms;
   animation-fill-mode: forwards;
   opacity: 0;
@@ -1406,7 +1403,7 @@ span .lime {
   background: #c3eff7;
   font-size: 20px;
   font-weight: 600;
-
+  margin-top: 1rem;
 }
 
 .reqcall:hover {
@@ -2420,7 +2417,18 @@ span .lime {
     padding: 2rem 0 2rem 0;
     margin: 0 auto;
   }
+  .reqcall {
+    border-radius: 3px;
+    height: 56px;
+    width: 250px;
+    color: #3b3a30;
+    cursor: pointer;
+    /*background: #7fd7f4; */
+    background: #c3eff7;
+    font-size: 20px;
+    font-weight: 600;
 
+  }
 
 }
 
@@ -2617,7 +2625,20 @@ span .lime {
 
 }
 
-.requestcall {
+.reqcall {
+  border-radius: 3px;
+  height: 56px;
+  width: 250px;
+  color: #3b3a30;
+  cursor: pointer;
+  /*background: #7fd7f4; */
+  background: #c3eff7;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 0rem;
+}
+
+.req {
   margin: 0;
   padding: 0;
 }
