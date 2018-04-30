@@ -1456,7 +1456,7 @@ span .lime {
 }
 .completeservices2-2
  > div:last-child {
-   border-bottom: 1px solid #c9ebf2;
+   border-bottom: 1px solid lightgrey;
  }
 
  .completeservices3-2
@@ -2303,7 +2303,7 @@ span .lime {
   }
 
   .completeservices3-1 {
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid lightgrey;
     height: 50px;
     display: flex;
     flex-direction: column;
