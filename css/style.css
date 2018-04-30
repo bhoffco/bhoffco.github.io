@@ -2434,6 +2434,15 @@ span .lime {
 
   }
 
+  .footer {
+    background: #f4f4f4;
+
+  }
+
+  .footertext {
+    color: #3b3a30;
+  }
+
 }
 
 @media (max-width:737px)
@@ -2545,6 +2554,10 @@ span .lime {
 
 .footer {
   background: #f4f4f4;
+
+}
+
+.footertext {
   color: #3b3a30;
 }
 
