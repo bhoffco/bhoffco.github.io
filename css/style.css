@@ -1363,14 +1363,14 @@ span .lime {
   padding: .25rem;
   height: 35px;
   width: 150px;
-  background: light#6b6a6a;
+  background: lightgrey;
 }
 
 .enteremailforcontactmain .emailinput[type="email"] {
   padding: .25rem;
   height: 35px;
   width: 150px;
-  background: light#6b6a6a;
+  background: lightgrey;
 }
 
 
@@ -1378,7 +1378,7 @@ span .lime {
   padding: .25rem;
   height: 35px;
   width: 150px;
-  background: light#6b6a6a;
+  background: lightgrey;
 }
 
 .reqcall {
