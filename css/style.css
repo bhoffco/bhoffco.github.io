@@ -1268,8 +1268,11 @@ span .lime {
 }
 
 .footertext {
+  width: 70%;
+  max-width: 1200px;
+  margin: 0 auto;
   text-align: center;
-  font-size: 20px;
+  font-size: 14px;
   color: #f4f4f4;
   flex: 1;
   align-self: center;
