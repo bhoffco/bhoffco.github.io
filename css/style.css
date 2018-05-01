@@ -475,9 +475,6 @@ transform: translatey(-3px) rotate(-90deg);
    opacity: 0;
 }
 
-.splash-main-font {
-
-}
 
 .splash-image-1 {
   /*grid-column: 8/13;
@@ -1603,6 +1600,87 @@ span .lime {
    padding-top: 2.5rem;
    padding-bottom: 2.5rem;
 
+ }
+
+ /* co managed services */
+
+.services-top-div {
+   padding-top: 8rem;
+ }
+
+ .services-top-div h2 {
+   font-size: 36px;
+   line-height: 2;
+   color: #3b3a30;
+ }
+
+.services-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 70%;
+  color: #2D4664;
+  display: grid;
+  justify-content: center;
+  padding-top: 4rem;
+}
+
+.service-text-1 {
+  font-size: 18px;
+  text-align: center;
+  color: #6b6a6a;
+  padding: 2rem 0 2rem 0;
+  animation: splash;
+  position: relative;
+  animation-delay: 300ms;
+  animation-duration: 700ms;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.service-side-by-side-grid-wrap {
+  display: grid;
+  grid-template-columns: 2.5fr 1.5fr;
+}
+
+.service-points-side-of-pic {
+  padding-right: .5em;
+}
+
+.service-points-side-of-pic ul {
+  padding: 1.5rem 1rem 1.5rem;
+}
+
+.service-points-side-of-pic li {
+  padding-bottom: 1rem;
+}
+
+
+ .coma-div {
+   max-width: 1200px;
+   width: 80%;
+   margin: 0 auto;
+   display: flex;
+
+  justify-content: center;
+   padding: 4rem 0 2rem 0;
+   line-height: 2;
+   font-size: 36px;
+   color: #6b6a6a;
+ }
+
+ .text-coma {
+
+ }
+
+ @keyframes mobile-links {
+   from {
+     opacity: 0;
+     transform: translatey(20px)
+   }
+   to {
+     opacity: 1;
+     transform: translatey(0px)
+   }
  }
 
  @media (min-width: 980px) {
