@@ -181,6 +181,7 @@ html {
   font-size: 20px;
   color: #f4f4f4;
   text-align: center;
+  transition: 250ms;
 
 
 
@@ -197,7 +198,6 @@ html {
 
 .menulinks:hover,
 .menulinks:focus {
-  background:#23232d;
   font-size: 21px;
 }
 
