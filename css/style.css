@@ -1628,7 +1628,7 @@ span .lime {
   font-size: 18px;
   text-align: center;
   color: #6b6a6a;
-  padding: 2rem 0 2rem 0;
+  padding: 4rem 0 3rem 0;
   animation: splash;
   position: relative;
   animation-delay: 300ms;
@@ -1639,11 +1639,13 @@ span .lime {
 
 .service-side-by-side-grid-wrap {
   display: grid;
-  grid-template-columns: 2.5fr 1.5fr;
+  grid-template-columns: 1fr 3fr;
 }
 
 .service-points-side-of-pic {
-  padding-right: .5em;
+  padding: 2rem 2rem 2rem 0;
+  color: #6b6a6a;
+  font-size: 18px;
 }
 
 .service-points-side-of-pic ul {
@@ -1654,23 +1656,39 @@ span .lime {
   padding-bottom: 1rem;
 }
 
-
- .coma-div {
-   max-width: 1200px;
-   width: 80%;
-   margin: 0 auto;
-   display: flex;
-
-  justify-content: center;
-   padding: 4rem 0 2rem 0;
-   line-height: 2;
-   font-size: 36px;
-   color: #6b6a6a;
+.service-image {
+  text-align: center;
+  padding-right: 2rem;
+  animation: splash;
+  position: relative;
+  animation-delay: 700ms;
+  animation-duration: 700ms;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+.coma-div {
+ max-width: 1200px;
+ width: 80%;
+ margin: 0 auto;
+ display: flex;
+ justify-content: center;
+ padding: 4rem 0 2rem 0;
+ line-height: 2;
+ font-size: 36px;
+ color: #6b6a6a;
  }
 
- .text-coma {
+.user-icon {
+  height: 200px;
+  width: auto;
+  color: #2D4664;
+}
 
- }
+.processbutton-comanage {
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
 
  @keyframes mobile-links {
    from {
@@ -2522,6 +2540,51 @@ span .lime {
 
   .footertext {
     color: #3b3a30;
+  }
+
+  .service-side-by-side-grid-wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .services-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 90%;
+    color: #2D4664;
+    display: grid;
+    justify-content: center;
+    padding-top: 2rem;
+  }
+
+  .service-image {
+    text-align: center;
+    animation: splash;
+    padding-right: 0;
+    position: relative;
+    animation-delay: 700ms;
+    animation-duration: 700ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+
+  .service-text-1 {
+    font-size: 18px;
+    text-align: center;
+    color: #6b6a6a;
+    padding: 2rem 0 2rem 0;
+    animation: splash;
+    position: relative;
+    animation-delay: 300ms;
+    animation-duration: 700ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+
+  .service-points-side-of-pic {
+    padding: 1rem;
+    color: #6b6a6a;
+    font-size: 18px;
   }
 
 }
