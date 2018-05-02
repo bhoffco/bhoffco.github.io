@@ -1637,6 +1637,33 @@ span .lime {
   opacity: 0;
 }
 
+.com1 {
+  animation: splash;
+  position: relative;
+  animation-delay: 400ms;
+  animation-duration: 700ms;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.com2 {
+  animation: splash;
+  position: relative;
+  animation-delay: 500ms;
+  animation-duration: 700ms;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.com3 {
+  animation: splash;
+  position: relative;
+  animation-delay: 600ms;
+  animation-duration: 700ms;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
 .service-side-by-side-grid-wrap {
   display: grid;
   grid-template-columns: 1fr 3fr;
@@ -1661,7 +1688,7 @@ span .lime {
   padding-right: 2rem;
   animation: splash;
   position: relative;
-  animation-delay: 700ms;
+  animation-delay: 400ms;
   animation-duration: 700ms;
   animation-fill-mode: forwards;
   opacity: 0;
