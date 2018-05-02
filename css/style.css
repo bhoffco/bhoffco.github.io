@@ -1737,8 +1737,30 @@ span .lime {
 }
 
 .para {
-  display: inline;
+  display: block;
   font-size: 2rem;
+  text-align: center;
+}
+
+.service-side-by-side-grid-wrap-cloud {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.service-image-cloud {
+  text-align: center;
+  animation: splash;
+  position: relative;
+  animation-delay: 400ms;
+  animation-duration: 700ms;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.service-points-side-of-pic-cloud {
+  text-align: center;
+  color: #6b6a6a;
+  font-size: 18px;
 }
 
  @keyframes mobile-links {
