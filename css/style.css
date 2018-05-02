@@ -1615,7 +1615,7 @@ span .lime {
  }
 
 .services-container {
-  max-width: 1200px;
+  max-width: 900px;
   margin: 0 auto;
   width: 70%;
   color: #2D4664;
@@ -2534,12 +2534,12 @@ span .lime {
   }
 
   .footer {
-    background: #f4f4f4;
+    background: #2D4664;
 
   }
 
   .footertext {
-    color: #3b3a30;
+    color: #f4f4f4;
   }
 
   .service-side-by-side-grid-wrap {
@@ -2697,12 +2697,12 @@ span .lime {
 }
 
 .footer {
-  background: #f4f4f4;
+  background: #2D4664;
 
 }
 
 .footertext {
-  color: #3b3a30;
+  color: #f4f4f4;
 }
 
 .completeittop {
