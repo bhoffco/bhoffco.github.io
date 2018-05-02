@@ -1722,23 +1722,23 @@ span .lime {
 .para::after {
   color: #27d127;
   content: close-quote;
-  font-size: 2em;
+  font-size: 1.5em;
   line-height: 0.1em;
   margin-left: .05em;
-  vertical-align: -0.3em;
+  vertical-align: -0.2em;
 }
 .para::before {
  color: #27d127;
  content: open-quote;
- font-size: 2em;
+ font-size: 1.5em;
  line-height: 0.1em;
  margin-right: 0.05em;
- vertical-align: -0.2em;
+ vertical-align: -0.1em;
 }
 
 .para {
   display: inline;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
  @keyframes mobile-links {
