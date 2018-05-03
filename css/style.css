@@ -2757,6 +2757,19 @@ span .lime {
     text-align: center;
   }
 
+  .service-text-1-cloud {
+    font-size: 14px;
+    text-align: center;
+    color: #6b6a6a;
+    padding: 2rem 0 1rem 0;
+    animation: splash;
+    position: relative;
+    animation-delay: 300ms;
+    animation-duration: 700ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+
 }
 
 @media (max-width:737px)
