@@ -1723,7 +1723,7 @@ span .lime {
   font-size: 18px;
   text-align: center;
   color: #6b6a6a;
-  padding: 4rem 0 1rem 0;
+  padding: 4rem 0 3rem 0;
   animation: splash;
   position: relative;
   animation-delay: 300ms;
@@ -1762,7 +1762,7 @@ span .lime {
 }
 
 .service-image-cloud {
-  padding-bottom: 1rem;
+  padding-bottom: 4rem;
   text-align: center;
   animation: splash;
   position: relative;
@@ -1776,7 +1776,7 @@ span .lime {
   text-align: center;
   color: #6b6a6a;
   font-size: 18px;
-  padding: 0 0 2rem 0;
+  padding: 0 0 3rem 0;
 }
 
 .cloud-benefit-wrapper {
@@ -1831,9 +1831,68 @@ span .lime {
   text-align: center;
 }
 
+.cloud-item-wrapper-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  grid-auto-rows: minmax(200px, auto);
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 0 1rem 0;
+  text-align: center;
+}
+
 .icon-item {
   color: #ffb600;
 
+}
+
+/* security */
+
+.service-image-security {
+  padding: 2rem 0 2rem 0;;
+  text-align: center;
+  animation: splash;
+  position: relative;
+  animation-delay: 400ms;
+  animation-duration: 700ms;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.service-text-1-security {
+  font-size: 18px;
+  text-align: center;
+  color: #6b6a6a;
+  padding: 3rem 0 5rem 0;
+  animation: splash;
+  position: relative;
+  animation-delay: 300ms;
+  animation-duration: 700ms;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.service-points-side-of-pic-security {
+  text-align: center;
+  color: #ffb600;
+  font-size: 18px;
+  padding: 0 0 1.5rem 0;
+}
+
+.note-from-us-container {
+  width: 75%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  background: white;
+  height: 400px;
+  box-shadow: 0 0 2px rgba(0,0,0,.2);
+}
+
+.note-from-us-text {
+  padding: 1rem;
 }
 
 
@@ -2770,6 +2829,21 @@ span .lime {
     animation-fill-mode: forwards;
     opacity: 0;
   }
+
+  .service-image-cloud {
+    padding-bottom: 2rem;
+    text-align: center;
+    animation: splash;
+    position: relative;
+    animation-delay: 400ms;
+    animation-duration: 700ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+
+
+
+
 
 }
 
