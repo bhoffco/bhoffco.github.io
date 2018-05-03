@@ -1719,6 +1719,19 @@ span .lime {
 
 /* cloud services */
 
+.service-text-1-cloud {
+  font-size: 18px;
+  text-align: center;
+  color: #6b6a6a;
+  padding: 4rem 0 1rem 0;
+  animation: splash;
+  position: relative;
+  animation-delay: 300ms;
+  animation-duration: 700ms;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
 .para::after {
   color: #27d127;
   content: close-quote;
@@ -1740,6 +1753,7 @@ span .lime {
   display: block;
   font-size: 2rem;
   text-align: center;
+  padding-bottom: .5rem;
 }
 
 .service-side-by-side-grid-wrap-cloud {
@@ -1748,6 +1762,7 @@ span .lime {
 }
 
 .service-image-cloud {
+  padding-bottom: 1rem;
   text-align: center;
   animation: splash;
   position: relative;
@@ -1761,7 +1776,65 @@ span .lime {
   text-align: center;
   color: #6b6a6a;
   font-size: 18px;
+  padding: 0 0 2rem 0;
 }
+
+.cloud-benefit-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 2rem;
+  grid-auto-rows: minmax(250px, auto);
+  width: 75%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 0 4rem 0;
+}
+
+.cloud-benefit-1 {
+  background: #c9ebf2;
+  box-shadow: 0 0 2px rgba(0,0,0,.2);
+}
+.cloud-benefit-2 {
+  background: #c9ebf2;
+  box-shadow: 0 0 2px rgba(0,0,0,.2);
+}
+
+.cloud-benefit-3{
+  background: #c9ebf2;
+  box-shadow: 0 0 2px rgba(0,0,0,.2);
+}
+
+.cloud-box-head {
+  color: #6b6a6a;
+  text-align: center;
+  padding: 1rem 0 1.5rem 0;
+}
+
+.cloud-box-text {
+  color: #6b6a6a;
+  padding: 0 1rem 1rem 1rem;
+  line-height: 1.5;
+  text-align: center;
+  font-size: 18px;
+}
+
+.cloud-item-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 2rem;
+  grid-auto-rows: minmax(200px, auto);
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 0 1rem 0;
+  text-align: center;
+}
+
+.icon-item {
+  color: #ffb600;
+
+}
+
 
  @keyframes mobile-links {
    from {
@@ -2246,6 +2319,18 @@ span .lime {
     background: rgba(45,70,100,.80);
 
   }
+
+  .cloud-benefit-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 2rem;
+    grid-row-gap: 1rem;
+    grid-auto-rows: minmax(200px, auto);
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+  }
 }
 
 @media screen and (max-width:900px) {
@@ -2658,6 +2743,18 @@ span .lime {
     padding: 1rem;
     color: #6b6a6a;
     font-size: 18px;
+  }
+
+  .cloud-item-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2rem;
+    grid-auto-rows: minmax(200px, auto);
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 0 0 0;
+    text-align: center;
   }
 
 }
