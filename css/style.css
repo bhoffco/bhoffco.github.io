@@ -1895,6 +1895,87 @@ span .lime {
   padding: 1rem;
 }
 
+.quote {
+  height: 842px;
+  width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+
+  margin-bottom: 10rem;
+  box-shadow: 0 0 2px rgba(0,0,0,.2);
+
+}
+
+.quote-head {
+  height: 4rem;
+  width: 100%;
+  background: rgba(45, 70, 100, .2);
+  display: flex;
+  align-items: center;
+
+}
+
+.quote-logo {
+  padding-left: .75rem;
+  height: 50px;
+  width: auto;
+}
+
+.pad {
+  background: #f4f4f4;
+  height: 10rem;
+  width: 100%;
+}
+
+.quote-top {
+  margin: 1rem 2rem 1rem 1rem;
+  color: #6b6a6a;
+  font-size: 12px;
+}
+
+.quote p {
+  line-height: 1.5;
+}
+
+.quote-body-wrapper {
+  display: grid;
+  color: #6b6a6a;
+
+  font-size: 12px;
+  margin: 0rem 1rem;
+}
+
+.quote-1 {
+  padding: 0 0 1rem 0;
+  width: 100%;
+}
+
+.quote-2 {
+  padding: 0 0 1rem 0;
+  width: 100%;
+}
+
+.quote-3 {
+  padding: 0 0 2rem 0;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  padding: .25rem;
+  background: #2D4664;
+  color: #f4f4f4;
+}
+
+td {
+  padding: .5rem;
+}
+
 
  @keyframes mobile-links {
    from {
