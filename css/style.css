@@ -1948,17 +1948,17 @@ span .lime {
 
 .quote-1 {
   padding: 0 0 1rem 0;
-  width: 100%;
+
 }
 
 .quote-2 {
   padding: 0 0 1rem 0;
-  width: 100%;
+
 }
 
 .quote-3 {
   padding: 0 0 2rem 0;
-  width: 100%;
+
 }
 
 table, th, td {
@@ -1975,6 +1975,8 @@ th {
 td {
   padding: .5rem;
 }
+
+
 
 
  @keyframes mobile-links {
