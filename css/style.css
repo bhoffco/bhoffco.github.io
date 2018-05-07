@@ -1976,6 +1976,25 @@ td {
   padding: .5rem;
 }
 
+.page-2-header h2 {
+  text-align: center;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.quote-1 ul {
+
+}
+
+.quote-1 li {
+  display:inline-table;
+  padding: .5rem;
+}
+
+.service-rows td {
+  padding: .5em
+}
+
 
 
 
