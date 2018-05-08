@@ -1871,6 +1871,16 @@ span .lime {
   padding: 2rem 1rem 1rem 1rem;
 }
 
+.services-container-security {
+  max-width: 900px;
+  margin: 0 auto;
+  width: 70%;
+  color: #2D4664;
+  display: grid;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
 .note-wrapper {
   background: white;
   box-shadow: 0 0 2px rgba(0,0,0,.2);
@@ -2544,6 +2554,24 @@ td {
     font-size: 16px;
     line-height: 1.4;
     color: #6b6a6a;
+  }
+
+  .services-container-security {
+    max-width: 900px;
+    margin: 0 auto;
+    width: 90%;
+    color: #2D4664;
+    display: grid;
+    justify-content: center;
+    padding-top: 0rem;
+  }
+
+  .service-text-1-security {
+    font-size: 18px;
+    text-align: center;
+    color: #6b6a6a;
+    padding: 2rem 0 2rem 0;
+
   }
 }
 
