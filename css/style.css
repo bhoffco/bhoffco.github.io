@@ -1868,12 +1868,16 @@ span .lime {
   text-align: center;
   color: #ffb600;
   font-size: 18px;
-  padding: 1rem 0 1.5rem 0;
+  padding: 2rem 1rem 1rem 1rem;
 }
 
 .note-wrapper {
   background: white;
   box-shadow: 0 0 2px rgba(0,0,0,.2);
+  background-image: url('../img/paper.jpg');
+  background-position: 0px 140px;
+  background-size: cover;
+  margin-bottom: 4rem;
 }
 
 .note-from-us-container {
@@ -1886,6 +1890,10 @@ span .lime {
   /*box-shadow: 0 0 2px rgba(0,0,0,.2);*/
 }
 
+.note-curtain {
+  background: rgba(255,255,255,.6);
+}
+
 .note-from-us p {
   padding: .5rem 1rem 0 1rem;
   font-size: 18px;
@@ -1895,6 +1903,7 @@ span .lime {
 
 .note-from-us {
   padding-bottom: 2rem;
+
 }
 
 .quote {
