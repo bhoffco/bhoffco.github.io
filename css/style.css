@@ -285,6 +285,24 @@ html {
    animation-fill-mode: forwards;
  }
 
+ .mobile-link8 {
+   opacity: 0;
+   position: relative;
+   animation: mobile-links;
+   animation-delay: 1100ms;
+   animation-duration: 1000ms;
+   animation-fill-mode: forwards;
+ }
+
+ .mobile-link9 {
+   opacity: 0;
+   position: relative;
+   animation: mobile-links;
+   animation-delay: 1200ms;
+   animation-duration: 1000ms;
+   animation-fill-mode: forwards;
+ }
+
 .container-header {
   max-width: 1200px;
   width: 90%;
@@ -1848,6 +1866,13 @@ span .lime {
 
 }
 
+#itserv {
+  max-height: 100vh;
+  padding-top: 12rem;
+}
+
+
+
 /* security */
 
 .service-image-security {
@@ -2097,11 +2122,9 @@ td {
      display: inline-block;
      font-size: .7rem;
      text-decoration: none;
-     padding-left: 2em;
+     padding-left: 3rem;
      padding-top: 3.5rem;
      float: left;
-
-
    }
 
    header a {
@@ -2187,10 +2210,9 @@ td {
     text-align: center;
     padding: .75em;
     font-size: 14px;
-
-
   }
 
+}
   @media (max-width: 1475px) {
     .products1,
     .products2 {
@@ -2264,7 +2286,7 @@ td {
   }
 
   header li {
-    padding-left: 1rem;
+
     padding-top: 2.8rem;
   }
 
@@ -2362,7 +2384,7 @@ td {
 
     }
 
-  }
+
 
   .section1-container {
     max-width: 1200px;
@@ -2376,7 +2398,7 @@ td {
 }
 
   header li {
-    padding-left: .7rem;
+    padding-left: 2rem;
     padding-top: 2.7rem;
   }
 
@@ -2387,9 +2409,6 @@ td {
     width: auto;
   }
 
-}
-
-@media screen and (max-width:1250px) {
   .complete-container {
     max-width: 1400px;
     width: 80%;
@@ -2408,7 +2427,9 @@ td {
 .completeservices3-1 {
   grid-column-gap: 3rem;
 }
+
 }
+
 
 @media (max-width: 1175px) {
 
@@ -2572,6 +2593,11 @@ td {
     color: #6b6a6a;
     padding: 2rem 0 2rem 0;
 
+  }
+
+  #itserv {
+    max-height: 100vh;
+    padding-top: 5rem;
   }
 }
 
