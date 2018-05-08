@@ -1995,6 +1995,24 @@ td {
   padding: .5em
 }
 
+/* print function */
+
+@media print {
+
+  title, header, body * {
+    visibility: hidden;
+  }
+
+  #print-area1 {
+    visibility: visible;
+  }
+  #print-area1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+
 
 
 
