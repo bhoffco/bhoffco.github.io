@@ -1853,12 +1853,7 @@ span .lime {
 .service-image-security {
   padding: 2rem 0 2rem 0;;
   text-align: center;
-  animation: splash;
-  position: relative;
-  animation-delay: 400ms;
-  animation-duration: 700ms;
-  animation-fill-mode: forwards;
-  opacity: 0;
+
 }
 
 .service-text-1-security {
@@ -1866,33 +1861,40 @@ span .lime {
   text-align: center;
   color: #6b6a6a;
   padding: 3rem 0 5rem 0;
-  animation: splash;
-  position: relative;
-  animation-delay: 300ms;
-  animation-duration: 700ms;
-  animation-fill-mode: forwards;
-  opacity: 0;
+
 }
 
 .service-points-side-of-pic-security {
   text-align: center;
   color: #ffb600;
   font-size: 18px;
-  padding: 0 0 1.5rem 0;
+  padding: 1rem 0 1.5rem 0;
 }
 
-.note-from-us-container {
-  width: 75%;
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
+.note-wrapper {
   background: white;
-  height: 400px;
   box-shadow: 0 0 2px rgba(0,0,0,.2);
 }
 
-.note-from-us-text {
-  padding: 1rem;
+.note-from-us-container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  /*background: white;*/
+  height: 100%;
+  /*box-shadow: 0 0 2px rgba(0,0,0,.2);*/
+}
+
+.note-from-us p {
+  padding: .5rem 1rem 0 1rem;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #6b6a6a;
+}
+
+.note-from-us {
+  padding-bottom: 2rem;
 }
 
 .quote {
@@ -2515,6 +2517,24 @@ td {
   .quote {
     max-width: 100%;
     height: auto;
+  }
+
+  .note-from-us-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    /*background: white;*/
+    height: 100%;
+    /*box-shadow: 0 0 2px rgba(0,0,0,.2);*/
+
+  }
+
+  .note-from-us p {
+    padding: .5rem 0 0 0;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #6b6a6a;
   }
 }
 
