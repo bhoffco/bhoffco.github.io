@@ -177,7 +177,7 @@ html {
   height: 1vh;
   align-items: center;
   justify-content: center;
-  padding: 2em 0 1em 0em;
+  padding: 1.5em 0 1em 0em;
   font-size: 20px;
   color: #f4f4f4;
   text-align: center;
@@ -2001,7 +2001,7 @@ span .lime {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
+
   text-decoration: none;
 }
 
