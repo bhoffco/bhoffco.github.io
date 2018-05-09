@@ -2704,6 +2704,19 @@ td {
     height: 100%;
     padding-top: 0;
   }
+
+  .link-half-1 {
+    background: rgba(45,70,100,1);
+    height: 75%;
+    color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    padding: 0 1rem 0 1rem;
+
+  }
 }
 
 @media screen and (max-width:900px) {
