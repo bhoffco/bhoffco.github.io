@@ -2019,7 +2019,115 @@ span .lime {
   text-align: center;
   color: #6b6a6a;
   padding-bottom: 4rem;
+
 }
+
+/* haas */
+
+.haas {
+
+
+  margin-top: 6rem;
+}
+
+.haas-splash-1 {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #6b6a6a;
+}
+
+.haas-splash-2 {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #2D4664;
+}
+
+.haas-splash-3 {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #6b6a6a;
+}
+
+.haas-splash-3 li {
+  padding: .5rem;
+  font-size: 18px;
+}
+
+/*.services-container-haas {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 70%;
+  color: #2D4664;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+
+  overflow: hidden;
+
+}
+
+.services-container-haas-2 {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 70%;
+  color: #2D4664;
+  margin-top: 0rem;
+  display: flex;
+  justify-content: center;
+
+  overflow: hidden;
+
+}
+
+.haas-splash img {
+  width: 300px;
+  height: auto;
+
+}
+
+.haas-splash {
+    margin-bottom: -5px;
+
+}
+
+.haas-splach-text {
+  padding: 0 1rem 0 1rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #f4f4f4;
+  background-color: #2D4664;
+  max-width: 500px;
+
+}
+
+.haas-splach-text-2 {
+  padding: 0 1rem 0 1rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6b6a6a;
+  background-color: #c9ebf2;
+  max-width: 500px;
+} */
 
 
 /*.block-text {
