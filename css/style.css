@@ -1904,6 +1904,7 @@ span .lime {
   display: grid;
   justify-content: center;
   padding-top: 2rem;
+  height: 100%;
 }
 
 .note-wrapper {
@@ -1944,7 +1945,7 @@ span .lime {
 .sec-article-links {
   background: #f4f4f4;
   height: 100%;
-  padding-top: 5rem;
+  padding-top: 4rem;
 }
 
 .sec-article-links-wrapper {
@@ -2672,13 +2673,14 @@ td {
     display: grid;
     justify-content: center;
     padding-top: 0rem;
+    margin-bottom: -2rem;
   }
 
   .service-text-1-security {
     font-size: 18px;
     text-align: center;
     color: #6b6a6a;
-    padding: 2rem 0 2rem 0;
+    padding: 1rem 0 3rem 0;
 
   }
 
