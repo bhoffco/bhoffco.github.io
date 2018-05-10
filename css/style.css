@@ -367,8 +367,8 @@ transform: translatey(-3px) rotate(-90deg);
       height: 1vh;
       align-items: center;
       justify-content: center;
-      padding: 1em 0 1em 0;
-      font-size: 20px;
+      padding: .75em 0 .75em 0;
+      font-size: 16px;
       color: #f4f4f4;
       text-align: center;
 
@@ -2673,7 +2673,7 @@ td {
     display: grid;
     justify-content: center;
     padding-top: 0rem;
-    margin-bottom: -2rem;
+    margin-bottom: -1rem;
   }
 
   .service-text-1-security {
