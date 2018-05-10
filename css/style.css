@@ -177,7 +177,7 @@ html {
   height: 1vh;
   align-items: center;
   justify-content: center;
-  padding: 1.5em 0 1em 0em;
+  padding: 1.25em 0 1.25em 0em;
   font-size: 20px;
   color: #f4f4f4;
   text-align: center;
@@ -2715,6 +2715,14 @@ td {
     position: relative;
     text-decoration: none;
     padding: 0 1rem 0 1rem;
+
+  }
+
+  .sec-links:hover {
+    box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+    background: white;
+
+
 
   }
 }
