@@ -1322,6 +1322,10 @@ span .lime {
   justify-content: flex-start;
 }
 
+.completeittop h1 {
+  font-size: 2em;
+}
+
 .complete {
   font-size: 4vw;
 }
@@ -2904,6 +2908,10 @@ td {
     font-size: 18px;
   }
 
+  .completeittop h1 {
+    font-size: 1.5em;
+  }
+
   .enteremailforcontact {
     width: 75%;
     max-width: 1200px;
@@ -3311,6 +3319,10 @@ td {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+}
+
+.completeittop h1 {
+  font-size: 1.2em;
 }
 
 .complete-container {
