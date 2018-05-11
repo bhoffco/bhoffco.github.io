@@ -2077,6 +2077,11 @@ span .lime {
   color: #6b6a6a;
 }
 
+.haas-splash-3 img {
+  height: 400px;
+  width: auto;
+}
+
 /*.services-container-haas {
   max-width: 1200px;
   margin: 0 auto;
