@@ -2059,6 +2059,7 @@ span .lime {
   margin: 0 auto;
   max-width: 1200px;
   padding-top: 2rem;
+  padding-bottom: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2069,6 +2070,10 @@ span .lime {
 .haas-splash-3 li {
   padding: .5rem;
   font-size: 18px;
+}
+
+.haas-icon {
+  color: #6b6a6a;
 }
 
 /*.services-container-haas {
@@ -2835,9 +2840,49 @@ td {
   .sec-links:hover {
     box-shadow: 0px 0px 5px rgba(0,0,0,.5);
     background: white;
+  }
+
+  .haas-splash-1 {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #6b6a6a;
+  }
+
+  .haas-splash-2 {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #2D4664;
+  }
+
+  .haas-splash-3 {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #6b6a6a;
+  }
+
+  .haas {
 
 
-
+    margin-top: 4rem;
   }
 }
 
