@@ -1880,9 +1880,8 @@ span .lime {
 /* security */
 
 .service-image-security {
-  padding: 2rem 0 2rem 0;;
+  padding: 0rem 0 2rem 0;;
   text-align: center;
-
 }
 
 .service-text-1-security {
@@ -2030,9 +2029,7 @@ span .lime {
   margin-top: 6rem;
 }
 
-.haas-h1 {
-  font-size: 70px;
-}
+
 
 .haas-splash-1 {
   width: 80%;
@@ -2801,9 +2798,9 @@ td {
     font-size: 18px;
     text-align: center;
     color: #6b6a6a;
-    padding: 1rem 0 3rem 0;
-
+    padding: 4rem 0 3rem 0;
   }
+
 
   #itserv {
     max-height: 100vh;
