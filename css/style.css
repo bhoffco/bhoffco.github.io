@@ -464,7 +464,17 @@ transform: translatey(-3px) rotate(-90deg);
   background: #2D4664;
   animation: splash;
   position: relative;
+  background-image: url('../img/technology.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -300px;
+  background-attachment: fixed;
+  height: 50vh;
+}
 
+.splash-top-curtain {
+  background: rgba(45,70,100,.90);
+  height: 50vh;
 }
 
 .splash-text-1 {
@@ -1069,11 +1079,7 @@ span .lime {
   line-height: 1.5;
 }
 
-/* section 4 download e-books */
-
-/* test grid sevices area */
-
-
+/* service boxes */
 
 .section3wrappertest {
   width: 75%;
@@ -1085,74 +1091,7 @@ span .lime {
   background: #f4f4f4;
   padding: 4rem 0 4rem 0;
   margin: 0 auto;
-
-
 }
-
-
-/*.products1test {
-  text-decoration: none;
-  color: #3b3a30;
-  box-shadow: 0 0 2px rgba(0,0,0,.2);
-  text-align: center;
-  display: block;
-  background: white;
-
-  padding: 1rem;
-}
-
-.products2test {
-  text-decoration: none;
-  color: #3b3a30;
-  box-shadow: 0 0 2px rgba(0,0,0,.2);
-  text-align: center;
-  padding: 1rem;
-
-  background: white;
-}
-
-.productstest:hover, .products1test:hover, .products2test:hover {
-  color: #f4f4f4;
-
-  background: #347fac;
-  transition: ease-in 250ms;
-
-  cursor: hand;
-  cursor: pointer;
-  box-shadow: inset 0 0px 2px rgba(0,0,0,.3);
-}
-
-.icon {
-  margin-top: .5rem;
-  color: #23c423;
-} */
-
-/*.boxeswrapper1 {
-  width: 70%;
-  margin: 0 auto;
-  display: grid;
-  grid-gap: .75rem;
-  max-width: 1200px;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  font-size: .85vw;
-  text-align: center;
-  padding: 2rem 0 2rem 0;
-  color: #3b3a30;
-} */
-
-
-
-/*.products {
-  box-shadow: var(--shadow);
-  padding: 1rem 1rem 3rem 1rem;
-  background: white;
-  flex-basis: 21.5%;
-  text-decoration: none;
-  color: #3b3a30;
-
-} */
-
-
 
 /* ebooks */
 
@@ -1189,11 +1128,9 @@ span .lime {
   padding: 1rem;
   background: white;
   color: #6b6a6a;
-
 }
 
 .ways {
-
   flex: 1;
   display: flex;
   font-size: 1.4vw;
@@ -1215,7 +1152,6 @@ span .lime {
   padding: 1em 1em 0 1.5em;
   display: grid;
   color: #6b6a6a;
-
 }
 
 .waynest3 {
@@ -1226,13 +1162,11 @@ span .lime {
 .waysnest4 {
   background: white;
   flex: 1;
-
 }
 
 .mspnest1 {
   background: white;
   flex: 1;
-
 
 }
 .mspnest2 {
@@ -1241,7 +1175,6 @@ span .lime {
   background: white;
   display: grid;
   color: #6b6a6a;
-
 }
 
 .ebookimg {
@@ -1256,14 +1189,12 @@ span .lime {
 
 .button2 {
   padding: 1.2em 4em 1.2em 4em;
-
   margin: .4em 0 0 0;
   box-shadow: 0px 2px 4px rgba(0,0,0,.2);
   background: lightgrey;
   color: #6b6a6a;
   font-size: 1vw;
   font-weight: bold;
-
 }
 
 .button2:hover {
@@ -1273,13 +1204,12 @@ span .lime {
   transition: ease 250ms;
 }
 
-.footer {
+/* footer */
 
+.footer {
   min-height: 5rem;
   background: #2D4664;
   display: flex;
-
-
 }
 
 .footertext {
@@ -1363,7 +1293,6 @@ span .lime {
   animation-duration: 500ms;
   animation-fill-mode: forwards;
   opacity: 0;
-
 }
 
 .enteremailforcontact .nameinput {
@@ -1380,7 +1309,6 @@ span .lime {
   line-height: 1.5;
   color: #3b3a30;
   text-align: center;
-
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -1416,7 +1344,6 @@ span .lime {
   width: 250px;
   color: #3b3a30;
   cursor: pointer;
-  /*background: #7fd7f4; */
   background: #c9ebf2;
   font-size: 20px;
   font-weight: 600;
@@ -1438,18 +1365,16 @@ span .lime {
 
 .complete-container {
   max-width: 1400px;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   color: #3b3a30;
   min-height: 30rem;
   padding-top: 5rem;
   margin-bottom: 2.5rem;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-column-gap: 3rem;
 }
-
-
 
 .completeitservices1 {
   box-shadow: 0 0 2px rgba(0,0,0,.2);
@@ -1621,8 +1546,14 @@ span .lime {
    text-align: center;
    padding-top: 2.5rem;
    padding-bottom: 2.5rem;
-
  }
+
+ .processbutton-managed-services {
+   text-align: center;
+   padding-top: 2.5rem;
+   padding-bottom: 4rem;
+ }
+
 
  /* co managed services */
 
@@ -2890,9 +2821,30 @@ td {
 
     margin-top: 4rem;
   }
+
+
+
+
 }
 
 @media screen and (max-width:900px) {
+
+  .splash-top {
+    background: #2D4664;
+    animation: splash;
+    position: relative;
+    background-image: url('../img/technology.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -300px;
+    background-attachment: fixed;
+    height: 20vh;
+  }
+
+  .splash-top-curtain {
+    background: rgba(45,70,100,.90);
+    height: 20vh;
+  }
 
   .splash-text-1 {
     text-align: center;
