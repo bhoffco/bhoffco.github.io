@@ -469,12 +469,12 @@ transform: translatey(-3px) rotate(-90deg);
   background-size: cover;
   background-position: 0 -300px;
   background-attachment: fixed;
-  height: 60vh;
+  height: 50vh;
 }
 
 .splash-top-curtain {
   background: rgba(45,70,100,.90);
-  height: 60vh;
+  height: 50vh;
 }
 
 .splash-text-1 {
