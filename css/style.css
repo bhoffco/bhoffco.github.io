@@ -2838,12 +2838,12 @@ td {
     background-size: cover;
     background-position: 0 -300px;
     background-attachment: fixed;
-    height: 20vh;
+    height: 25vh;
   }
 
   .splash-top-curtain {
     background: rgba(45,70,100,.90);
-    height: 20vh;
+    height: 25vh;
   }
 
   .splash-text-1 {
