@@ -3004,7 +3004,7 @@ td {
     max-width: 1400px;
     width: 90%;
     margin: 0 auto;
-    color: #6b6a6a;;
+    color: #6b6a6a;
     min-height: 30rem;
     padding-top: 5rem;
     margin-bottom: 0rem;
@@ -3019,7 +3019,7 @@ td {
     max-width: 1200px;
     margin: 0 auto;
     line-height: 1.5;
-    color: #3b3a30;
+    color: #6b6a6a;
     text-align: center;
 
     display: flex;
@@ -3057,7 +3057,7 @@ td {
     max-width: 1200px;
     margin: 0 auto;
     line-height: 1.5;
-    color: #3b3a30;
+    color: #6b6a6a;
     text-align: center;
     margin-top: 2rem;
     display: flex;
@@ -3226,7 +3226,7 @@ td {
     border-radius: 3px;
     height: 56px;
     width: 250px;
-    color: #3b3a30;
+    color: #6b6a6a;
     cursor: pointer;
     /*background: #7fd7f4; */
     background: #c9ebf2;
@@ -3449,7 +3449,7 @@ td {
   margin: 0 auto;
   line-height: 1.5;
 
-  color: #3b3a30;
+  color: #6b6a6a;
   text-align: center;
   padding-top: 5rem;
   display: flex;
@@ -3532,7 +3532,7 @@ td {
   border-radius: 3px;
   height: 56px;
   width: 250px;
-  color: #3b3a30;
+  color: #6b6a6a;
   cursor: pointer;
   /*background: #7fd7f4; */
   background: #c9ebf2;
