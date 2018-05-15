@@ -1250,6 +1250,20 @@ span .lime {
   background: #f4f4f4;
 }
 
+.complete-intro {
+  width: 70%;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-top: 4rem;
+
+}
+
+.complete-intro p {
+  font-size: 20px;
+  color: #6b6a6a;
+  text-align: center;s
+}
+
 .completeittop {
   width: 75%;
   max-width: 1200px;
@@ -2470,6 +2484,18 @@ td {
     width: auto;
   }
 
+  .splash-top {
+    background: #2D4664;
+    animation: splash;
+    position: relative;
+    background-image: url('../img/technology.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -150px;
+    background-attachment: fixed;
+    height: 50vh;
+  }
+
 
     .products1,
     .products2 {
@@ -3036,6 +3062,20 @@ td {
 
   .complete {
     font-size: 46px;
+  }
+
+  .complete-intro {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 3rem;
+
+  }
+
+  .complete-intro p {
+    font-size: 16px;
+    color: #6b6a6a;
+    text-align: center;s
   }
 
   .it {
