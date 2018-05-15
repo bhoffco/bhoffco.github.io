@@ -3518,9 +3518,8 @@ td {
 
 }
 
-@media screen
-  and (max-width: 980px)
-  and only (orientation: landscape) {
+@media screen and (orientation: landscape) {
+
     .menulinks {
       background: #2D4664;
       text-decoration: none;
@@ -3543,19 +3542,19 @@ td {
       background-size: cover;
       background-position: 0 -150px;
       background-attachment: fixed;
-
+      height: 35vh;
     }
 
     .splash-top-curtain {
       background: rgba(45,70,100,.90);
-      height: 100%;
+
+
     }
 
     .splash-text-1 {
       text-align: center;
       font-size: 14px;
-      padding-top: .5rem;
-      padding-bottom: 2rem;
+      padding-top: 4.5rem;
       animation: splash;
       position: relative;
       animation-delay: 200ms;
