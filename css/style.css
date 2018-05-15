@@ -2198,26 +2198,7 @@ td {
    }
  }
 
- @media only screen
-   and (max-width: 980px)
-   and (orientation: landscape) {
-     .menulinks {
-       background: #2D4664;
-       text-decoration: none;
-       display: flex;
-       height: 1vh;
-       align-items: center;
-       justify-content: center;
-       padding: .75em 0 .75em 0;
-       font-size: 16px;
-       color: #f4f4f4;
-       text-align: center;
 
-       /*border-top: 1px solid #3a606e;
-       box-shadow: inset -1px 0px 3px  rgba(0,0,0,.3); */
-     }
-
-   }
 
  @media (min-width: 980px) {
    /* header */
@@ -2297,6 +2278,8 @@ td {
 
 
  }
+
+
 
 @media (max-width: 1635px) {
 .boxeswrapper1 {
@@ -2503,6 +2486,8 @@ td {
 
 }
 
+
+
 @media (max-width: 1250px) {
   .container-header,
   .container {
@@ -2639,7 +2624,6 @@ td {
 }
 
 }
-
 
 
 @media screen and (max-width:1070px) {
@@ -2824,6 +2808,9 @@ td {
 
 }
 
+
+
+
 @media screen and (max-width:900px) {
 
   .splash-top {
@@ -2833,7 +2820,7 @@ td {
     background-image: url('../img/technology.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0 -300px;
+    background-position: 0 -100px;
     background-attachment: fixed;
     height: 100%;
   }
@@ -3293,10 +3280,6 @@ td {
     opacity: 0;
   }
 
-
-
-
-
 }
 
 @media (max-width:737px)
@@ -3519,6 +3502,55 @@ td {
 }
 
 }
+
+@media screen
+  and (max-width: 980px)
+  and (orientation: landscape) {
+    .menulinks {
+      background: #2D4664;
+      text-decoration: none;
+      display: flex;
+      height: 1vh;
+      align-items: center;
+      justify-content: center;
+      padding: .75em 0 .75em 0;
+      font-size: 16px;
+      color: #f4f4f4;
+      text-align: center;
+    }
+
+    .splash-top {
+      background: #2D4664;
+      animation: splash;
+      position: relative;
+      background-image: url('../img/technology.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 0 -150px;
+      background-attachment: fixed;
+      height: 100%;
+    }
+
+    .splash-top-curtain {
+      background: rgba(45,70,100,.90);
+      height: 100%;
+    }
+
+    .splash-text-1 {
+      text-align: center;
+      font-size: 14px;
+      padding-top: .5rem;
+      padding-bottom: 2rem;
+      animation: splash;
+      position: relative;
+      animation-delay: 200ms;
+      animation-duration: 700ms;
+      animation-fill-mode: forwards;
+      opacity: 0;
+
+    }
+
+  }
 
 /*@media (max-width:550px) {
 
