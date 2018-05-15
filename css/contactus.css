@@ -1,0 +1,73 @@
+
+/* contact request form and contact us page */
+
+.request-call {
+  background: #f4f4f4;
+  color: #6b6a6a;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background: #92bde7;
+}
+
+.contact-container h2 {
+  padding-bottom: 2rem;
+}
+
+.contact-container {
+  width: 70%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  color: #485e74;
+  line-height: 1.6;
+  padding: 2em;
+}
+
+.company-info {
+  background: #c9e6ff;
+}
+
+.company-info h3,
+.company-info ul {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.company-info ul {
+  list-style: none;
+  padding: none;
+}
+
+.contact-head-text {
+  text-align: center;
+}
+
+.company-info span {
+  color: #f4f4f4;
+}
+
+.contact-wrapper {
+  box-shadow: 0 0 3px rgba(0,0,0,.3);
+}
+
+.contact-wrapper > * {
+  padding: 1em;
+}
+
+.contact {
+  background: #f4f4f4;
+}
+
+.contact form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.contact form label {
+  display: block;
+}
+
+.contact form p {
+  margin: 0; 
+}
