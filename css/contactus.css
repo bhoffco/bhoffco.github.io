@@ -3,10 +3,10 @@
 
 .request-call {
   background: #f4f4f4;
-  color: #6b6a6a;
+  color: #2D4664;
   padding-top: 5rem;
-  padding-bottom: 5rem;
-  background: #92bde7;
+  padding-bottom: 7rem;
+  background: #c9ebf2;
 }
 
 .contact-container h2 {
@@ -15,16 +15,17 @@
 
 .contact-container {
   width: 70%;
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
 
   color: #485e74;
   line-height: 1.6;
-  padding: 2em;
+
 }
 
 .company-info {
-  background: #c9e6ff;
+  background: #2D4664;
+  color: #f4f4f4;
 }
 
 .company-info h3,
@@ -47,21 +48,26 @@
 }
 
 .contact-wrapper {
-  box-shadow: 0 0 3px rgba(0,0,0,.3);
+  box-shadow: 0 0 3px rgba(0,0,0,.4);
 }
 
 .contact-wrapper > * {
-  padding: 1em;
+  padding: 2rem;
 }
 
 .contact {
   background: #f4f4f4;
 }
 
+.contact h3 {
+  padding-bottom: 2rem;
+}
+
 .contact form {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
+
 }
 
 .contact form label {
@@ -80,4 +86,21 @@
 .contact form input,
 .contact form textarea {
   width: 100%;
+  padding: 1em;
+  border: 1px solid #c9e6ff;
+  box-sizing: border-box;
+}
+
+.contact form button {
+  background: #c9e6ff;
+  border: 0;
+  text-transform: uppercase;
+}
+
+.contact form button:hover,
+.contact form button:focus {
+  background: #2D4664;
+  color: #fff;
+  outline: 0;
+  transition: 250ms ease-out;
 }
