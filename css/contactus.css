@@ -17,7 +17,6 @@
   width: 95%;
   max-width: 1200px;
   margin: 0 auto;
-
   color: #485e74;
   line-height: 1.6;
 
@@ -28,7 +27,6 @@
   color: #f4f4f4;
   display: flex;
   flex-direction: column;
-
 }
 
 .company-info h3,
@@ -41,9 +39,10 @@
 }
 
 .company-info ul {
-
+  display: flex;
+  flex-direction: column;
+  align-self: center;
   padding: none;
-
 }
 
 .company-info li {
@@ -132,6 +131,16 @@
 .contact textarea {
   margin-bottom: 2rem;
 }
+
+.alert {
+  text-align: center;
+  padding: 10px;
+  background: #27d127;
+  color: #fff;
+  margin-bottom: 2rem;
+  display: none;
+}
+
 
 
 

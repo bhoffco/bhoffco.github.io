@@ -621,6 +621,7 @@ transform: translatey(-3px) rotate(-90deg);
   opacity: 0;
 }
 
+
 /* splash animation */
 
 @keyframes splash {
@@ -634,9 +635,6 @@ transform: translatey(-3px) rotate(-90deg);
   }
 
 }
-
-
-
 
 .section0-container {
   max-width: 1200px;
