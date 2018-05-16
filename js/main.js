@@ -46,6 +46,14 @@ function submitForm(e){
 
   // show alert
 
+  document.querySelector('.alert').style.display = 'block';
+
+  //hide alert after 3 seconds
+
+  setTimeout(function(){
+    document.querySelector('.alert').style.display = 'none';
+  });
+
 }
 
 // function to get form values
