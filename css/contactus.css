@@ -113,6 +113,8 @@
   border: 0;
   text-transform: uppercase;
   box-shadow: 0 0 2px rgba(0,0,0,.2);
+  padding: 2rem;
+  font-size: 20px;
 }
 
 .contact form button:hover,
@@ -126,6 +128,12 @@
 .contact input {
   margin-bottom: 1rem;
 }
+
+.contact textarea {
+  margin-bottom: 2rem;
+}
+
+
 
 @media (min-width:980px) {
 
