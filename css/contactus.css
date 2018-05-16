@@ -141,6 +141,16 @@
   display: none;
 }
 
+.alert2 {
+  text-align: center;
+  padding: 10px;
+  background: #27d127;
+  color: #fff;
+  margin-bottom: 2rem;
+  display: none; 
+}
+
+
 
 
 

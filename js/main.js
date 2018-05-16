@@ -46,7 +46,7 @@ function submitForm(e){
 
   // show alert
 
-  document.querySelector('.alert').style.display = 'block';
+  document.querySelector('.alert',).style.display = 'block';
 
   //hide alert after 3 seconds
 
