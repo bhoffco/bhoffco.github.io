@@ -115,12 +115,16 @@
   font-size: 20px;
 }
 
-.contact form button:hover,
-.contact form button:focus {
+.contact form button:hover {
   background: #2D4664;
   color: #fff;
   outline: 0;
   transition: 250ms ease-out;
+  cursor: pointer;
+}
+
+.contact form button:focus {
+  outline: none;
 }
 
 .contact input {
