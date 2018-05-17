@@ -597,10 +597,8 @@ transform: translatey(-3px) rotate(-90deg);
 
 /* mobile button */
 
-.mobile-button {
-  text-decoration: none;
-  background: #c9ebf2;
-  color: #6b6a6a;
+.button-mobile {
+  display: none;
 }
 
 
@@ -2643,6 +2641,15 @@ td {
 
 
 @media screen and (max-width:900px) {
+
+.reqcall {
+  display: none;
+}
+
+.button-mobile {
+  display: inline-block;
+}
+
 
   .splash-top {
     background: #2D4664;
