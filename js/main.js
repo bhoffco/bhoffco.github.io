@@ -15,13 +15,7 @@ let config = {
 let messagesRef = firebase.database().ref('leads');
 
 // fix for header
-let fixer = document.getElementById('openPain');
 
-fixer.addEventListener('click', fixSlide);
-
-function fixSlide(){
-  console.log(123);
-}
 
 // listen for form Submit
 
@@ -52,11 +46,13 @@ function submitForm(e){
 
   setTimeout(function(){
     document.querySelector('.alert').style.display = 'none';
-  },3000);
+  },5000);
+
+  // clear form after submit
 
     document.getElementById('contact-form').reset();
 
-  
+
 
 }
 

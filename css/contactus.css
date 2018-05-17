@@ -133,6 +133,7 @@
 
 .contact textarea {
   margin-bottom: 2rem;
+  resize: none;
 }
 
 .alert {

@@ -174,15 +174,21 @@
               <section class="emailcontactmain scroll">
 
                 <div class="enteremailforcontactmain">
-                  <form class="email_inputmain" action="requestcall.php" method="post">
-                    <input class="nameinput" type="text" name="Enter Name" value="" placeholder="First Name...">
-                    <input class="nameinput" type="text" name="Enter Name" value="" placeholder="Last Name...">
-                    <input class="nameinput" type="text" name="Enter Phone" value="" placeholder="Contact Number...">
-                    <input class="emailinput" type="email" name="" value="" placeholder="Enter Email...">
-                  </form>
+                  <form id="contact-form" class="email_inputmain">
+                    <input  id="name" class="nameinput" type="text" name="name" value="" placeholder="First Name...">
+                    <input id="company" class="nameinput" type="text" name="company" placeholder="Company...">
+                    <input id="phone" class="nameinput" type="text" name="phone" placeholder="Contact Number...">
+                    <input id="email" class="emailinput" type="email" name="" placeholder="Enter Email...">
+                    <textarea style="display:none" name="message" id="message"></textarea>
                     <div class="req">
-                      <button class="reqcall" name="button"  type="submit">REQUEST CALL</button>
+                      <button class="reqcall" type="submit">REQUEST CALL</button>
+                      <div class="alert">Success!  We will follow up ASAP!</div>
+                      <div class="req">
+                        <a class="mobile-button" href="contactus.html">Req</a>
+                      </div>
                     </div>
+                  </form>
+
 
                 </div>
 
@@ -397,9 +403,8 @@
 
           </section>
 
-          <script src="./js/main.js" type="text/javascript">
-
-          </script>
+          <script src="https://www.gstatic.com/firebasejs/5.0.2/firebase.js"></script>
+          <script src="./js/main.js" type="text/javascript"></script>
 
     </div>
 
