@@ -615,7 +615,7 @@ transform: translatey(-3px) rotate(-90deg);
 }
 
 
-.enteremailforcontactmain form button:focus {
+button:focus {
   outline: none;
 }
 
@@ -1016,14 +1016,18 @@ span .lime {
   width: 70%;
   margin: 0 auto;
   max-width: 1200px;
-  padding-top: 4rem;
+  margin-top: 4rem;
+  border-top: 1px solid #27d127;
+  border-bottom: 1px solid #27d127;
 
 }
 
 .complete-intro p {
-  font-size: 20px;
+  font-size: 24px;
   color: #6b6a6a;
-  text-align: center;s
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .completeittop {
@@ -1049,17 +1053,17 @@ span .lime {
 }
 
 .complete {
-  font-size: 4vw;
+  font-size: 4rem;
 }
 
 .it {
-  font-size: 5vw;
+  font-size: 4.5rem;
   color: #27d127;
   padding-left: .3rem;
 }
 
 .completeittop p {
-  font-size: 1.5vw;
+  font-size: 2rem;
 }
 
 .enteremailforcontact {
@@ -1556,7 +1560,7 @@ margin-bottom: 2.5rem;
   color: #6b6a6a;
   text-align: center;
   padding: 1rem 0 1rem 0;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .cloud-box-text {
@@ -1564,7 +1568,7 @@ margin-bottom: 2.5rem;
   padding: 0 1rem 1rem 1rem;
   line-height: 1.5;
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .cloud-item-wrapper {
@@ -2513,6 +2517,7 @@ td {
   .quote {
     max-width: 100%;
     height: auto;
+    margin-bottom: 1rem;
   }
 
   .note-from-us-container {
@@ -2597,7 +2602,7 @@ td {
     width: 90%;
     margin: 0 auto;
     max-width: 1200px;
-
+    font-size: .9rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2839,24 +2844,24 @@ td {
     width: 90%;
     margin: 0 auto;
     max-width: 1200px;
-    padding-top: 3rem;
+    margin-top: 3rem;
 
   }
 
   .complete-intro p {
-    font-size: 16px;
+    font-size: 20px;
     color: #6b6a6a;
     text-align: center;s
   }
 
   .it {
-    font-size: 54px;
+    font-size: 3rem;
     color: #27d127;
     padding-left: .3rem;
   }
 
   .completeittop p {
-    font-size: 18px;
+    font-size: 24px;
   }
 
   .completeittop h1 {
@@ -3134,6 +3139,13 @@ td {
     animation-duration: 700ms;
     animation-fill-mode: forwards;
     opacity: 0;
+  }
+
+  .para {
+    display: block;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: .5rem;
   }
 
 }

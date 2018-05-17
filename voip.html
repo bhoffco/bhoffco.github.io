@@ -100,16 +100,22 @@
       <section class="managedservices">
         <div class="completeittop">
           <h2><span class="complete">Voice</span><span class="it">IT</span></h2>
-          <h2>Flexibale VOIP Hardware and Service</h2>
+          <p>Flexibale VOIP Hardware and Service</p>
         </div>
         <div class="enteremailforcontact">
-          <form class="email_input" action="requestcall.php" method="post">
-            <input class="nameinput" type="text" name="Enter Name" value="" placeholder="First Name...">
-            <input class="nameinput" type="text" name="Enter Name" value="" placeholder="Last Name...">
-            <input class="nameinput" type="text" name="Enter Phone" value="" placeholder="Contact Number...">
-            <input class="emailinput" type="email" name="" value="" placeholder="Enter Email...">
+          <form id="contact-form" class="email_inputmain">
+            <input  id="name" class="nameinput" type="text" name="name" value="" placeholder="Name..." required>
+            <input id="company" class="nameinput" type="text" name="company" placeholder="Company..." required>
+            <input id="phone" class="nameinput" type="text" name="phone" placeholder="Contact Number..." required pattern="^\D?(\d{3})\D?\D?(\d{3})\D?(\d{4})$">
+            <input id="email" class="emailinput" type="email" name="" placeholder="Enter Email..." required>
+            <textarea style="display:none" name="message" id="message"></textarea>
             <div class="req">
-              <button class="reqcall" name="button"  type="submit" style="margin-top:1rem">REQUEST CALL</button>
+              <button class="reqcall" type="submit">REQUEST CALL</button>
+              <div class="alert">Success!  We will follow up ASAP!</div>
+              <div class="req">
+                <a href="contactus.html"><button type="button" class="reqcall button-mobile">REQUEST CALL</button></a>
+                <div class="alert">Success!  We will follow up ASAP!</div>
+              </div>
             </div>
           </form>
         </div>
@@ -166,7 +172,7 @@
         </div> -->
 
         <div class="processbutton-comanage">
-          <button class="button3 com3" type="submit" name="GET IT NOW!">Get A Quote</button>
+          <a href="contactus.html"><button class="button3" type="button" name="Get A Quote">Get A Quote</button></a>
         </div>
       </section>
       <section class="footer">
@@ -176,6 +182,11 @@
 
         </div>
 
-
-
       </section>
+
+      <script src="https://www.gstatic.com/firebasejs/5.0.2/firebase.js"></script>
+      <script src="./js/main.js" type="text/javascript"></script>
+
+    </body>
+
+  </html>
