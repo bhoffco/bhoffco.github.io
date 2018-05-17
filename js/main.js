@@ -54,6 +54,10 @@ function submitForm(e){
     document.querySelector('.alert').style.display = 'none';
   },3000);
 
+    document.getElementById('contact-form').reset();
+
+  
+
 }
 
 // function to get form values
