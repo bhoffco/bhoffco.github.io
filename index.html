@@ -175,10 +175,10 @@
 
                 <div class="enteremailforcontactmain">
                   <form id="contact-form" class="email_inputmain">
-                    <input  id="name" class="nameinput" type="text" name="name" value="" placeholder="First Name...">
-                    <input id="company" class="nameinput" type="text" name="company" placeholder="Company...">
-                    <input id="phone" class="nameinput" type="text" name="phone" placeholder="Contact Number...">
-                    <input id="email" class="emailinput" type="email" name="" placeholder="Enter Email...">
+                    <input  id="name" class="nameinput" type="text" name="name" value="" placeholder="Name..." required>
+                    <input id="company" class="nameinput" type="text" name="company" placeholder="Company..." required>
+                    <input id="phone" class="nameinput" type="text" name="phone" placeholder="Contact Number..." required pattern="^\D?(\d{3})\D?\D?(\d{3})\D?(\d{4})$">
+                    <input id="email" class="emailinput" type="email" name="" placeholder="Enter Email..." required>
                     <textarea style="display:none" name="message" id="message"></textarea>
                     <div class="req">
                       <button class="reqcall" type="submit">REQUEST CALL</button>
