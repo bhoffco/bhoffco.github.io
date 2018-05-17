@@ -81,7 +81,6 @@
 .contact form {
   display: flex;
   flex-direction: column;
-  grid-template-rows: 1fr 1fr;
   grid-gap: 20px;
 }
 
@@ -137,18 +136,11 @@
   padding: 10px;
   background: #27d127;
   color: #fff;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
   display: none;
+
 }
 
-.alert2 {
-  text-align: center;
-  padding: 10px;
-  background: #27d127;
-  color: #fff;
-  margin-bottom: 2rem;
-  display: none; 
-}
 
 
 
@@ -200,6 +192,5 @@
     border: 1px solid #c9e6ff;
     box-sizing: border-box;
   }
-
 
 }
