@@ -2113,7 +2113,13 @@ header::after {
   color: #2D4664;
 }
 
+#current {
+  color: #2D4664;
+}
 
+#current-menu-button {
+  color: #2D4664;
+}
 
 
 
