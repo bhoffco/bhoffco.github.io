@@ -75,6 +75,11 @@ textarea {
 
 .contact {
   background: #f4f4f4;
+  /*background-image: url('../img/technology.jpg'); */
+}
+
+.contact-curtain {
+  background: rgba(45,70,100,.90);
 }
 
 .contact h3 {
@@ -89,6 +94,7 @@ textarea {
   display: flex;
   flex-direction: column;
   grid-gap: 20px;
+
 }
 
 .contact form label {
@@ -120,6 +126,7 @@ textarea {
   box-shadow: 0 0 2px rgba(0,0,0,.2);
   padding: 2rem;
   font-size: 20px;
+  color: #2D4664;
 }
 
 .contact form button:hover {
@@ -150,13 +157,7 @@ textarea {
   color: #fff;
   margin-bottom: 2rem;
   display: none;
-
 }
-
-
-
-
-
 
 @media (min-width:980px) {
 
