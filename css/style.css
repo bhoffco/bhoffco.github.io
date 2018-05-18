@@ -2105,6 +2105,7 @@ header::after {
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  cursor: pointer;
 }
 
 .navbar a:hover,
@@ -2115,10 +2116,12 @@ header::after {
 .dropdown-content {
   display: none;
   position: absolute;
-  background: #f9f9f9;
-  min-width: 160px;
+  background: rgba(45,70,100,1);
+  min-width: 300px;
   box-shadow: 0 8px 16px rgba(0,0,0,.2);
   z-index: 1;
+  border-radius: 4px;
+
 }
 
 .dropdown-content a {
@@ -2126,10 +2129,13 @@ header::after {
   padding: 12px 14px;
   display: block;
   text-align: left;
+  color: #f4f4f4;
+
 }
 
 .dropdown-content a:hover {
-  background: #ddd;
+  background: #f4f4f4;
+  color: #000;
 }
 
 .dropdown:hover .dropdown-content {
@@ -2147,6 +2153,8 @@ header::after {
     border-bottom: 0 dotted;
     border-left: 4px solid transparent;
     content: "";
+}
+
 }
 
 

@@ -57,13 +57,25 @@
       <a href="index.html"><img src="./img/logo_level5_website -2.png" class="logo"></a>
 
       <nav class="sitenav navhide">
-        <ul>
-          <li><a href="index.html">HOME</a></li>
-          <li  class="current"><a href="itservices.html">IT SERVICES</a></li>
-          <li><a href="aboutus.html">ABOUT US</a></li>
-          <li><a href="contactus.html">CONTACT US</a></li>
-          <li><a href="applicationhosting.html">BLOG</a></li>
-        </ul>
+        <div class="navbar">
+          <a href="index.html">HOME</a></li>
+
+          <div class="dropdown">
+            <button class="dropdown-button">IT SERVICES
+              <b class="caret"></b>
+            </button>
+            <div class="dropdown-content">
+              <a href="managedservices.html">SUPPORT AS A SERVICE</a></li>
+              <a href="cloud.html">CLOUD SERVICES</a></li>
+              <a href="security.html">SECURITY</a></li>
+              <a href="haas.html">HAAS</a></li>
+              <a href="voip.html">VOIP</a></li>
+              <a href="backuprecovery.html">BACKUP & RECOVERY</a></li>
+            </div>
+          </div>
+          <a href="aboutus.html">ABOUT US</a></li>
+          <a href="contactus.html">CONTACT US</a></li>
+        </div>
       </nav>
 
 
@@ -222,7 +234,7 @@
 
       <script src="https://www.gstatic.com/firebasejs/5.0.2/firebase.js"></script>
       <script src="./js/main.js" type="text/javascript"></script>
-      
+
     </body>
 
   </html>
