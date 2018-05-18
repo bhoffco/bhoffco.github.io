@@ -2110,8 +2110,14 @@ header::after {
 
 .navbar a:hover,
 .dropdown:hover .dropdown-button {
-
+  color: #2D4664;
 }
+
+
+
+
+
+
 
 .dropdown-content {
   display: none;
