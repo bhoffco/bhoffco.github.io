@@ -38,17 +38,23 @@ body {
 }
 
 .scroll-no {
+
+
 }
+
+
 
 .logodec {
   border-bottom: none;
 }
+
 
 .hide {
   display: none;
 }
 
 /* buttons */
+
 
 
 /* nav */
@@ -114,8 +120,14 @@ header {
   max-width: 100vw;
 }
 
+
+
 .sitenav {
   display: none;
+
+}
+
+html {
 
 }
 
@@ -2022,112 +2034,84 @@ td {
 
 
 
-@media (min-width: 980px) {
- /* header */
+ @media (min-width: 980px) {
+   /* header */
 
 
- header {
-   background-color: #f4f4f4;
-   box-shadow: 0 5px 7px -7px black;
-   overflow: hidden;
- }
-
-
-
- header::after,
- .section1::after,
- #section1::after {
-   content: '';
-   display: block;
-   clear: both;
- }
-
-.stick {
-     position: fixed;
-     top: 0;
-     width: 100%;
-     z-index: 9999;
+   header {
+     background-color: #f4f4f4;
+     box-shadow: 0 5px 7px -7px black;
+     overflow: hidden;
    }
 
+
+
+     header::after,
+     .section1::after,
+     #section1::after {
+       content: '';
+       display: block;
+       clear: both;
+     }
+
+.stick {
+       position: fixed;
+       top: 0;
+       width: 100%;
+       z-index: 9999;
+     }
+
 .container-header {
-   max-width: 1200px;
-   width: 80%;
-   margin: 0 auto;
-}
+     max-width: 1200px;
+     width: 80%;
+     margin: 0 auto;
+   }
 
- .logo {
-   float: left;
-   padding: .4rem 0;
-   height: 4.5 rem;
-   width: auto;
- }
+   .logo {
+     float: left;
+     padding: .4rem 0;
+     height: 4.5 rem;
+     width: auto;
+   }
 
- .sitenav {
-   float: right;
- }
+   .sitenav {
+     float: right;
+   }
 
-  /* header li {
+   header li {
      display: inline-block;
      font-size: .7rem;
      text-decoration: none;
      padding-left: 3rem;
      padding-top: 3.5rem;
      float: left;
-   } */
+   }
 
 
- header a {
-   text-decoration: none;
-   color: black;
-   text-decoration: bold;
+   header a {
+     text-decoration: none;
+     color: black;
+     text-decoration: bold;
+     font-size: 1.2em;
 
    }
 
-#main-ul,
-#drop-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
+   nav a:hover {
+     border-bottom: solid 2px #27d127;
+     display: inline-block;
+     padding-bottom: 10px;
+     transition: all ease-in-out 250ms;
 
-#main-li,
-#drop-li {
-  float: left;
-  font-size: .7rem;
-  text-decoration: none;
-  padding-left: 3rem;
-  padding-top: 3.5rem;
-  text-align: center;
-  font-size: 16px;
-}
+   }
 
-#main-li a,
-#drop-li a {
+   header .current a {
+     border-bottom: solid 2px #27d127;
+     display: inline-block;
+     padding-bottom: 10px;
+   }
 
-}
-
-ul li ul li {
-  display: none;
-}
-
-ul li:hover ul li {
-  display: inline;
-}
-
- nav a:hover {
-   border-bottom: solid 2px #27d127;
-   display: inline-block;
-   padding-bottom: 10px;
-   transition: all ease-in-out 250ms;
 
  }
-
- header .current a {
-   border-bottom: solid 2px #27d127;
-   display: inline-block;
-   padding-bottom: 10px;
- }
-}
 
 
 
