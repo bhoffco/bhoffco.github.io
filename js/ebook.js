@@ -12,7 +12,7 @@ let config = {
 
 //reference leads collected
 
-let messagesRef = firebase.database().ref('request-call');
+let messagesRef = firebase.database().ref('ebook');
 
 // fix for header
 
@@ -42,19 +42,27 @@ function submitForm(e){
 
   document.querySelector('.alert',).style.display = 'block';
 
-  //hide alert after 3 seconds
+// redirect to pdf download
 
-  setTimeout(function(){
-    document.querySelector('.alert').style.display = 'none';
-  },5000);
+  setTimeout(function() {
+    window.location.href = "https://www.google.com";
+  }, 5000);
+
+    //hide alert after 3 seconds
+
+  //setTimeout(function(){
+  //  document.querySelector('.alert').style.display = 'none';
+//  },5000);
 
   // clear form after submit
 
     document.getElementById('contact-form').reset();
 
-
+    //window.location.replace("https:/www.google.com"),2500;
 
 }
+
+
 
 // function to get form values
 

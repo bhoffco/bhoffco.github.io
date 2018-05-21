@@ -159,7 +159,25 @@ textarea {
   display: none;
 }
 
+.company-info-center {
+  background: #2D4664;
+  color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
 @media (min-width:980px) {
+
+  .company-info-center {
+    background: #2D4664;
+    color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
 
   .contact textarea {
     margin-bottom: 0rem;
