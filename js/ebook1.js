@@ -45,7 +45,7 @@ function submitForm(e){
 // redirect to pdf download
 
   setTimeout(function() {
-    window.location.href = "https://www.google.com";
+    window.location.href = "ebookdownload_5_ways.html";
   }, 5000);
 
     //hide alert after 3 seconds

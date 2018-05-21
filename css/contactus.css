@@ -168,6 +168,62 @@ textarea {
   text-align: center;
 }
 
+.your-download {
+  background-color: #c9e6ff;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 100%;
+  justify-content: center;
+  box-shadow: 0 0 2px rgba(0,0,0,.4);
+
+}
+
+.your-download-link {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #2D4664;
+  align-self: center;
+  background: #2D4664;
+  color: #f4f4f4;
+  padding: 1em;
+  border-radius: 4px;
+  margin-top: 1em;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.your-download-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #fff;
+  line-height: 1.2;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+  
+}
+
+.download-head-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #2D4664;
+  align-self: center;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.ebook-download {
+  background: #f4f4f4;
+  color: #2D4664;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  height: auto;
+}
+
 @media (min-width:980px) {
 
   .company-info-center {
@@ -243,6 +299,59 @@ textarea {
     border: 1px solid #c9e6ff;
     box-sizing: border-box;
   }
+
+.your-download {
+  background-color: #c9e6ff;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 60%;
+  justify-content: center;
+  box-shadow: 0 0 2px rgba(0,0,0,.4);
+
+}
+
+.your-download-link {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #2D4664;
+  align-self: center;
+  background: #2D4664;
+  color: #f4f4f4;
+  padding: 1em;
+  border-radius: 4px;
+  margin-top: 1em;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.your-download-container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #fff;
+  line-height: 1.2;
+  display: flex;
+  justify-content: center;
+}
+
+.download-head-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #2D4664;
+  align-self: center;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.ebook-download {
+  background: #f4f4f4;
+  color: #2D4664;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
 
 }
 
