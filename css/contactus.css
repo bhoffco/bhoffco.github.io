@@ -401,55 +401,6 @@ textarea {
 
 }
 
-<<<<<<< HEAD
-/* about us */
-
-.about-us {
-  background: #f4f4f4;
-
-  padding-top: 5rem;
-}
-
-.about-us-2 {
-  background: #2D4664;
-  padding-bottom: 7rem;
-  padding-top: 7rem;
-  margin-bottom: 2rem;
-
-}
-
-.about-us-wrapper {
-  width: 80%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.about-us-content,
-.about-us-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.about-us-content h2 {
-  text-align: center;
-  color: #2D4664;
-  font-size: 36px;
-  padding-bottom: 5rem;
-}
-
-.about-us-content h3 {
-  text-align: center;
-  color: #2D4664;
-  font-size: 24px;
-  padding-top: 1rem;
-  padding-bottom: 3rem;
-  border-top: 1px solid #27d127;
-
-}
-
-=======
->>>>>>> drop-down-menu
 .about-us-heads {
   width: 20%;
   max-width: 1200px;

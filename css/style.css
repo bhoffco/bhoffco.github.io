@@ -2106,15 +2106,9 @@ td {
   display: grid;
   grid-template-columns: 1fr 4fr;
   align-items: center;
-<<<<<<< HEAD
 
 }
 
-=======
-
-}
-
->>>>>>> drop-down-menu
 header {
   background-color: #f4f4f4;
   box-shadow: 0 5px 7px -7px black;
@@ -2173,16 +2167,6 @@ header::after {
 .dropdown:hover .dropdown-button {
   color: #2D4664;
 }
-<<<<<<< HEAD
-
-#current {
-  color: #2D4664;
-}
-
-#current-menu-button {
-  color: #2D4664;
-}
-=======
 
 #current {
   color: #2D4664;
@@ -2192,15 +2176,10 @@ header::after {
   color: #2D4664;
 }
 
->>>>>>> drop-down-menu
 
 
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> drop-down-menu
 .dropdown-content {
   display: none;
   position: absolute;
