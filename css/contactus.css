@@ -203,7 +203,7 @@ textarea {
   display: flex;
   justify-content: center;
   padding-bottom: 2rem;
-  
+
 }
 
 .download-head-text {
@@ -361,12 +361,11 @@ textarea {
   background: #f4f4f4;
 
   padding-top: 5rem;
+  margin-bottom: 2rem;
 }
 
 .about-us-2 {
-  background: #2D4664;
-  padding-bottom: 7rem;
-  padding-top: 7rem;
+  background: #f4f4f4;
   margin-bottom: 2rem;
 
 }
@@ -376,6 +375,16 @@ textarea {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.about-us-wrapper-2 {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+}
+
 
 .about-us-content,
 .about-us-content {
@@ -418,41 +427,59 @@ textarea {
   color: #2D4664;
   text-align: center;
   line-height: 1.5;
-  padding-bottom: 6rem;
+  padding-bottom: 2rem;
+}
+.about-us-middle {
+  background: #2D4664;
+  padding-bottom: 2rem;
 }
 
+.about-us-heads-middle {
 
+}
 
-.about-us-content-2 h3 {
-  text-align: center;
+.about-us-middle h3 {
   color: #f4f4f4;
-  font-size: 24px;
-  padding-top: 1rem;
-  padding-bottom: 4rem;
-  border-top: 1px solid #27d127;
+  margin-top: 2rem;
+}
+.about-us-middle p {
+  color: #f4f4f4;
+
 }
 
 .about-us-heads-2 {
   display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-column-gap: 5rem;
-  text-align: center;
-  line-height: 1.5;
+  grid-template-rows: 1fr;
   color: #f4f4f4;
   font-size: 18px;
+  justify-content: center;
+  padding: 2rem 0 0 0;
+}
+
+.about-us-heads-2 h3 {
+  border-top: 1px solid #27d127;
+  padding: 2rem 2rem 2rem; 2rem;
 
 }
 
-.about-us-heads-3 {
+.about-us-2 h3 {
+  color: #2D4664;
+  margin-top: 2rem;
+}
+
+.about-us-p-2{
   display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-column-gap: 3rem;
+  grid-gap: 7rem;
   text-align: center;
-  line-height: 1.5;
-  color: #f4f4f4;
+  color: #2D4664;
   font-size: 18px;
-  text-align: center;
+  justify-content: center;
+  padding: 0rem 1rem 2rem 1rem;
+
 }
+
+
+
 
 @media (max-width:980px) {
   .about-us-heads {
@@ -469,7 +496,7 @@ textarea {
 
   .about-us-2 {
     background: #2D4664;
-    padding-bottom: 7rem;
+    padding-bottom: 4rem;
     padding-top: 3rem;
     margin-bottom: 2rem;
 
@@ -500,7 +527,7 @@ textarea {
     color: #2D4664;
     font-size: 24px;
     padding-top: 1rem;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
     border-top: 1px solid #27d127;
 
   }
