@@ -2073,7 +2073,7 @@ header::after {
   background: #27d127;
   margin-top: .5em;
   transform: scale(0, 1);
-  transition: transform ease-in-out 250ms;
+  transition: transform ease-in-out 350ms;
 }
 
 .hover:hover::after {
@@ -2363,7 +2363,7 @@ header::after {
     background-image: url('../img/technology.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0 0;
+    background-position: 0 -250px;
     background-attachment: fixed;
     height: 50vh;
   }
@@ -2769,7 +2769,7 @@ header::after {
     background-image: url('../img/technology.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0 0;
+    background-position: 0 -400px;
     background-attachment: fixed;
     height: 30vh;
   }
