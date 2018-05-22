@@ -66,6 +66,7 @@ body {
     margin: 0 auto;
     width: 90%;
     padding-top: 3rem;
+
     color: #f4f4f4;
     display: grid;
     align-items: center;
@@ -420,6 +421,7 @@ transform: translatey(-3px) rotate(-90deg);
 .splash-main {
   height: 100%;
   background: #f4f4f4;
+  padding-bottom: 2rem;
 }
 
 .splash-main-container {
@@ -714,14 +716,6 @@ button:focus {
   background: rgba(45,70,100,.75);
 }
 
-
-
-/*.bullets {
-  display: flex;
-  background: lightblue;
-  height: 10rem;
-} */
-
 .section1 {
   padding-top: 5em;
   min-height: 20rem;
@@ -942,80 +936,6 @@ span .lime {
   padding-bottom: 1rem;
   color: #6b6a6a;
 }
-
-/*
-
-.ebooks {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-column-gap: 2rem;
-
-
-  padding: 1rem;
-
-  color: #6b6a6a;
-}
-
-.ways {
-  background: white;
-
-  display: flex;
-  font-size: 24px;
-  box-shadow: 0px 1px 4px rgba(0,0,0,.15);
-}
-
-.msp {
-  background: white;
-  display: flex;
-  font-size: 24px;
-  box-shadow: 0px 1px 4px rgba(0,0,0,.15);
-}
-
-.waysnest1 {
-
-}
-
-.waysnest2 {
-
-  padding: 1em 1em 0 1.5em;
-
-  color: #6b6a6a;
-}
-
-.waynest3 {
-  background: white;
-
-}
-
-.waysnest4 {
-  background: white;
-
-}
-
-.mspnest1 {
-  background: white;
-
-
-}
-.mspnest2 {
-
-  padding: 1em 1em 0 1.5em;
-  background: white;
-  display: grid;
-  color: #6b6a6a;
-}
-
-.ebookimg {
-  height: 250px;
-  width: auto;
-}
-
-.ebookimg2 {
-  height: 250px;
-  width: auto;
-}
-
-*/
 
 .button2 {
   padding: 1em 2.5em;
@@ -2142,10 +2062,22 @@ header::after {
   padding: 14px 16px;
   text-decoration: none;
   color: #000;
+  position: relative;
 }
 
-.navbar a {
+.hover::after {
+  content: '';
+  display: block;
+  height: 2px;
 
+  background: #27d127;
+  margin-top: .5em;
+  transform: scale(0, 1);
+  transition: transform ease-in-out 250ms;
+}
+
+.hover:hover::after {
+  transform: scale(1, 1);
 }
 
 .dropdown {
@@ -2162,15 +2094,27 @@ header::after {
   font-family: inherit;
   margin: 0;
   cursor: pointer;
+
 }
 
 .navbar a:hover,
 .dropdown:hover .dropdown-button {
-  color: #2D4664;
+
+/*  border-top: solid 2px #27d127;
+  display: inline-block;
+  padding-top: 10px;
+
+  transition: all ease-in-out 250ms; */
 }
 
-#current {
+#current::after {
   color: #2D4664;
+  content: '';
+  display: block;
+  height: 2px;
+  background: #27d127;
+  margin-top: .5em;
+  transform: scale(1, 1);
 }
 
 #current-menu-button {
@@ -2866,6 +2810,7 @@ header::after {
 .splash-main {
   height: 100%;
   background: #f4f4f4;
+  padding-bottom: 0;
 }
 
 
