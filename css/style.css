@@ -435,7 +435,7 @@ transform: translatey(-3px) rotate(-90deg);
 }
 
 .splash-top {
-  background: #2D4664;
+  /*background: #2D4664; */
   animation: splash;
   position: relative;
   background-image: url('../img/technology.jpg');
