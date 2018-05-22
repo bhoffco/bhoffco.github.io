@@ -449,7 +449,7 @@ transform: translatey(-3px) rotate(-90deg);
 .splash-top-curtain {
   background: rgba(45,70,100,.90);
   height: 50vh;
-  display: none;
+
 }
 
 .splash-text-1 {
@@ -2833,7 +2833,7 @@ header::after {
   .splash-top-curtain {
     background: rgba(45,70,100,.90);
     height: 30vh;
-    display: none;
+
   }
 
   .splash-text-1 {
