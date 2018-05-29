@@ -82,21 +82,21 @@ body {
   padding-bottom: 2rem;
 }
 
-  .call-us {
+.call-us {
 
-    position: absolute;
-    right: 50%;
-    top: 100%;
-    padding: 0em 0 .5em 0;
-    color: #6b6a6a;
-    transform: translateX(50%);
-    white-space: nowrap;
-    background: #f4f4f4;
-    width: 100%;
-    text-align: center;
-    box-shadow: 0 2px 3px rgba(0,0,0,.1);
-    height: 1.2em;
-  }
+  position: absolute;
+  right: 50%;
+  top: 100%;
+  padding: 0em 0 .5em 0;
+  color: #6b6a6a;
+  transform: translateX(50%);
+  white-space: nowrap;
+  background: #f4f4f4;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 2px 3px rgba(0,0,0,.1);
+  height: 1.2em;
+}
 
   .call-us p {
     padding: 0;
@@ -162,15 +162,8 @@ header {
   height: 4em;
 }
 
-
-
 .sitenav {
   display: none;
-
-}
-
-html {
-
 }
 
 .main {
@@ -188,7 +181,7 @@ html {
 
 .leftmenu {
   position: fixed;
-  padding-top: 5rem;
+  padding-top: 6.5rem;
   top: 0;
   bottom: 0;
   left: 0;
@@ -391,10 +384,6 @@ transform: translatey(-3px) rotate(-90deg);
 
 .open .logo {
   display: none;
-}
-
-.leftmenu {
-  padding-top: 5rem;
 }
 
 }
