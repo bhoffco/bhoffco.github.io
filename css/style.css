@@ -117,7 +117,7 @@ body {
   }
 
   .header-margin {
-    margin-top: 0rem;
+    margin-top: 0;
   }
 
   .fix {
@@ -2808,11 +2808,13 @@ header::after {
     background-position: 0 -400px;
     background-attachment: fixed;
     height: 30vh;
+    padding-top: 1.5rem;
   }
 
   .splash-top-curtain {
     background: rgba(45,70,100,.90);
     height: 30vh;
+
 
   }
 
@@ -2847,6 +2849,7 @@ header::after {
   height: 100%;
   background: #f4f4f4;
   padding-bottom: 0;
+
 }
 
 
@@ -3400,7 +3403,7 @@ header::after {
     max-width: 1200px;
     width: 75%;
     margin: 0 auto;
-    padding-top: 5.5rem;
+    padding-top: 7rem;
     height: 60vh;
 
   }
