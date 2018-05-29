@@ -74,6 +74,8 @@ body {
 
 @media (max-width: 980px) {
 
+
+
   .call-us {
 
     position: absolute;
@@ -98,7 +100,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     width: 90%;
-    padding-top: 3rem;
+    padding-top: -35vh;
 
     color: #f4f4f4;
     display: grid;
@@ -114,6 +116,7 @@ body {
     animation-duration: 700ms;
     animation-fill-mode: forwards;
     opacity: 0;
+    margin-top: 8em;
   }
 
   .header-margin {
@@ -2805,15 +2808,17 @@ header::after {
     background-image: url('../img/technology.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0 -400px;
+    background-position: 0 -350px;
     background-attachment: fixed;
-    height: 30vh;
-    padding-top: 1.5rem;
+    height: 35vh;
+
+
   }
 
   .splash-top-curtain {
     background: rgba(45,70,100,.90);
-    height: 30vh;
+    height: 35vh;
+
 
 
   }
@@ -2827,6 +2832,7 @@ header::after {
     animation-duration: 700ms;
     animation-fill-mode: forwards;
     opacity: 0;
+    padding-bottom: 2em;
   }
 
   .splash-main-container {
@@ -3587,4 +3593,19 @@ header::after {
   padding: 0;
 }
 
+}
+
+@media (max-width:390px){
+
+  .splash-text-1 {
+    text-align: center;
+    font-size: 12px;
+    animation: splash;
+    position: relative;
+    animation-delay: 200ms;
+    animation-duration: 700ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    margin-top: 9.5em;
+  }
 }
