@@ -22,6 +22,7 @@ header::after {
   top: 0;
   padding-right: 1em;
   padding-top: .5em;
+  color: #6b6a6a;
 }
 
 .call-us p {
@@ -159,7 +160,7 @@ header {
   max-width: 100vw;
   box-shadow: none;
   top: 0;
-  height: 4em;
+  height: 4.2em;
 }
 
 .sitenav {
@@ -470,7 +471,7 @@ transform: translatey(-3px) rotate(-90deg);
   /*background: #2D4664; */
   animation: splash;
   position: relative;
-  background-image: url('../img/technology.jpg');
+  background-image: url('../img/technology-background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 -300px;
@@ -2392,7 +2393,7 @@ header::after {
     background: #2D4664;
     animation: splash;
     position: relative;
-    background-image: url('../img/technology.jpg');
+    background-image: url('../img/technology-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 -250px;
@@ -2798,7 +2799,7 @@ header::after {
     background: #2D4664;
     animation: splash;
     position: relative;
-    background-image: url('../img/technology.jpg');
+    background-image: url('../img/technology-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 -250px;
