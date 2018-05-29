@@ -79,7 +79,7 @@ body {
     position: absolute;
     right: 50%;
     top: 100%;
-    padding: 1em 0 0 0;
+    padding: 1em 0 1em 0;
     color: #f4f4f4;
     transform: translateX(50%);
     white-space: nowrap;
