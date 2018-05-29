@@ -60,60 +60,80 @@
   <div id="openPain" class="main">
 
 
-<header id="stick" class="stick" class="static">
-  <div class="container-header">
+    <header id="stick" class="stick" class="static">
+      <div class="container-header">
 
-    <a href="index.html"><img src="./img/logo_level5_website -2.png" class="logo"></a>
+        <a href="index.html"><img src="./img/logo_level5_website -2.png" class="logo"></a>
+        <div class="call-us">
 
-    <nav class="sitenav navhide">
-      <div class="navbar">
-        <a class="hover"  href="index.html">HOME</a>
-
-        <div class="dropdown">
-          <button id="current" class="dropdown-button hover">IT SERVICES
-            <b class="caret"></b>
-          </button>
-          <div class="dropdown-content">
-            <a href="managedservices.html">SUPPORT AS A SERVICE</a>
-            <a href="cloud.html">CLOUD SERVICES</a>
-            <a href="security.html">SECURITY</a>
-            <a href="haas.html">HAAS</a>
-            <a href="voip.html">VOIP</a>
-            <a href="backuprecovery.html">BACKUP & RECOVERY</a>
-          </div>
+          <p>Need Help Now?  <i style="color:#27d127" class="fas fa-phone"></i> Call 561.509.2077</p>
         </div>
-        <a class="hover" href="aboutus.html">ABOUT US</a>
-        <a class="hover" href="contactus.html">CONTACT US</a>
+        <nav class="sitenav navhide">
+          <div class="navbar">
+            <a class="hover"  href="index.html">HOME</a>
+
+            <div class="dropdown">
+              <button id="current" class="dropdown-button hover">IT SERVICES
+                <b class="caret"></b>
+              </button>
+              <div class="dropdown-content">
+                <a href="managedservices.html">SUPPORT AS A SERVICE</a>
+                <a href="cloud.html">CLOUD SERVICES</a>
+                <a href="security.html">SECURITY</a>
+                <a href="haas.html">HAAS</a>
+                <a href="voip.html">VOIP</a>
+                <a href="backuprecovery.html">BACKUP & RECOVERY</a>
+              </div>
+            </div>
+            <a class="hover" href="aboutus.html">ABOUT US</a>
+            <a class="hover" href="contactus.html">CONTACT US</a>
+          </div>
+        </nav>
+
+
+          <!-- previous menu  <ul id="main-ul">
+              <li id="main-li" class="current"><a href="index.html">HOME</a></li>
+              <li id="main-li"><a href="itservices.html">IT SERVICES</a>
+                <ul id="drop-ul">
+                  <li id="drop-li"><a href="aboutus.html">SUPPORT AS A SERVICE</a></li>
+                  <li id="drop-li"><a href="aboutus.html">CLOUD SERVICES</a></li>
+                  <li id="drop-li"><a href="aboutus.html">SECURITY</a></li>
+                  <li id="drop-li"><a href="aboutus.html">HAAS</a></li>
+                  <li id="drop-li"><a href="aboutus.html">VOIP</a></li>
+                  <li id="drop-li"><a href="aboutus.html">BACKUP & RECOVERY</a></li>
+                </ul>
+              </li>
+              <li id="main-li"><a href="aboutus.html">ABOUT US</a></li>
+              <li id="main-li"><a href="contactus.html">CONTACT US</a></li>
+              <li id="main-li"><a href="applicationhosting.html">BLOG</a></li>
+          </ul> -->
+
+
+        <div id="menuOpen" class="menu-toggle">
+          <div class="hamburger"></div>
+        </div>
+
+
+
       </div>
-    </nav>
+
+      <script type="text/javascript">
+      $('.menu-toggle').click(function() {
+        $('.scroll').toggleClass('scroll-no');
+        $('.main').toggleClass('main-open');
+        $('.fix').toggleClass('fixed');
+        $('.leftmenu').toggleClass('leftmenu-open');
+        $('.menulinks').toggleClass('menulinks-open');
+        $('.scrollhtml').toggleClass('scrollhtml-no');
+        $(this).toggleClass('open');
+
+      })
+
+      </script>
 
 
+    </header>
 
-      <div class="menu-toggle">
-        <div class="hamburger"></div>
-      </div>
-
-    </div>
-
-
-    <script type="text/javascript">
-    $('.menu-toggle').click(function() {
-      $('.scroll').toggleClass('scroll-no');
-      $('.main').toggleClass('main-open');
-      $('.fix').toggleClass('fixed');
-      $('.leftmenu').toggleClass('leftmenu-open');
-      $('.menulinks').toggleClass('menulinks-open');
-      $(this).toggleClass('open');
-
-    })
-
-    </script>
-
-
-
-
-
-  </header>
 
     <div class="main" class="main-open">
       <section class="managedservices">
