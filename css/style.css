@@ -2779,8 +2779,8 @@ header::after {
     background-image: url('../img/technology-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0 -250px;
-    background-attachment: fixed;
+    background-position: 0 0;
+    background-attachment: scroll;
     height: 30vh;
 
 
