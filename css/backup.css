@@ -504,7 +504,7 @@
     }
 
     header .current a {
-      border-bottom: solid 2px lime;
+      border-bottom: solid 2px #63b763;
       display: inline-block;
       padding-bottom: 10px;
       margin-top: -1px;
@@ -598,7 +598,7 @@
           }
 
           header .current a {
-            border-bottom: solid 2px lime;
+            border-bottom: solid 2px #63b763;
             display: inline-block;
             padding-bottom: 10px;
             margin-top: -2px;
@@ -624,7 +624,7 @@
           }
 
           header .current a {
-            border-bottom: solid 2px lime;
+            border-bottom: solid 2px #63b763;
             display: inline-block;
             padding-bottom: 10px;
             margin-top: -3.6px;
