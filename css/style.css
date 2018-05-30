@@ -1558,7 +1558,7 @@ margin-bottom: 2.5rem;
   width: 75%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 0 4rem 0;
+  padding: 0 0 6rem 0;
 }
 
 .cloud-benefit-1 {
@@ -1592,7 +1592,7 @@ margin-bottom: 2.5rem;
 
 .cloud-item-wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 2rem;
   grid-auto-rows: minmax(200px, auto);
   width: 80%;
@@ -2598,7 +2598,7 @@ header::after {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-
+    padding: 0 0 4rem 0;
   }
 
   .quote {
