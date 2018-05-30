@@ -713,6 +713,10 @@ button:focus {
     color: #27d127;
   }
 
+  .icon-new {
+    color: #63b763;
+  }
+
 
 
 
@@ -835,7 +839,7 @@ span .lime {
 .button3 {
   padding: 1.3rem 3rem 1.3rem 3rem;
   font-size: 1.4em;
-  background: #27d127;
+  background: #63b763;
   color: white;
   border-radius: 4px;
 }
