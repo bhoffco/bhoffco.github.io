@@ -153,7 +153,7 @@ textarea {
 .alert {
   text-align: center;
   padding: 10px;
-  background: #27d127;
+  background: #63b763;
   color: #fff;
   margin-bottom: 2rem;
   display: none;
@@ -243,7 +243,7 @@ textarea {
   .alert {
     text-align: center;
     padding: 10px;
-    background: #27d127;
+    background: #63b763;
     color: #fff;
     margin-top: 0;
     margin-bottom: 1rem;
@@ -406,7 +406,7 @@ textarea {
   font-size: 24px;
   padding-top: 1rem;
   padding-bottom: 3rem;
-  border-top: 1px solid #27d127;
+  border-top: 1px solid #63b763;
 
 }
 
@@ -457,7 +457,7 @@ textarea {
 }
 
 .about-us-heads-2 h3 {
-  border-top: 1px solid #27d127;
+  border-top: 1px solid #63b763;
   padding: 1rem 2rem 2rem 2rem;
 
 }
@@ -492,7 +492,7 @@ textarea {
 }
 
 .about-us-lower h3 {
-  border-top: 1px solid #27d127;
+  border-top: 1px solid #63b763;
   padding: 1rem 2rem 2rem 2rem;
   width: 150px;
   color: #2D4664;
@@ -535,7 +535,7 @@ textarea {
   }
 
   .about-us-lower h3 {
-    border-top: 1px solid #27d127;
+    border-top: 1px solid #63b763;
     padding: 1rem 2rem 2rem 2rem;
     width: 150px;
     color: #2D4664;
@@ -602,7 +602,7 @@ textarea {
     font-size: 24px;
     padding-top: 1rem;
     padding-bottom:3rem;
-    border-top: 1px solid #27d127;
+    border-top: 1px solid #63b763;
 
   }
 
@@ -628,7 +628,7 @@ textarea {
     font-size: 24px;
     padding-top: 1rem;
     padding-bottom: 4rem;
-    border-top: 1px solid #27d127;
+    border-top: 1px solid #63b763;
   }
 
   .about-us-heads-2 {

@@ -435,7 +435,7 @@ transform: translatey(-3px) rotate(-90deg);
 }
 
 .box3 {
-  background: #27d127;
+  background: #63b763;
   grid-column: 1/5;
   grid-row: 3/4;
 }
@@ -642,7 +642,7 @@ transform: translatey(-3px) rotate(-90deg);
 .alert {
   text-align: center;
   padding: 10px;
-  background: #27d127;
+  background: #63b763;
   color: #fff;
   margin-top: 2rem;
   display: none;
@@ -710,7 +710,7 @@ button:focus {
 
   .icon {
     margin-top: .5rem;
-    color: #27d127;
+    color: #63b763;
   }
 
   .icon-new {
@@ -782,7 +782,7 @@ button:focus {
 }
 
 span .lime {
-  color: #27d127;
+  color: #63b763;
 }
 
 /* our process */
@@ -875,7 +875,7 @@ span .lime {
 
 .comma {
   font-size: 1rem;
-  color: #27d127;
+  color: #63b763;
 }
 
 .testtext1,
@@ -1031,8 +1031,8 @@ span .lime {
   margin: 0 auto;
   max-width: 1200px;
   margin-top: 4rem;
-  border-top: 1px solid #27d127;
-  border-bottom: 1px solid #27d127;
+  border-top: 1px solid #63b763;
+  border-bottom: 1px solid #63b763;
 
 }
 
@@ -1299,7 +1299,7 @@ margin-bottom: 2.5rem;
 
 .complete-container span {
     font-size: 1em;
-    color: #27d127;
+    color: #63b763;
 }
 
 .completetext {
@@ -1335,7 +1335,7 @@ margin-bottom: 2.5rem;
 }
 
 .itit {
-  color: #27d127;
+  color: #63b763;
   font-weight: 600;
 }
 
@@ -1508,7 +1508,7 @@ margin-bottom: 2.5rem;
 }
 
 .para::after {
-  color: #27d127;
+  color: #63b763;
   content: close-quote;
   font-size: 1.5em;
   line-height: 0.1em;
@@ -1516,7 +1516,7 @@ margin-bottom: 2.5rem;
   vertical-align: -0.2em;
 }
 .para::before {
- color: #27d127;
+ color: #63b763;
  content: open-quote;
  font-size: 1.5em;
  line-height: 0.1em;
@@ -2121,7 +2121,7 @@ header::after {
   display: block;
   height: 2px;
 
-  background: #27d127;
+  background: #63b763;
   margin-top: .5em;
   transform: scale(0, 1);
   transition: transform ease-in-out 350ms;
@@ -2151,7 +2151,7 @@ header::after {
 .navbar a:hover,
 .dropdown:hover .dropdown-button {
 
-/*  border-top: solid 2px #27d127;
+/*  border-top: solid 2px #63b763;
   display: inline-block;
   padding-top: 10px;
 
@@ -2163,7 +2163,7 @@ header::after {
   content: '';
   display: block;
   height: 2px;
-  background: #27d127;
+  background: #63b763;
   margin-top: .5em;
   transform: scale(1, 1);
 }
@@ -2211,7 +2211,7 @@ header::after {
     height: 0;
     margin-left: 2px;
     vertical-align: middle;
-    border-top: 4px solid #27d127;
+    border-top: 4px solid #63b763;
     border-right: 4px solid transparent;
     border-bottom: 0 dotted;
     border-left: 4px solid transparent;
@@ -3068,7 +3068,7 @@ header::after {
 
   .it {
     font-size: 3rem;
-    color: #27d127;
+    color: #63b763;
     padding-left: .3rem;
   }
 
@@ -3494,7 +3494,7 @@ header::after {
 
 .it {
   font-size: 54px;
-  color: #27d127;
+  color: #63b763;
   padding-left: .3rem;
 }
 
