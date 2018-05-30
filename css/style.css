@@ -468,7 +468,7 @@ transform: translatey(-3px) rotate(-90deg);
 }
 
 .splash-top {
-  /*background: #2D4664; */
+  /*background: #2D4664;*/
   animation: splash;
   position: relative;
   background-image: url('../img/technology-background.jpg');
@@ -479,11 +479,10 @@ transform: translatey(-3px) rotate(-90deg);
   height: 50vh;
 }
 
-.splash-top-curtain {
+/*.splash-top-curtain {
   background: rgba(45,70,100,.90);
   height: 50vh;
-
-}
+} */
 
 .splash-text-1 {
   text-align: center;
@@ -2356,7 +2355,7 @@ header::after {
   }
 
   .splash-top {
-    background: #2D4664;
+    /*background: #2D4664;*/
     animation: splash;
     position: relative;
     background-image: url('../img/technology-background.jpg');
@@ -2774,7 +2773,7 @@ header::after {
 
 
   .splash-top {
-    background: #2D4664;
+    /*background: #2D4664;*/
     animation: splash;
     position: relative;
     background-image: url('../img/technology-background.jpg');
@@ -2787,13 +2786,10 @@ header::after {
 
   }
 
-  .splash-top-curtain {
+ /*  .splash-top-curtain {
     background: rgba(45,70,100,.90);
     height: 30vh;
-
-
-
-  }
+  } */
 
   .splash-text-1 {
     text-align: center;
@@ -3515,14 +3511,14 @@ header::after {
   background-size: cover; */
   /*background-color: white; */
   background-image: url('../img/night-computer-hdd-hard-drive.jpg');
-  height: 100%;
+
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: auto;
-  background: #2D4664;
+
+
 
 
   /*following just for demo purposes to add height and top padding*/
