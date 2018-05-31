@@ -2923,6 +2923,18 @@ header::after {
     height: 30vh;
   }
 
+  .splash-top-about-us {
+    /*background: #2D4664;*/
+    animation: splash;
+    position: relative;
+    background-image: url('../img/server-room.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    background-attachment: scroll;
+    height: 30vh;
+  }
+
  /*  .splash-top-curtain {
     background: rgba(45,70,100,.90);
     height: 30vh;
