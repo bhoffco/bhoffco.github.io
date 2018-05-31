@@ -69,8 +69,6 @@ body {
 @media (max-width: 980px) {
 
 
-
-
 .splash-main {
     padding-top: 3rem;
 }
@@ -1559,6 +1557,7 @@ margin-bottom: 2.5rem;
   align-items: center;
   justify-content: center;
   background-repeat: no-repeat;
+  text-align: center;
 }
 
 .service-points-side-of-pic-cloud-2 {
