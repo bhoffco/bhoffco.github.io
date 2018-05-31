@@ -376,10 +376,6 @@ opacity: 0;
 transform: translatey(-3px) rotate(-90deg);
 }
 
-.open .logo {
-  display: none;
-}
-
 }
 
 /* new splash */
