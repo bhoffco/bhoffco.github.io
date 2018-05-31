@@ -3475,7 +3475,7 @@ header::after {
     font-size: 14px;
     text-align: center;
     color: #6b6a6a;
-    padding: 2rem 0 1rem 0;
+    padding: 0 0 0 0;
     animation: splash;
     position: relative;
     animation-delay: 300ms;
