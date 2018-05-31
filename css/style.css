@@ -469,6 +469,19 @@ transform: translatey(-3px) rotate(-90deg);
   height: 50vh;
 }
 
+.splash-top-contact-us {
+  /*background: #2D4664;*/
+  animation: splash;
+  position: relative;
+  background-image: url('../img/cell-phones1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  background-attachment: fixed;
+
+  height: 50vh;
+}
+
 /*.splash-top-curtain {
   background: rgba(45,70,100,.90);
   height: 50vh;
@@ -1600,7 +1613,7 @@ margin-bottom: 2.5rem;
 }
 
 .cloud-box-head-2 {
-  color: #2D4664;
+  color: #6b6a6a;
   text-align: center;
   padding: 1rem 0 1rem 0;
   font-size: 1.4rem;
@@ -1647,7 +1660,7 @@ margin-bottom: 2.5rem;
 }
 
 .icon-item {
-  color: #2D4664;
+  color: #6b6a6a;
 
 }
 
@@ -2807,8 +2820,18 @@ header::after {
     background-position: 0 0;
     background-attachment: scroll;
     height: 30vh;
+  }
 
-
+  .splash-top-contact-us {
+    /*background: #2D4664;*/
+    animation: splash;
+    position: relative;
+    background-image: url('../img/cell-phones1-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    background-attachment: scroll;
+    height: 30vh;
   }
 
  /*  .splash-top-curtain {
