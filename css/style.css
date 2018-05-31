@@ -2,6 +2,7 @@
 margin: 0;
 padding: 0;
 border: 0;
+
 }
 
 header {
@@ -46,7 +47,8 @@ html {
 }
 
 body {
-  background: #f4f4f4
+  background: #f4f4f4;
+  overflow-x: hidden;
 
 
 }
@@ -69,8 +71,10 @@ body {
 @media (max-width: 980px) {
 
 
+
 .splash-main {
     padding-top: 3rem;
+
 }
 
 .splash-main h2 {
@@ -478,7 +482,18 @@ transform: translatey(-3px) rotate(-90deg);
   background-size: cover;
   background-position: 0 0;
   background-attachment: fixed;
+  height: 50vh;
+}
 
+.splash-top-about-us {
+  /*background: #2D4664;*/
+  animation: splash;
+  position: relative;
+  background-image: url('../img/server-room.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  background-attachment: fixed;
   height: 50vh;
 }
 
@@ -493,8 +508,8 @@ transform: translatey(-3px) rotate(-90deg);
   padding-bottom: 4rem;
   animation: splash;
   position: relative;
-  animation-delay: 250ms;
-  animation-duration: 700ms;
+  animation-delay: 300ms;
+  animation-duration: 1000ms;
   animation-fill-mode: forwards;
   opacity: 0;
 
@@ -505,10 +520,10 @@ transform: translatey(-3px) rotate(-90deg);
    text-align: center;
     color: #6b6a6a;
    padding: 2rem 0 2rem 0;
-   animation: splash;
+   animation: splash-2;
    position: relative;
-   animation-delay: 300ms;
-   animation-duration: 700ms;
+   animation-delay: 1500ms;
+   animation-duration: 1000ms;
    animation-fill-mode: forwards;
    opacity: 0;
 }
@@ -556,48 +571,48 @@ transform: translatey(-3px) rotate(-90deg);
 }
 
 .li1 {
-  animation: splash;
+  animation: splash-3;
   position: relative;
-  animation-delay: 400ms;
-  animation-duration: 700ms;
+  animation-delay: 2500ms;
+  animation-duration: 1000ms;
   animation-fill-mode: forwards;
   opacity: 0;
 
 }
 
 .li2 {
-  animation: splash;
+  animation: splash-3;
   position: relative;
-  animation-delay: 500ms;
-  animation-duration: 700ms;
+  animation-delay: 2500ms;
+  animation-duration: 1000ms;
   animation-fill-mode: forwards;
   opacity: 0;
 
 }
 
 .li3 {
-  animation: splash;
+  animation: splash-3;
   position: relative;
-  animation-delay: 600ms;
-  animation-duration: 700ms;
+  animation-delay: 2500ms;
+  animation-duration: 1000ms;
   animation-fill-mode: forwards;
   opacity: 0;
 }
 
 .li4 {
-  animation: splash;
+  animation: splash-3;
   position: relative;
-  animation-delay: 700ms;
-  animation-duration: 700ms;
+  animation-delay: 2500ms;
+  animation-duration: 1000ms;
   animation-fill-mode: forwards;
   opacity: 0;
 }
 
 .li5 {
-  animation: splash;
+  animation: splash-3;
   position: relative;
-  animation-delay: 800ms;
-  animation-duration: 700ms;
+  animation-delay:2500ms;
+  animation-duration: 1000ms;
   animation-fill-mode: forwards;
   opacity: 0;
 }
@@ -607,10 +622,10 @@ transform: translatey(-3px) rotate(-90deg);
   /*background: orange;*/
   padding-left: .5em;
   padding-top: .5rem;
-  animation: splash;
+  animation: splash-2;
   position: relative;
-  animation-delay: 700ms;
-  animation-duration: 700ms;
+  animation-delay: 1500ms;
+  animation-duration: 1000ms;
   animation-fill-mode: forwards;
   opacity: 0;
 }
@@ -621,14 +636,40 @@ transform: translatey(-3px) rotate(-90deg);
 @keyframes splash {
   from {
     opacity: 0;
-    transform: translatey(10%)
+    transform: translateX(-1000px)
   }
   to {
     opacity: 1;
-    transform: translatey(-0%)
+    transform: translateX(0)
   }
 
 }
+
+@keyframes splash-2 {
+  from {
+    opacity: 0;
+    transform: translateX(400px)
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0)
+  }
+
+}
+
+@keyframes splash-3 {
+  from {
+    opacity: 0;
+    transform: translateY(300px)
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0)
+  }
+
+}
+
+
 
 
 /* mobile button */
@@ -2789,6 +2830,54 @@ header::after {
 
 @media screen and (max-width:900px) {
 
+  .li1 {
+    animation: splash-3;
+    position: relative;
+    animation-delay: 1120ms;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+
+  }
+
+  .li2 {
+    animation: splash-3;
+    position: relative;
+    animation-delay: 1300ms;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+
+  }
+
+  .li3 {
+    animation: splash-3;
+    position: relative;
+    animation-delay: 1400ms;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+
+  .li4 {
+    animation: splash-3;
+    position: relative;
+    animation-delay: 1500ms;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+
+  .li5 {
+    animation: splash-3;
+    position: relative;
+    animation-delay:1600ms;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+
+
   .quote {
     height: auto;
     width: 95%;
@@ -2882,9 +2971,9 @@ header::after {
    text-align: center;
     color: #6b6a6a;
    padding: 0 0 0 0;
-   animation: splash;
+   animation: splash-2;
    position: relative;
-   animation-delay: 300ms;
+   animation-delay: 700ms;
    animation-duration: 700ms;
    animation-fill-mode: forwards;
    opacity: 0;
