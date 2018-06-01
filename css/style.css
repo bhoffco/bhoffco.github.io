@@ -22,7 +22,7 @@ header::after {
   right: 0;
   top: 0;
   padding-right: 1em;
-  padding-top: .5em;
+  padding-top: 0;
   color: #6b6a6a;
 }
 
@@ -31,7 +31,7 @@ header::after {
 }
 
 .header-margin {
-  margin-top: 4.5rem;
+  margin-top: 4.8rem;
 }
 
 .container {
@@ -2185,18 +2185,20 @@ header::after {
   overflow: hidden;
   display: flex;
   justify-content: flex-end;
-  margin-top: 3em;
+  margin-top: 1.5em;
 }
 
 .navbar a {
   float: left;
   font-size: 16px;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 16px 0px 16px;
   text-decoration: none;
   color: #000;
   position: relative;
 }
+
+
 
 .hover::after {
   content: '';
@@ -2222,7 +2224,7 @@ header::after {
   font-size: 16px;
   border: none;
   outline: none;
-  padding: 14px 16px;
+  padding: 10px 16px 0px 16px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -2266,6 +2268,7 @@ header::after {
   box-shadow: 0 8px 16px rgba(0,0,0,.2);
   z-index: 1;
   border-radius: 4px;
+
 
 }
 
