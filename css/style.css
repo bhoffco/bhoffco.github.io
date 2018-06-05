@@ -704,6 +704,7 @@ button:focus {
 }
 
 .service1test {
+ display: flex;
  display: grid;
  grid-template-columns: repeat(3, 1fr);
  grid-auto-rows: minmax(250px, auto);
@@ -1655,7 +1656,7 @@ margin-bottom: 2.5rem;
 }
 
 .cloud-box-head-2 {
-  color: #ffaa00;
+  color: #6b6a6a;
   text-align: center;
   padding: 1rem 0 1rem 0;
   font-size: 1.4rem;
