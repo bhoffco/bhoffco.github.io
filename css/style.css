@@ -3861,6 +3861,20 @@ header::after {
     justify-content: center;
   }
 
+  .splash-text-2 {
+     font-size: 18px;
+     text-align: center;
+      color: #6b6a6a;
+     padding: 2rem 0 2rem 0;
+     animation: splash-2;
+     position: relative;
+     animation-delay: 1500ms;
+     animation-duration: 1000ms;
+     animation-fill-mode: forwards;
+     opacity: 0;
+     text-align: center;
+  }
+
   .splash-text-3-container-wrap {
     display: flex;
     justify-content: center;
