@@ -2148,7 +2148,7 @@ td {
 .logo {
   float: left;
   padding: .4rem 0;
-  height: 4.5 rem;
+  height: 4.5rem;
   width: auto;
 }
 
@@ -2187,6 +2187,7 @@ header::after {
   display: flex;
   justify-content: flex-end;
   margin-top: 1.5em;
+  display: none;
 }
 
 .navbar a {
