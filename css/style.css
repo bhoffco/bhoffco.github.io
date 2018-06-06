@@ -3828,6 +3828,17 @@ header::after {
 
   }
 
+  .splash-top {
+    /*background: #2D4664;*/
+    animation: splash;
+    position: relative;
+    background-image: url('../img/technology-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -300px;
+    background-attachment: scroll;
+    height: 50vh;
+  }
 
   .splash-main-container {
     max-width: 1200px;
@@ -3888,6 +3899,32 @@ header::after {
     margin: .5em;
   }
 
+  .parallax {
+    /*height: 20rem;
+    background-image: url('../img/l5large_banner.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; */
+    background-color: #f4f4f4;
+    background-image: url('../img/l5large_banner.jpg');
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*following just for demo purposes to add height and top padding*/
+    height: 28rem;
+  }
+
+
+  .curtain {
+    height: 28rem;
+    background: rgba(255,255,255,.2);
+    background: rgba(50,76,100,.1);
+    background: rgba(45,70,100,.75);
+  }
+
   .ebook-1 {
     display: flex;
     align-items: center;
@@ -3933,7 +3970,30 @@ header::after {
     color: #f4f4f4;
     padding-top: 1em;
     line-height: 1.5;
+  }
 
+  .splash-top-about-us {
+    /*background: #2D4664;*/
+    animation: splash;
+    position: relative;
+    background-image: url('../img/server-room.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    background-attachment: scroll;
+    height: 50vh;
+  }
+
+  .splash-top-contact-us {
+    /*background: #2D4664;*/
+    animation: splash;
+    position: relative;
+    background-image: url('../img/cell-phones1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    background-attachment: scroll;
+    height: 50vh;
   }
 
 
