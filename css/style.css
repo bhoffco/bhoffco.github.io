@@ -1541,7 +1541,7 @@ margin-bottom: 2.5rem;
   font-size: 18px;
   text-align: center;
   color: #6b6a6a;
-  padding: 4rem 0 3rem 0;
+  padding: 4rem 0 4rem 0;
   animation: splash;
   position: relative;
   animation-delay: 300ms;
@@ -1603,15 +1603,47 @@ margin-bottom: 2.5rem;
 
   color: #6b6a6a;
   font-size: 18px;
-  background-image: url("../img/cloud_tech.png");
-  height: 400px;
+  background-image: url("../img/cloud-computing-level5-technology.jpg");
+  height: 500px;
   background-position: center;
-  background-size: contain;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 5px;
+  margin-bottom: 6em;
+  display: flex;
+  color: #f4f4f4;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,.3);
+}
+
+.service-points-side-of-pic-cloud-header {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+
+}
+
+.service-points-side-of-pic-cloud-header h2 {
+  padding: 3em 1em 0 1em;
   text-align: center;
+}
+
+.service-points-side-of-pic-cloud-header ul {
+  padding-top: 3em;
+}
+
+.service-points-side-of-pic-cloud-header li {
+  padding-top: 1em;
+  font-size: 20px
+}
+
+.service-points-side-of-pic-cloud-bullets {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding-top: 3em;
 }
 
 .service-points-side-of-pic-cloud-2 {
@@ -3506,19 +3538,53 @@ header::after {
     padding-bottom: .5rem;
   }
 
-  .service-points-side-of-pic-cloud {
+
+
+    .service-points-side-of-pic-cloud {
 
       color: #6b6a6a;
       font-size: 18px;
-      background-image: url("../img/cloud_tech.png");
-      height: 200px;
+      background-image: url("../img/cloud-computing-level5-technology.jpg");
+      height: 500px;
       background-position: center;
-      background-size: contain;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 10px;
+      margin-bottom: 5em;
       display: flex;
+      color: #f4f4f4;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 2em;
+    }
+
+    .service-points-side-of-pic-cloud-header {
+      display: flex;
+      flex-direction: column;
+
       align-items: center;
       justify-content: center;
-      background-repeat: no-repeat;
+
+    }
+
+    .service-points-side-of-pic-cloud-header h2 {
+      padding: 3em 1em 0 1em;
       text-align: center;
+      font-size: 24px;
+    }
+
+    .service-points-side-of-pic-cloud-header ul {
+      padding-top: 1em;
+      list-style-position: outside;
+
+    }
+
+    .service-points-side-of-pic-cloud-header li {
+      margin: 2em;
+      padding: 0;
+
+      font-size: 18px
+
     }
 
 
