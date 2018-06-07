@@ -12,7 +12,7 @@ let config = {
 
 //reference leads collected
 
-let messagesRef = firebase.database().ref('ebook');
+let messagesRef = firebase.database().ref('ebook-20-signs');
 
 // fix for header
 
