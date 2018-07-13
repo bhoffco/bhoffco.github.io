@@ -42,7 +42,7 @@ function getTasks() {
   const link = document.createElement('a');
   link.className = 'delete-item secondary-content';
   // Add icon html
-  link.innerHTML = '<i class="fas fas fa-times red-text" style="cursor:pointer"></i>';
+  link.innerHTML = '<i class="fas fa-times red-text" style="cursor:pointer"></i>';
   // Append link to li
   li.appendChild(link);
   // append li to ul
@@ -54,7 +54,8 @@ function getTasks() {
 function addTask(e) {
   if(taskInput.value === '') {
     alert('Add a task');
-  }
+  } else {
+
 
   // Create li element
   const li = document.createElement('li');
@@ -66,7 +67,7 @@ function addTask(e) {
   const link = document.createElement('a');
   link.className = 'delete-item secondary-content';
   // Add icon html
-  link.innerHTML = '<i class="fas fa-eraser"></i>';
+  link.innerHTML = '<i class="fas fa-times red-text" style="cursor:pointer""></i>';
   // Append link to li
   li.appendChild(link);
   // append li to ul
@@ -78,7 +79,7 @@ function addTask(e) {
   // Clear input 
   taskInput.value = '';
 
-  e.preventDefault(); 
+  e.preventDefault()}; 
 }
 
 //store task
