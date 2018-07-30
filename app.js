@@ -1,165 +1,76 @@
-// Define UI Vars 
-const form = document.querySelector('#task-form');
-const taskList = document.querySelector('.collection');
-const clearBtn = document.querySelector('.clear-tasks');
-const filter = document.querySelector('#filter');
-const taskInput = document.querySelector('#task');
+// listen for submit
+document.querySelector('#loan-form').addEventListener('submit', function(e){
+    // hide results
+    document.querySelector('#results').style.display = 'none';
 
-// Load all event listeners
-loadEventListeners();
+    // show loader
+    document.querySelector('#loading').style.display = 'block';
 
-// Load all event listeners 
-function loadEventListeners() {
-  //DOM load event 
-  document.addEventListener('DOMContentLoaded', getTasks);
-  // Add task event 
-  form.addEventListener('submit', addTask);
-  //remove task event
-  taskList.addEventListener('click', removeTask);
-  // clear task event
-  clearBtn.addEventListener('click', clearTasks);
-  // filter tasks event 
-  filter.addEventListener('keyup', filterTasks);
+    setTimeout(calculateResults, 1500);
+
+    e.preventDefault();
+});
+
+// calculate results 
+function calculateResults(){
+  // UI vars
+  const amount = document.querySelector('#amount');
+  const interest = document.querySelector('#interest');
+  const years = document.querySelector('#years');
+  const monthlyPayment = document.querySelector('#monthly-payment');
+  const totalPayment = document.querySelector('#total-payment');
+  const totalInterest = document.querySelector('#total-interest');
+
+  const principal = parseFloat(amount.value);
+  const calculatedInterest = parseFloat(interest.value) / 100 / 12; 
+  const calculatedPayments = parseFloat(years.value) * 12;
+
+  // compute monthly payment 
+  const x = Math.pow(1 + calculatedInterest, calculatedPayments);
+  const monthly = (principal*x*calculatedInterest)/(x-1);
+
+  if(isFinite(monthly)) {
+    monthlyPayment.value = monthly.toFixed(2);
+    totalPayment.value = (monthly * calculatedPayments).toFixed(2);
+    totalInterest.value = ((monthly * calculatedPayments)-principal).toFixed(2);
+
+    //show results
+    document.querySelector('#results').style.display = 'block';
+
+    // hide loader 
+    document.querySelector('#loading').style.display = 'none';
+
+  } else {
+    showError('Please check your numbers');
+  }
+
+ 
 }
+
+// show error 
+function showError(error){
   
-// get tasks from local storage
-function getTasks() {
-  let tasks;
-  if(localStorage.getItem('tasks') === null){
-      tasks = [];
-  } else {
-    tasks = JSON.parse(localStorage.getItem('tasks'));
-  }
+  //show results
+  document.querySelector('#results').style.display = 'none';
 
-  tasks.forEach(function(task) {
-    // Create li element
-  const li = document.createElement('li');
-  // add class
-  li.className = 'collection-item';
-  //create text node and append to li
-  li.appendChild(document.createTextNode(task));
-  // Create new link element
-  const link = document.createElement('a');
-  link.className = 'delete-item secondary-content';
-  // Add icon html
-  link.innerHTML = '<i class="fas fa-times red-text" style="cursor:pointer"></i>';
-  // Append link to li
-  li.appendChild(link);
-  // append li to ul
-  taskList.appendChild(li);
-  })
+  // hide loader 
+  document.querySelector('#loading').style.display = 'none';
+  // create a div
+  const errorDiv = document.createElement('div');
+  // get elements 
+  const card = document.querySelector('.card');
+  const heading = document.querySelector('.heading')
+  // add class 
+  errorDiv.className = 'alert alert-danger';
+  // create text node and append child 
+  errorDiv.appendChild(document.createTextNode(error));
+  // insert error above heading 
+  card.insertBefore(errorDiv, heading);
+  //clear error after 3 seconds 
+  setTimeout(clearError, 3000);
 }
 
-// Add task
-function addTask(e) {
-  if(taskInput.value === '') {
-    alert('Add a task');
-  } else {
-
-
-  // Create li element
-  const li = document.createElement('li');
-  // add class
-  li.className = 'collection-item';
-  //create text node and append to li
-  li.appendChild(document.createTextNode(taskInput.value));
-  // Create new link element
-  const link = document.createElement('a');
-  link.className = 'delete-item secondary-content';
-  // Add icon html
-  link.innerHTML = '<i class="fas fa-times red-text" style="cursor:pointer""></i>';
-  // Append link to li
-  li.appendChild(link);
-  // append li to ul
-  taskList.appendChild(li);
-
-  //store in local storage 
-  storeTaskInLocalStorage(taskInput.value);
-
-  // Clear input 
-  taskInput.value = '';
-
-  e.preventDefault()}; 
+// clear error
+function clearError(){
+document.querySelector('.alert').remove();
 }
-
-//store task
-function storeTaskInLocalStorage(task) {
-  let tasks;
-  if(localStorage.getItem('tasks') === null){
-      tasks = [];
-  } else {
-    tasks = JSON.parse(localStorage.getItem('tasks'));
-  }
-
-  tasks.push(task);
-
-  localStorage.setItem('tasks', JSON.stringify(tasks));
-}
-
-// remove task 
-function removeTask(e) {
-  if(e.target.parentElement.classList.contains ('delete-item')) {
-    if(confirm('Are you Sure?')) {
-     e.target.parentElement.parentElement.remove();
-
-     //remove from local storage
-     removeTaskFromLocalStorage(e.target.parentElement.parentElement);
-      
-  }
- }
-}
-
-// remove from local storage function
-function removeTaskFromLocalStorage(taskItem) {
-  let tasks;
-  if(localStorage.getItem('tasks') === null){
-      tasks = [];
-  } else {
-    tasks = JSON.parse(localStorage.getItem('tasks'));
-  }
-
-  tasks.forEach(function(task, index){
-    if(taskItem.textContent === task){
-      tasks.splice(index, 1);
-    }
-  });
-
-  localStorage.setItem('tasks', JSON.stringify(tasks));
-}
-
-// clear tasks 
-function clearTasks() {
-   //taskList.innerHTML = '';
-  //faster loop
-  while(taskList.firstChild) {
-    taskList.removeChild(taskList.firstChild);
-    //https://jsperf.com/innerhtml-vs-removechild/47
-  }
-
-  // clear from local storage (clear tasks btn)
-  clearTasksFromLocalStorage();
-}
-
-//clear tasks from local storage 
-function clearTasksFromLocalStorage() {
-  localStorage.clear();
-}
-
-// filter tasks 
-function filterTasks(e) {
-  const text = e.target.value.toLowerCase();
-  
-  document.querySelectorAll('.collection-item').forEach
-  (function(task){
-    const item = task.firstChild.textContent;
-    if(item.toLowerCase().indexOf(text) != -1){
-      task.style.display = 'block';
-
-    } else {
-      task.style.display = 'none';
-    }
-  });
-
-}
-
-
